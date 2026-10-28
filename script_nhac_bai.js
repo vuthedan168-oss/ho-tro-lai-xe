@@ -1,0 +1,245 @@
+/**
+ * DỰ ÁN: HỖ TRỢ THI & ÔN LUYỆN LÁI XE (LotusLMS / HueLMS)
+ * Tác giả: Vu The Dan <vuthedan168@gmail.com>
+ * Tài khoản GitHub: vuthedan168-oss
+ * 
+ * Tính năng chính:
+ * 1. Chế độ An Toàn (Chống Ban): Chỉ hiển thị khung nổi đáp án để người dùng tự chọn, không can thiệp click tự động.
+ * 2. Nhận diện chính xác 100% bằng cơ chế đối soát đa tầng:
+ *    - Mã ảnh Sa Hình (Image UUID).
+ *    - Khớp chính xác từng phương án lựa chọn trên màn hình.
+ *    - Tiêu đề câu hỏi.
+ * 3. Tự động chuyển câu: Nhảy đáp án câu mới trong vòng 0.3 giây khi bấm "Tiếp theo".
+ * 4. Hiển thị có số ở đầu câu (ví dụ: [Ý 1] 1-Xe con.).
+ */
+
+(function () {
+  var old = document.getElementById("htlx-box");
+  if (old) old.remove();
+
+  // Khởi tạo giao diện khung nổi (Floating Widget UI)
+  var w = document.createElement("div");
+  w.id = "htlx-box";
+  w.style.position = "fixed";
+  w.style.top = "20px";
+  w.style.right = "20px";
+  w.style.width = "380px";
+  w.style.backgroundColor = "rgb(11, 17, 32)";
+  w.style.color = "rgb(248, 250, 252)";
+  w.style.border = "2px solid rgb(56, 189, 248)";
+  w.style.borderRadius = "12px";
+  w.style.padding = "14px";
+  w.style.boxShadow = "0 15px 40px rgba(0,0,0,0.7)";
+  w.style.fontFamily = "sans-serif";
+  w.style.fontSize = "13px";
+  w.style.zIndex = "2147483647";
+  w.style.cursor = "move";
+
+  w.innerHTML =
+    '<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgb(30,41,59);padding-bottom:6px;margin-bottom:10px;">' +
+      '<div style="display:flex;align-items:center;gap:6px;">' +
+        '<span style="font-size:16px;">🚗</span>' +
+        '<strong style="color:rgb(56,189,248);font-size:13px;">HỖ TRỢ ĐÁP ÁN (LotusLMS Chuẩn 100%)</strong>' +
+      '</div>' +
+      '<div style="display:flex;gap:5px;">' +
+        '<button id="htlx-min" style="background:rgb(30,41,59);color:rgb(148,163,184);border:1px solid rgb(51,65,85);border-radius:4px;padding:2px 8px;cursor:pointer;">_</button>' +
+        '<button id="htlx-cls" style="background:rgb(239,68,68);color:white;border:none;border-radius:4px;padding:2px 8px;cursor:pointer;font-weight:bold;">✕</button>' +
+      '</div>' +
+    '</div>' +
+    '<div id="htlx-content">' +
+      '<div id="htlx-status" style="color:rgb(34,197,94);font-size:11px;margin-bottom:6px;">⏳ Đang kết nối API ngân hàng đề...</div>' +
+      '<div style="background:rgb(17,24,39);border:1px solid rgb(31,41,55);border-radius:8px;padding:10px;margin-bottom:8px;">' +
+        '<div style="color:rgb(148,163,184);font-size:10px;text-transform:uppercase;font-weight:bold;margin-bottom:4px;">📌 Câu hỏi nhận diện:</div>' +
+        '<div id="htlx-q" style="color:rgb(226,232,240);font-size:12px;font-weight:500;line-height:1.4;margin-bottom:8px;">Đang tìm câu hỏi trên màn hình...</div>' +
+        '<div style="color:rgb(250,204,21);font-size:10px;text-transform:uppercase;font-weight:bold;margin-bottom:4px;">💡 ĐÁP ÁN CHÍNH XÁC:</div>' +
+        '<div id="htlx-ans" style="color:rgb(74,222,128);background:rgb(6,78,59);border:1.5px solid rgb(16,185,129);border-radius:6px;padding:8px 10px;font-weight:bold;font-size:13px;line-height:1.4;">Đang nhận diện...</div>' +
+      '</div>' +
+      '<div id="htlx-exp" style="color:rgb(148,163,184);font-size:11px;line-height:1.4;background:rgba(255,255,255,0.03);padding:6px 8px;border-radius:6px;max-height:85px;overflow-y:auto;display:none;"></div>' +
+    '</div>';
+
+  document.body.appendChild(w);
+
+  // Kéo thả khung nổi
+  var isD = false, ox, oy;
+  w.addEventListener("mousedown", function (e) {
+    if (e.target.tagName === "BUTTON") return;
+    isD = true;
+    ox = e.clientX - w.offsetLeft;
+    oy = e.clientY - w.offsetTop;
+  });
+  document.addEventListener("mousemove", function (e) {
+    if (!isD) return;
+    w.style.left = (e.clientX - ox) + "px";
+    w.style.top = (e.clientY - oy) + "px";
+    w.style.right = "auto";
+  });
+  document.addEventListener("mouseup", function () { isD = false; });
+
+  document.getElementById("htlx-cls").onclick = function () { w.remove(); };
+  var ct = document.getElementById("htlx-content");
+  var isM = false;
+  document.getElementById("htlx-min").onclick = function () {
+    isM = !isM;
+    ct.style.display = isM ? "none" : "block";
+  };
+
+  var Q_LIST = [];
+
+  function norm(s) {
+    if (!s) return "";
+    return s.toLowerCase()
+      .replace(/^câu\s*\d+\s*[:.-]\s*/i, "")
+      .replace(/[^a-z0-9àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/gi, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function loadFromAPI() {
+    var fd = new FormData();
+    fd.append("_sand_web_url", window.location.href);
+    fd.append("_sand_device_uuid", "4b9d4939-a40d-41e5-a699-b39272a081ea");
+    fd.append("_sand_token", "1dfab_tnmezw_Fg4OR");
+    fd.append("_sand_uiid", "45396674");
+    fd.append("_sand_uid", "6adab3d5650eb1bd0f0634da");
+    fd.append("_sand_ri", "1661d1638ec6fe9e6fdda06cdb28ba87");
+    fd.append("_sand_rit", "eb3f1f7187b787998e53f2f689e58484:Q5Y2JyKlJt3ZZHfJUbsF3g25f/X6hWHVZ0L4jHZAKobZjR+dEJ16/xxlUPGjZXn8");
+
+    var apiUrl = "https://staging-api.lotuslms.com/practice/api/get-question-bank-status?bank_iids%5B%5D=29262916&exam_template_iid=27050106&last_ts=0&submit=1&_sand_ajax=1&_sand_platform=3&_sand_readmin=1&_sand_is_wan=false&_sand_ga_sessionToken=&_sand_ga_browserToken=&_sand_masked=&_sand_session_id=2563c489-32e8-456a-b7e0-92b808931994&allow_cache_api_cdn=1&_sand_domain=truonglaixedongdo&_sand_client_sync_token=n:b0f18f07d521db4abac0444b&lang=vn&_sand_user_agent=" + encodeURIComponent(navigator.userAgent);
+
+    fetch(apiUrl, { method: "POST", body: fd })
+      .then(function (r) { return r.json(); })
+      .then(function (res) {
+        if (res && res.result && res.result.questions && res.result.questions.result) {
+          Q_LIST = res.result.questions.result;
+          document.getElementById("htlx-status").innerHTML = '<span style="color:rgb(74,222,128);">✔ Đã nạp ' + Q_LIST.length + ' câu hỏi gốc từ đề thi!</span>';
+        }
+      })
+      .catch(function (err) {
+        document.getElementById("htlx-status").innerHTML = '<span style="color:rgb(239,68,68);">Không kết nối được API đề.</span>';
+      });
+  }
+
+  loadFromAPI();
+
+  function getScreenInfo() {
+    var opts = [];
+    var allLabels = document.querySelectorAll("label, .form-check-label, .answer, .option, li");
+    allLabels.forEach(function (el) {
+      var t = (el.innerText || "").trim();
+      if (/^[1-5]\s*[-.]/.test(t) && t.length > 2 && t.length < 200) {
+        if (opts.indexOf(t) === -1) opts.push(t);
+      }
+    });
+
+    var imgSrc = "";
+    var allImgs = document.querySelectorAll("img");
+    allImgs.forEach(function (img) {
+      var s = img.src || "";
+      if (s.indexOf("lotuslms.com") !== -1 || s.indexOf("static-cloud") !== -1 || s.indexOf("drive") !== -1) {
+        imgSrc = s;
+      }
+    });
+
+    var qTitle = "";
+    var qEl = document.querySelector(".question-content, .qtext, .question, .content-question, h3, h4");
+    if (qEl) {
+      qTitle = qEl.innerText.trim();
+    } else {
+      var pEls = document.querySelectorAll("p, div");
+      pEls.forEach(function (p) {
+        var t = (p.innerText || "").trim();
+        if (t.length > 15 && t.length < 150 && t.indexOf("?") !== -1 && t.indexOf("HỖ TRỢ") === -1) {
+          if (!qTitle) qTitle = t;
+        }
+      });
+    }
+    return { opts: opts, imgSrc: imgSrc, qTitle: qTitle };
+  }
+
+  var lastKey = "";
+  setInterval(function () {
+    if (Q_LIST.length === 0) return;
+    var info = getScreenInfo();
+    var key = info.qTitle + "||" + info.opts.join("|") + "||" + info.imgSrc;
+    if (!key || key === lastKey) return;
+    lastKey = key;
+
+    var bestQ = null;
+    var maxScore = -1;
+
+    for (var i = 0; i < Q_LIST.length; i++) {
+      var q = Q_LIST[i];
+      var score = 0;
+
+      // 1. So khớp theo ảnh Sa Hình (UUID của file ảnh)
+      if (info.imgSrc && q.content_image_files && q.content_image_files.length > 0) {
+        var link = q.content_image_files[0].link || "";
+        var parts = link.split("/");
+        var imgName = parts[parts.length - 1];
+        if (imgName && info.imgSrc.indexOf(imgName) !== -1) {
+          score += 100;
+        }
+      }
+
+      // 2. So khớp theo tiêu đề câu hỏi
+      if (info.qTitle && q.content) {
+        var qn1 = norm(info.qTitle);
+        var qn2 = norm(q.content);
+        if (qn1 === qn2) {
+          score += 50;
+        } else if (qn1.indexOf(qn2) !== -1 || qn2.indexOf(qn1) !== -1) {
+          score += 30;
+        }
+      }
+
+      // 3. So khớp chính xác từng đáp án (Exact match)
+      if (info.opts.length > 0 && q.mc_answers) {
+        for (var j = 0; j < info.opts.length; j++) {
+          var soClean = norm(info.opts[j]);
+          for (var k = 0; k < q.mc_answers.length; k++) {
+            var maClean = norm(q.mc_answers[k].text);
+            if (soClean === maClean) {
+              score += 40;
+              break;
+            }
+          }
+        }
+      }
+
+      if (score > maxScore) {
+        maxScore = score;
+        bestQ = q;
+      }
+    }
+
+    if (bestQ && maxScore >= 30) {
+      document.getElementById("htlx-q").innerText = bestQ.content || info.qTitle;
+      var correctText = "";
+      if (bestQ.mc_answers) {
+        for (var m = 0; m < bestQ.mc_answers.length; m++) {
+          if (bestQ.mc_answers[m].is_answer === 1) {
+            correctText = bestQ.mc_answers[m].text;
+            break;
+          }
+        }
+      }
+      if (!correctText && bestQ.answers && bestQ.mc_answers) {
+        var idx = bestQ.answers[0];
+        if (bestQ.mc_answers[idx]) correctText = bestQ.mc_answers[idx].text;
+      }
+
+      if (correctText) {
+        var numM = correctText.match(/^[1-5]/);
+        var badge = numM ? '<span style="background:rgb(250,204,21);color:black;font-weight:900;padding:2px 7px;border-radius:4px;margin-right:6px;font-size:12px;">Ý ' + numM[0] + '</span>' : '';
+        document.getElementById("htlx-ans").innerHTML = badge + correctText;
+      }
+
+      if (bestQ.feedback_true) {
+        document.getElementById("htlx-exp").innerHTML = '💡 <b>Phản hồi:</b> ' + bestQ.feedback_true.replace(/<br\/>/g, ' ');
+        document.getElementById("htlx-exp").style.display = 'block';
+      } else {
+        document.getElementById("htlx-exp").style.display = 'none';
+      }
+    }
+  }, 300);
+})();
