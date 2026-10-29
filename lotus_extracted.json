@@ -1,0 +1,6008 @@
+[
+  {
+    "iid": "685d1995a59c5be3c00c591a",
+    "id": "685d1995a59c5be3c00c591a",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3b73a5bf2756108f57.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3b73a5bf2756108f57.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe khách, xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Chỉ xe con.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "1. Xe khách: Sai làn, Đi thẳng đèn đang đỏ;<br/>2. Xe tải: Sai làn: Đi trên làn đi thẳng trong khi thực hiện rẽ trái.<br/>3. Xe mô tô: Sai làn: Đi trên làn rẽ trái trong khi thực hiện rẽ phải,<br/>4. Xe con: Đèn xanh rẽ phải: Đúng đèn đúng làn.",
+    "feedback_false": "1. Xe khách: Sai làn, Đi thẳng đèn đang đỏ;<br/>2. Xe tải: Sai làn: Đi trên làn đi thẳng trong khi thực hiện rẽ trái.<br/>3. Xe mô tô: Sai làn: Đi trên làn rẽ trái trong khi thực hiện rẽ phải,<br/>4. Xe con: Đèn xanh rẽ phải: Đúng đèn đúng làn.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe khách, xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Chỉ xe con.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 26,
+    "clone_from": "682db2c3f3b1c68fa4103c9c",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "f538833f60b5327ddb7834fcf695ceca",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5963",
+    "id": "685d1999a59c5be3c00c5963",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e29807da83a7a0c564e.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e29807da83a7a0c564e.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      3
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe ô tô con.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Không xe nào vi phạm.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Cả hai xe.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Biển số R.301a chỉ cho phép các phương tiện đi thẳng trong khi cả hai xe đều có tín hiệu xi nhan rẽ sang hướng khác nên cả 2 xe đều vi phạm quy tắc giao thông.",
+    "feedback_false": "Biển số R.301a chỉ cho phép các phương tiện đi thẳng trong khi cả hai xe đều có tín hiệu xi nhan rẽ sang hướng khác nên cả 2 xe đều vi phạm quy tắc giao thông.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe ô tô con.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Không xe nào vi phạm.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Cả hai xe.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 28,
+    "clone_from": "682db2c4f3b1c68fa4103ce5",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "caf80349bb7f7366d3ac1db1d1522d9d",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c596e",
+    "id": "685d199aa59c5be3c00c596e",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe của bạn được đi theo hướng nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1d69c743cafe016bd5.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1d69c743cafe016bd5.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Đi thẳng, rẽ trái.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Đi thẳng, rẽ phải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Rẽ trái.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Đi thẳng, rẽ phải, rẽ trái.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Làn đường mà xe của bạn đang đi chỉ được đi thẳng hoặc rẽ trái thôi. Nếu bạn chọn rẽ phải là bị đèn tín hiệu nó lừa rồi đó.",
+    "feedback_false": "Làn đường mà xe của bạn đang đi chỉ được đi thẳng hoặc rẽ trái thôi. Nếu bạn chọn rẽ phải là bị đèn tín hiệu nó lừa rồi đó.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Đi thẳng, rẽ trái.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Đi thẳng, rẽ phải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Rẽ trái.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Đi thẳng, rẽ phải, rẽ trái.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 26,
+    "clone_from": "682db2c4f3b1c68fa4103cf0",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "cf6554dde0a0988458ad88e194f7019a",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c596d",
+    "id": "685d199aa59c5be3c00c596d",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào phải dừng lại trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d8eadadd4b27d00c410.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d8eadadd4b27d00c410.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả hai xe.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con dừng lại vì phía trước là tín hiệu đèn đỏ. Xe của bạn được đi vì rẽ phải trước đèn đỏ nên không vi phạm.",
+    "feedback_false": "Xe con dừng lại vì phía trước là tín hiệu đèn đỏ. Xe của bạn được đi vì rẽ phải trước đèn đỏ nên không vi phạm.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả hai xe.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 18,
+    "clone_from": "682db2c4f3b1c68fa4103cef",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "69465245a2c09abb99b04a35895c7f30",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c596c",
+    "id": "685d199aa59c5be3c00c596c",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d8455b10c9223019d06.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d8455b10c9223019d06.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe của bạn, xe mô tô, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe của bạn, xe mô tô.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe mô tô, xe con, xe của bạn.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp: Bên phải trống, rẽ phải, đi thẳng, rẽ trái.<br/>1. Xe con: Rẽ phải; 2. Xe của bạn: Đi thẳng; 3. Mô tô: Rẽ trái.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp: Bên phải trống, rẽ phải, đi thẳng, rẽ trái.<br/>1. Xe con: Rẽ phải; 2. Xe của bạn: Đi thẳng; 3. Mô tô: Rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe của bạn, xe mô tô, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe của bạn, xe mô tô.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe mô tô, xe con, xe của bạn.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 34,
+    "clone_from": "682db2c4f3b1c68fa4103cee",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "6f80fc1508d32738726f8be7b867a24b",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c596b",
+    "id": "685d199aa59c5be3c00c596b",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0c2ba5b3959c08d443.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0c2ba5b3959c08d443.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe của bạn, xe mô tô, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe của bạn, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe mô tô, xe con, xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Biển báo phía trước là đường ưu tiên và biển phụ báo hướng di chuyển của xe mô tô là hướng ưu tiên.<br/>1. Xe mô tô: Đường ưu tiên;<br/>2. Xe con: Đường không ưu tiên, bên phải trống;<br/>3. Xe của bạn: Đường không ưu tiên, bên phải vướng xe con.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Biển báo phía trước là đường ưu tiên và biển phụ báo hướng di chuyển của xe mô tô là hướng ưu tiên.<br/>1. Xe mô tô: Đường ưu tiên;<br/>2. Xe con: Đường không ưu tiên, bên phải trống;<br/>3. Xe của bạn: Đường không ưu tiên, bên phải vướng xe con.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe của bạn, xe mô tô, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe của bạn, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe mô tô, xe con, xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 34,
+    "clone_from": "682db2c4f3b1c68fa4103ced",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "8c29d543cc8eb09024c17f3c980236b8",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c596a",
+    "id": "685d199aa59c5be3c00c596a",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e145e286037240c6348.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e145e286037240c6348.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con (A), xe con (B), xe tải (D).",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải (D), xe con (E), xe buýt (G).",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe tải ( D), xe con (B).",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Xe con (B), xe con (C).",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con (B) và xe tải (D) đang đè lên vạch liền phân tách làn đường nên vi phạm quy tắc giao thông.",
+    "feedback_false": "Xe con (B) và xe tải (D) đang đè lên vạch liền phân tách làn đường nên vi phạm quy tắc giao thông.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con (A), xe con (B), xe tải (D).",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải (D), xe con (E), xe buýt (G).",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe tải ( D), xe con (B).",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Xe con (B), xe con (C).",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 36,
+    "clone_from": "682db2c4f3b1c68fa4103cec",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "20990ec7da4443caf76e26cd793a15c7",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5969",
+    "id": "685d199aa59c5be3c00c5969",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e28c1b6605fdf01bfc0.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e28c1b6605fdf01bfc0.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe khách, xe mô tô.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe tải, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe mô tô, xe con.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con và xe tải: Vi phạm tín hiệu đèn;<br/>Xe khách và xe mô tô: Đúng làn đường và đúng tín hiệu đèn.",
+    "feedback_false": "Xe con và xe tải: Vi phạm tín hiệu đèn;<br/>Xe khách và xe mô tô: Đúng làn đường và đúng tín hiệu đèn.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe khách, xe mô tô.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe tải, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe mô tô, xe con.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 31,
+    "clone_from": "682db2c4f3b1c68fa4103ceb",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "8cc7c6a6b99d34ce5e4994beb0fe13cf",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5968",
+    "id": "685d199aa59c5be3c00c5968",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong tình huống dưới đây, để tránh xe phía trước bị hỏng đột xuất trên đường, người lái xe phải làm gì?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1b12cbb1c04f05f720.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1b12cbb1c04f05f720.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Đánh lái sang trái cho xe vượt qua.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Quan sát phía trước, phía sau, khi đủ điều kiện an toàn, bật tín hiệu bằng đèn hoặc còi rồi cho xe chạy vượt qua.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Cấm vượt.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Chú ý quan sát, bật tín hiệu đèn, còi rồi mới được vượt nên Đáp án 2 trong trường hợp này mô tả chính xác.",
+    "feedback_false": "Chú ý quan sát, bật tín hiệu đèn, còi rồi mới được vượt nên Đáp án 2 trong trường hợp này mô tả chính xác.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Đánh lái sang trái cho xe vượt qua.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Quan sát phía trước, phía sau, khi đủ điều kiện an toàn, bật tín hiệu bằng đèn hoặc còi rồi cho xe chạy vượt qua.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Cấm vượt.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 46,
+    "clone_from": "682db2c4f3b1c68fa4103cea",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "f1da1487c6d37776b4e8f7a02fe04bd4",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5967",
+    "id": "685d199aa59c5be3c00c5967",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e028c13f1e3f8064095.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e028c13f1e3f8064095.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe khách, xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe khách, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe con, xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe khách, xe tải, xe con.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con đúng làn đường và tín hiệu đèn.<br/>Xe khách: Sai làn đường; Xe tải: Sai làn đường và tín hiệu đèn.",
+    "feedback_false": "Xe con đúng làn đường và tín hiệu đèn.<br/>Xe khách: Sai làn đường; Xe tải: Sai làn đường và tín hiệu đèn.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe khách, xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe khách, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe con, xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe khách, xe tải, xe con.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 30,
+    "clone_from": "682db2c4f3b1c68fa4103ce9",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "6a67543e582111bf73da1a780ba3714a",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5966",
+    "id": "685d199aa59c5be3c00c5966",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df8c19f09734003fb39.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df8c19f09734003fb39.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con, xe tải, xe khách.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe khách, xe mô tô.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe khách, xe mô tô, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Cả bốn xe.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con đi đúng làn đường theo hướng rẽ và tín hiệu đèn.<br/>Xe khách: Sai làn đường và tín hiệu đèn.<br/>Xe tải: Đi thẳng vi phạm đèn đỏ.<br/>Xe mô tô: Đi thẳng vi phạm đèn đỏ.",
+    "feedback_false": "Xe con đi đúng làn đường theo hướng rẽ và tín hiệu đèn.<br/>Xe khách: Sai làn đường và tín hiệu đèn.<br/>Xe tải: Đi thẳng vi phạm đèn đỏ.<br/>Xe mô tô: Đi thẳng vi phạm đèn đỏ.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con, xe tải, xe khách.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe khách, xe mô tô.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe khách, xe mô tô, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Cả bốn xe.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 33,
+    "clone_from": "682db2c4f3b1c68fa4103ce8",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "144caf9079089db516b162a42ef83278",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5965",
+    "id": "685d199aa59c5be3c00c5965",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo hướng mũi tên, những xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de309df238c1c077010.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de309df238c1c077010.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe tải, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe khách, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe khách, xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe con và xe mô tô đang ở đúng làn đường, đúng hướng rẽ với tín hiệu đèn xanh nên đúng quy tắc giao thông.<br/>Xe khách và xe tải đang ở sai làn đường so với hướng rẽ nên đều vi phạm.",
+    "feedback_false": "Xe con và xe mô tô đang ở đúng làn đường, đúng hướng rẽ với tín hiệu đèn xanh nên đúng quy tắc giao thông.<br/>Xe khách và xe tải đang ở sai làn đường so với hướng rẽ nên đều vi phạm.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe tải, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe khách, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe khách, xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 26,
+    "clone_from": "682db2c4f3b1c68fa4103ce7",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "fa3e07d09fc6fd7369db8e678ffd31e6",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5964",
+    "id": "685d1999a59c5be3c00c5964",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df3f7c37844b80ab33f.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df3f7c37844b80ab33f.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe con, xe tải.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con trong cả hai phía đều đang ở đúng làn đường và đi theo hướng mà đèn xanh đang bật nên đúng quy tắc.<br/>Xe tải trong cả hai phía đều ở sai làn đường so với hướng rẽ nên vi phạm quy tắc giao thông.",
+    "feedback_false": "Xe con trong cả hai phía đều đang ở đúng làn đường và đi theo hướng mà đèn xanh đang bật nên đúng quy tắc.<br/>Xe tải trong cả hai phía đều ở sai làn đường so với hướng rẽ nên vi phạm quy tắc giao thông.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe con, xe tải.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 23,
+    "clone_from": "682db2c4f3b1c68fa4103ce6",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "6f13a736b763d9fd1be98d58103c004b",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5962",
+    "id": "685d1999a59c5be3c00c5962",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn được dừng xe ở vị trí nào trong tình huống này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1ae16aa1886a04599b.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1ae16aa1886a04599b.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      3
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Được phép dừng ở vị trí A.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Được phép dừng ở vị trí B.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Được phép dừng ở vị trí A và B.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Không được dừng.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Biển số P.130 “Cấm dừng xe và đỗ xe” và biển phụ báo phạm vi trước và sau biển báo nên không được phép dừng xe tại cả 2 vị trí A và B.",
+    "feedback_false": "Biển số P.130 “Cấm dừng xe và đỗ xe” và biển phụ báo phạm vi trước và sau biển báo nên không được phép dừng xe tại cả 2 vị trí A và B.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Được phép dừng ở vị trí A.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Được phép dừng ở vị trí B.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Được phép dừng ở vị trí A và B.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Không được dừng.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 33,
+    "clone_from": "682db2c4f3b1c68fa4103ce4",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "4d6069ed1f8396fd07e4631496d2aef6",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5970",
+    "id": "685d199aa59c5be3c00c5970",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1742439ae7ca005042.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1742439ae7ca005042.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Tăng tốc độ, rẽ phải trước xe tải và xe đạp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giảm tốc độ, rẽ phải sau xe tải và xe đạp.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Tăng tốc độ, rẽ phải trước xe đạp.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe tải đã vào nơi giao nhau trước nên sẽ được ưu tiên trước. Biển báo phía trước là đường ưu tiên dành cho xe thô sơ nên phải nhường đường cho xe đạp. Do đó, xe bạn rẽ phải sau xe tải và xe đạp.",
+    "feedback_false": "Xe tải đã vào nơi giao nhau trước nên sẽ được ưu tiên trước. Biển báo phía trước là đường ưu tiên dành cho xe thô sơ nên phải nhường đường cho xe đạp. Do đó, xe bạn rẽ phải sau xe tải và xe đạp.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Tăng tốc độ, rẽ phải trước xe tải và xe đạp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giảm tốc độ, rẽ phải sau xe tải và xe đạp.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Tăng tốc độ, rẽ phải trước xe đạp.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 35,
+    "clone_from": "682db2c4f3b1c68fa4103cf2",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "b631b3702f7e5223cba55f7dfffe8970",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5961",
+    "id": "685d1999a59c5be3c00c5961",
+    "ntype": "question",
+    "type": 2,
+    "content": "Người lái xe dừng tại vị trí nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9cbe6bb68f3e08e55b.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9cbe6bb68f3e08e55b.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Vị trí A và B.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Vị trí A và C.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Vị trí B và C.",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Cả ba vị trí A, B, C.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Vị trí A vi phạm do dừng bên trái đường.<br/>Biển số P.131a “Cấm đỗ xe” không cấm dừng xe. Do đó vị trí dừng tại B và C là câu trả lời đúng.",
+    "feedback_false": "Vị trí A vi phạm do dừng bên trái đường.<br/>Biển số P.131a “Cấm đỗ xe” không cấm dừng xe. Do đó vị trí dừng tại B và C là câu trả lời đúng.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Vị trí A và B.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Vị trí A và C.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Vị trí B và C.",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Cả ba vị trí A, B, C.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 32,
+    "clone_from": "682db2c4f3b1c68fa4103ce3",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "547de2eacc2a0313437db280c7aa11fb",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5960",
+    "id": "685d1999a59c5be3c00c5960",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn có được phép vượt xe mô tô phía trước không?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daa0acaf4e247051928.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daa0acaf4e247051928.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Cho phép.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Không được vượt.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Tại nơi giao nhau, trên đoạn đường có làn đường dành cho người đi bộ cắt ngang thì không được phép vượt.",
+    "feedback_false": "Tại nơi giao nhau, trên đoạn đường có làn đường dành cho người đi bộ cắt ngang thì không được phép vượt.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Cho phép.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Không được vượt.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 18,
+    "clone_from": "682db2c4f3b1c68fa4103ce2",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "700aa7eb9a630f271220a3e88f7b0a12",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c595f",
+    "id": "685d1999a59c5be3c00c595f",
+    "ntype": "question",
+    "type": 2,
+    "content": "Người lái xe có được phép vượt xe tải để đi thẳng trong trường hợp này không?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9025d8a0fb0c0a6af0.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9025d8a0fb0c0a6af0.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Được vượt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Cấm vượt.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Tại nơi giao nhau, trên đoạn đường có làn đường dành cho người đi bộ cắt ngang thì không được phép vượt.",
+    "feedback_false": "Tại nơi giao nhau, trên đoạn đường có làn đường dành cho người đi bộ cắt ngang thì không được phép vượt.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Được vượt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Cấm vượt.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 21,
+    "clone_from": "682db2c3f3b1c68fa4103ce1",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "98d0bbe3784b7bcf637d2a0116970548",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c595e",
+    "id": "685d1999a59c5be3c00c595e",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong hình dưới, những xe nào chấp hành quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e145e286037240c6348.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e145e286037240c6348.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe tải ( D), xe con (B).",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con (A), xe con (C), xe con (E), xe buýt (G).",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe con (A), xe con (B), xe tải (D).",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con (B) và xe tải (D) đang đè lên vạch liền phân tách làn đường nên vi phạm quy tắc giao thông. Các xe còn lại (A, C, E, G) là đúng quy tắc giao thông.",
+    "feedback_false": "Xe con (B) và xe tải (D) đang đè lên vạch liền phân tách làn đường nên vi phạm quy tắc giao thông. Các xe còn lại (A, C, E, G) là đúng quy tắc giao thông.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe tải ( D), xe con (B).",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con (A), xe con (C), xe con (E), xe buýt (G).",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe con (A), xe con (B), xe tải (D).",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 34,
+    "clone_from": "682db2c3f3b1c68fa4103ce0",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "9aa2d2c07bd58dbbd8e47079c31e2644",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c595d",
+    "id": "685d1999a59c5be3c00c595d",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc1973a72d86d075e31.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc1973a72d86d075e31.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe khách, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe con, xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe con và xe tải đang ở trên làn đường có tín hiệu đèn đỏ nên phải dừng lại.",
+    "feedback_false": "Xe con và xe tải đang ở trên làn đường có tín hiệu đèn đỏ nên phải dừng lại.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe khách, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe con, xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 27,
+    "clone_from": "682db2c3f3b1c68fa4103cdf",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "fb2695b139b713a00534ef3a2f9f292b",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c595c",
+    "id": "685d1999a59c5be3c00c595c",
+    "ntype": "question",
+    "type": 2,
+    "content": "Khi muốn vượt xe tải, người lái xe phải làm gì là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db38c422a21490deb26.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db38c422a21490deb26.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Tăng tốc cho xe chạy vượt qua.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Bật tín hiệu báo hiệu bằng đèn hoặc còi, khi đủ điều kiện an toàn, tăng tốc cho xe chạy vượt qua.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Đánh lái sang làn bên trái và tăng tốc cho xe chạy vượt qua.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Chú ý vạch kẻ đường ngăn cách với làn bên trái là vạch liền. Bạn phải bật tín hiệu báo hiệu cho đến khi xe tải phía trước giảm tốc độ và chuyển qua làn bên phải thì bạn mới có thể tăng tốc cho xe vượt qua.",
+    "feedback_false": "Chú ý vạch kẻ đường ngăn cách với làn bên trái là vạch liền. Bạn phải bật tín hiệu báo hiệu cho đến khi xe tải phía trước giảm tốc độ và chuyển qua làn bên phải thì bạn mới có thể tăng tốc cho xe vượt qua.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Tăng tốc cho xe chạy vượt qua.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Bật tín hiệu báo hiệu bằng đèn hoặc còi, khi đủ điều kiện an toàn, tăng tốc cho xe chạy vượt qua.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Đánh lái sang làn bên trái và tăng tốc cho xe chạy vượt qua.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 49,
+    "clone_from": "682db2c3f3b1c68fa4103cde",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "2dffd78248cf1588c8b21dfecb7e440f",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c595b",
+    "id": "685d1999a59c5be3c00c595b",
+    "ntype": "question",
+    "type": 2,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dd094a5ec509b0218c5.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dd094a5ec509b0218c5.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con và xe tải, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn, xe tải, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe của bạn và xe con, xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Xe của bạn, xe tải + xe con.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe bạn đang trên đường ưu tiên nên được đi trước.<br/>Xe con rẽ phải không giao nhau với xe bạn nên được đi đồng thời với xe bạn.<br/>Xe tải rẽ trái từ đường không ưu tiên phải nhường đi sau cùng.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe bạn đang trên đường ưu tiên nên được đi trước.<br/>Xe con rẽ phải không giao nhau với xe bạn nên được đi đồng thời với xe bạn.<br/>Xe tải rẽ trái từ đường không ưu tiên phải nhường đi sau cùng.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con và xe tải, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn, xe tải, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe của bạn và xe con, xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Xe của bạn, xe tải + xe con.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 37,
+    "clone_from": "682db2c3f3b1c68fa4103cdd",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "9b2854f6d6e7784ca30674ecf9549e9b",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c595a",
+    "id": "685d1999a59c5be3c00c595a",
+    "ntype": "question",
+    "type": 2,
+    "content": "Người lái xe có thể quay đầu xe như thế nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9ddbc1b6605fdf01bf6b.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9ddbc1b6605fdf01bf6b.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Quay đầu theo hướng A.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Quay đầu theo hướng B.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cấm quay đầu.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Trước mặt người lái xe có Biển số P.123a “Cấm rẽ trái” không cấm quay đầu. Tuy nhiên, hướng B quay đầu đè vạch liền nên vi phạm. Do đó, chỉ có hướng A quay đầu xe là câu trả lời đúng.",
+    "feedback_false": "Trước mặt người lái xe có Biển số P.123a “Cấm rẽ trái” không cấm quay đầu. Tuy nhiên, hướng B quay đầu đè vạch liền nên vi phạm. Do đó, chỉ có hướng A quay đầu xe là câu trả lời đúng.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Quay đầu theo hướng A.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Quay đầu theo hướng B.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cấm quay đầu.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 28,
+    "clone_from": "682db2c3f3b1c68fa4103cdc",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "17052484c4867ac32e14801286d10344",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5959",
+    "id": "685d1999a59c5be3c00c5959",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào đi trước là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de7913948b5340f5173.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de7913948b5340f5173.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Trước mặt xe của bạn có Biển số W.208 “Giao nhau với đường ưu tiên” nên phải ưu tiên các xe đang đi trên đường ưu tiên. Xe tải được ưu tiên trong trường hợp này.",
+    "feedback_false": "Trước mặt xe của bạn có Biển số W.208 “Giao nhau với đường ưu tiên” nên phải ưu tiên các xe đang đi trên đường ưu tiên. Xe tải được ưu tiên trong trường hợp này.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 17,
+    "clone_from": "682db2c3f3b1c68fa4103cdb",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "b845d2e226a5e7039e049fda9cdd70d5",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5958",
+    "id": "685d1999a59c5be3c00c5958",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df0429d256fdb0a8312.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df0429d256fdb0a8312.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con (B), xe mô tô (C).",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con (A), xe mô tô (C).",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe con (E), xe mô tô (D).",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Tất cả các loại xe trên.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Nhìn vào bảng chỉ dẫn loại phương tiện theo làn đường: Xe con (E) đi trên làn dành riêng cho mô tô nên vi phạm: Xe mô tô (D) chạy trên làn dành riêng xe ô tô nên cũng vi phạm.",
+    "feedback_false": "Nhìn vào bảng chỉ dẫn loại phương tiện theo làn đường: Xe con (E) đi trên làn dành riêng cho mô tô nên vi phạm: Xe mô tô (D) chạy trên làn dành riêng xe ô tô nên cũng vi phạm.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con (B), xe mô tô (C).",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con (A), xe mô tô (C).",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe con (E), xe mô tô (D).",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Tất cả các loại xe trên.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 34,
+    "clone_from": "682db2c3f3b1c68fa4103cda",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "32c41f593e11864e8c259999a1ed88cf",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5957",
+    "id": "685d1999a59c5be3c00c5957",
+    "ntype": "question",
+    "type": 2,
+    "content": "Người lái xe điều khiển xe rẽ trái như thế nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc0a9c163e758085d55.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc0a9c163e758085d55.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Rẽ trái ngay trước xe buýt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Rẽ trái trước xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Nhường đường cho xe buýt và xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe tải đã vào nơi giao nhau trước nên được đi đầu tiên; Tiếp theo xe buýt: Đi thẳng; Cuối cùng là xe của bạn: Rẽ trái.",
+    "feedback_false": "Xe tải đã vào nơi giao nhau trước nên được đi đầu tiên; Tiếp theo xe buýt: Đi thẳng; Cuối cùng là xe của bạn: Rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Rẽ trái ngay trước xe buýt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Rẽ trái trước xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Nhường đường cho xe buýt và xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 32,
+    "clone_from": "682db2c3f3b1c68fa4103cd9",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "33d255d436224d0d27bbe0d6fbd7732c",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1999a59c5be3c00c5956",
+    "id": "685d1999a59c5be3c00c5956",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db5fa69d1ccd10d0ce5.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db5fa69d1ccd10d0ce5.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con (A).",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con (B).",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe con (A) đang đi trước và xi nhan trái nên được đi trước, xe con (B) xi nhan phải và đi sau nên phải nhường.",
+    "feedback_false": "Xe con (A) đang đi trước và xi nhan trái nên được đi trước, xe con (B) xi nhan phải và đi sau nên phải nhường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con (A).",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con (B).",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 18,
+    "clone_from": "682db2c3f3b1c68fa4103cd8",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "447649ff54205acead50bb6c353abb65",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c596f",
+    "id": "685d199aa59c5be3c00c596f",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe của bạn được đi theo hướng nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e27aeebbe8d890b0c53.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e27aeebbe8d890b0c53.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Chuyển sang làn đường bên phải và rẽ phải.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Dừng lại trước vạch dừng và rẽ phải khi đèn xanh.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Dừng lại trước vạch dừng và đi thẳng hoặc rẽ trái khi đèn xanh.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Bạn phải dừng lại chờ đèn đỏ và làn đường bạn đang dừng xe chỉ được rẽ trái hoặc đi thẳng khi đèn xanh.",
+    "feedback_false": "Bạn phải dừng lại chờ đèn đỏ và làn đường bạn đang dừng xe chỉ được rẽ trái hoặc đi thẳng khi đèn xanh.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Chuyển sang làn đường bên phải và rẽ phải.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Dừng lại trước vạch dừng và rẽ phải khi đèn xanh.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Dừng lại trước vạch dừng và đi thẳng hoặc rẽ trái khi đèn xanh.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 39,
+    "clone_from": "682db2c4f3b1c68fa4103cf1",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "93464b58ee839a1161ef2e390f1bdd0e",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5971",
+    "id": "685d199aa59c5be3c00c5971",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0aa266753db404bccc.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0aa266753db404bccc.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Tăng tốc độ, rẽ phải trước xe con màu xanh phía trước và người đi bộ.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giảm tốc độ, để người đi bộ qua đường và rẽ phải trước xe con màu xanh.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ, để người đi bộ qua đường và rẽ phải sau xe con màu xanh.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Ở vạch kẻ đường dành cho người đi bộ có người chuẩn bị sang đường nên phải nhường đường và không được phép vượt.<br/>Nên bạn phải nhường đường cho người đi bộ và rẽ phải sau xe con màu xanh.",
+    "feedback_false": "Ở vạch kẻ đường dành cho người đi bộ có người chuẩn bị sang đường nên phải nhường đường và không được phép vượt.<br/>Nên bạn phải nhường đường cho người đi bộ và rẽ phải sau xe con màu xanh.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Tăng tốc độ, rẽ phải trước xe con màu xanh phía trước và người đi bộ.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giảm tốc độ, để người đi bộ qua đường và rẽ phải trước xe con màu xanh.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ, để người đi bộ qua đường và rẽ phải sau xe con màu xanh.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 49,
+    "clone_from": "682db2c4f3b1c68fa4103cf3",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "cdcf73c94a4cf831964a7bf8006e873b",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1998a59c5be3c00c5954",
+    "id": "685d1998a59c5be3c00c5954",
+    "ntype": "question",
+    "type": 2,
+    "content": "Để điều khiển cho xe đi thẳng, người lái xe phải làm gì là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dddc19f09734003fb11.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dddc19f09734003fb11.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Nhường xe con rẽ trái trước.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Đi thẳng không nhường.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Người lái xe phải nhường đường xe con rẽ trái trước vì xe con rẽ trái đã vào nơi giao nhau trước (đã qua vạch).",
+    "feedback_false": "Người lái xe phải nhường đường xe con rẽ trái trước vì xe con rẽ trái đã vào nơi giao nhau trước (đã qua vạch).",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Nhường xe con rẽ trái trước.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Đi thẳng không nhường.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 27,
+    "clone_from": "682db2c3f3b1c68fa4103cd6",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "5d1837a40f16da78f20c587f5484345c",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5980",
+    "id": "685d199ba59c5be3c00c5980",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào được đi trước trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e072f578f700f098618.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e072f578f700f098618.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe của bạn trên đường ưu tiên (theo biển báo) nên được đi trước.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe của bạn trên đường ưu tiên (theo biển báo) nên được đi trước.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 16,
+    "clone_from": "682db2c4f3b1c68fa4103d02",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "86376b85d5966e5fd188f28c554ee766",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ca59c5be3c00c598b",
+    "id": "685d199ca59c5be3c00c598b",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong tình huống dưới đây, xe con màu vàng vượt xe con màu đỏ là đúng quy tắc giao thông hay không?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e185282e4e64407c37f.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e185282e4e64407c37f.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Đúng.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Không đúng.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe màu đỏ đang tránh về phía bên phải, xe màu vàng đã có tín hiệu xin vượt, vạch kẻ đường theo hướng xe chạy là nét đứt , không có xe ngược chiều. Nên xe vàng vượt đúng quy tắc giao thông.",
+    "feedback_false": "Xe màu đỏ đang tránh về phía bên phải, xe màu vàng đã có tín hiệu xin vượt, vạch kẻ đường theo hướng xe chạy là nét đứt , không có xe ngược chiều. Nên xe vàng vượt đúng quy tắc giao thông.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Đúng.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Không đúng.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 24,
+    "clone_from": "682db2c4f3b1c68fa4103d0d",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "2d1df120ec08e520fbc95beaa8176521",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ca59c5be3c00c598a",
+    "id": "685d199ca59c5be3c00c598a",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong tình huống dưới đây, xe con màu đỏ có được phép vượt khi xe con màu xanh đang vượt xe tải hay không?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0811fd8b63750a8a30.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0811fd8b63750a8a30.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Được vượt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Không được vượt.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe xin vượt chỉ được vượt khi không có chướng ngại vật phía trước, không có xe chạy ngược chiều trong đoạn đường định vượt, xe chạy trước không có tín hiệu vượt xe khác và đã tránh về bên phải. Do đó, xe màu đỏ không được vượt.",
+    "feedback_false": "Xe xin vượt chỉ được vượt khi không có chướng ngại vật phía trước, không có xe chạy ngược chiều trong đoạn đường định vượt, xe chạy trước không có tín hiệu vượt xe khác và đã tránh về bên phải. Do đó, xe màu đỏ không được vượt.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Được vượt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Không được vượt.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 27,
+    "clone_from": "682db2c4f3b1c68fa4103d0c",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "085e3dac1b7961ebecf6f249279e55e0",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ca59c5be3c00c5989",
+    "id": "685d199ca59c5be3c00c5989",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong tình huống dưới đây, xe con màu đỏ nhập làn đường cao tốc theo hướng mũi tên là đúng hay sai?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d7fa1d8f0e54d02ae22.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d7fa1d8f0e54d02ae22.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Đúng.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Sai.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Khi nhập làn cao tốc phải chạy dọc theo làn tạm để đủ thời gian quan sát, khoảng cách an toàn và đủ tốc độ trước khi di chuyển vào làn cao tốc nên trong tình huống này xe màu đỏ sai khi nhập làn cao tốc.",
+    "feedback_false": "Khi nhập làn cao tốc phải chạy dọc theo làn tạm để đủ thời gian quan sát, khoảng cách an toàn và đủ tốc độ trước khi di chuyển vào làn cao tốc nên trong tình huống này xe màu đỏ sai khi nhập làn cao tốc.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Đúng.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Sai.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 23,
+    "clone_from": "682db2c4f3b1c68fa4103d0b",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "3096f9f997523b0f16ba00dc5a73f6a4",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5988",
+    "id": "685d199ba59c5be3c00c5988",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe của bạn đang di chuyển gần đến khu vực giao cắt với đường sắt, khi rào chắn đang dịch chuyển, bạn điều khiển xe như thế nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d945e139762aa0e74f1.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d945e139762aa0e74f1.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Quan sát nếu thấy không có tàu thì tăng tốc cho xe vượt qua đường sắt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Dừng lại trước rào chắn một khoảng cách an toàn.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Ra tín hiệu, yêu cầu người gác chắn tàu kéo chậm barie để xe bạn qua.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Bắt buộc phải dừng xe.",
+    "feedback_false": "Bắt buộc phải dừng xe.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Quan sát nếu thấy không có tàu thì tăng tốc cho xe vượt qua đường sắt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Dừng lại trước rào chắn một khoảng cách an toàn.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Ra tín hiệu, yêu cầu người gác chắn tàu kéo chậm barie để xe bạn qua.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 60,
+    "clone_from": "682db2c4f3b1c68fa4103d0a",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "972243099c05deb728edd997afe2eff3",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5987",
+    "id": "685d199ba59c5be3c00c5987",
+    "ntype": "question",
+    "type": 2,
+    "content": "Khi gặp xe ngược chiều bật đèn pha trong tình huống dưới đây, bạn xử lý như thế nào?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daedda92ebd36018ad3.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daedda92ebd36018ad3.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Bật đèn chiếu xa, tăng tốc độ vượt xe cùng chiều.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giữ nguyên đèn chiếu gần, giảm tốc độ, đi sau xe phía trước.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Giữ nguyên đèn chiếu gần, tăng tốc độ vượt xe cùng chiều.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Giữ nguyên đèn chiếu gần và giảm tốc độ do không thể quan sát rõ phía trước.",
+    "feedback_false": "Giữ nguyên đèn chiếu gần và giảm tốc độ do không thể quan sát rõ phía trước.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Bật đèn chiếu xa, tăng tốc độ vượt xe cùng chiều.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giữ nguyên đèn chiếu gần, giảm tốc độ, đi sau xe phía trước.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Giữ nguyên đèn chiếu gần, tăng tốc độ vượt xe cùng chiều.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 45,
+    "clone_from": "682db2c4f3b1c68fa4103d09",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "851bc6fbf78ad321cba2331ab0ff32e0",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5986",
+    "id": "685d199ba59c5be3c00c5986",
+    "ntype": "question",
+    "type": 2,
+    "content": "Để điều khiển xe rẽ trái, bạn chọn hướng đi nào dưới đây?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d99baa59922a4094b9e.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d99baa59922a4094b9e.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Hướng 1.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Hướng 2.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả hai hướng đều được.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Vạch kẻ đường nét đứt màu vàng, phân chia 2 chiều xe chạy. Do đó, hướng 2 sẽ đi bên trái đường 1 đoạn nên không được phép. Do đó, bạn chỉ được chọn theo hướng 1 để rẽ trái.",
+    "feedback_false": "Vạch kẻ đường nét đứt màu vàng, phân chia 2 chiều xe chạy. Do đó, hướng 2 sẽ đi bên trái đường 1 đoạn nên không được phép. Do đó, bạn chỉ được chọn theo hướng 1 để rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Hướng 1.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Hướng 2.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả hai hướng đều được.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 22,
+    "clone_from": "682db2c4f3b1c68fa4103d08",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "911eb022d8dc26f40f4ac1a84bb303b7",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5985",
+    "id": "685d199ba59c5be3c00c5985",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de0116d7e02520576a9.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de0116d7e02520576a9.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe tải, xe đạp, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn, xe đạp, xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe của bạn, xe tải, xe đạp.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe của bạn: Bên phải trống, đi thẳng; 2. Xe tải: Rẽ trái, bên phải trống (khi xe bạn đã đi rồi); 3. Xe đạp: Rẽ trái.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe của bạn: Bên phải trống, đi thẳng; 2. Xe tải: Rẽ trái, bên phải trống (khi xe bạn đã đi rồi); 3. Xe đạp: Rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe tải, xe đạp, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn, xe đạp, xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe của bạn, xe tải, xe đạp.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 32,
+    "clone_from": "682db2c4f3b1c68fa4103d07",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "c4c0a9f16806cb4c976976f31c08663a",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5984",
+    "id": "685d199ba59c5be3c00c5984",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào dừng đúng theo quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcbba5ba3e8500fd30f.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcbba5ba3e8500fd30f.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả 2 xe đều đúng.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Biển số W.211a “Giao nhau với đường sắt không có rào chắn” thì các phương tiện đứng cách xa đường sắt tối thiểu 5m nên xe con đúng.",
+    "feedback_false": "Biển số W.211a “Giao nhau với đường sắt không có rào chắn” thì các phương tiện đứng cách xa đường sắt tối thiểu 5m nên xe con đúng.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả 2 xe đều đúng.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 20,
+    "clone_from": "682db2c4f3b1c68fa4103d06",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "7f7241d95d48820145d270267e8b55a1",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5983",
+    "id": "685d199ba59c5be3c00c5983",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào được đi trước trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db0563258070008a98d.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db0563258070008a98d.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe tải: Đi thẳng; 2. Xe của bạn: Rẽ trái.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe tải: Đi thẳng; 2. Xe của bạn: Rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 16,
+    "clone_from": "682db2c4f3b1c68fa4103d05",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "ac45929a08dd9332bd3b7613457beb7d",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5982",
+    "id": "685d199ba59c5be3c00c5982",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc6fbf472ac74023077.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc6fbf472ac74023077.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Tăng tốc độ cho xe lấn sang phần đường bên trái.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giảm tốc độ cho xe lấn sang phần đường bên trái.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ cho xe đi sát phần đường bên phải.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Phía trước khuất tầm nhìn, bên trái làn đường là vạch liền nên bạn cần phải giảm tốc độ, đi sát làn đường bên phải để đảm bảo đi đúng làn đường.",
+    "feedback_false": "Phía trước khuất tầm nhìn, bên trái làn đường là vạch liền nên bạn cần phải giảm tốc độ, đi sát làn đường bên phải để đảm bảo đi đúng làn đường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Tăng tốc độ cho xe lấn sang phần đường bên trái.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giảm tốc độ cho xe lấn sang phần đường bên trái.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ cho xe đi sát phần đường bên phải.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 37,
+    "clone_from": "682db2c4f3b1c68fa4103d04",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "ddb5023f14a5284e32a3594d41c11103",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5981",
+    "id": "685d199ba59c5be3c00c5981",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df5d8f5be428303f0e6.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df5d8f5be428303f0e6.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con, xe tải, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe con, xe của bạn.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe tải, xe của bạn, xe con.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe tải: Bên phải trống; 2. Xe con: Đi thẳng; 3. Xe của bạn: Rẽ trái.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe tải: Bên phải trống; 2. Xe con: Đi thẳng; 3. Xe của bạn: Rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con, xe tải, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe con, xe của bạn.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe tải, xe của bạn, xe con.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 32,
+    "clone_from": "682db2c4f3b1c68fa4103d03",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "7a24e6a3dc0871cce12def0461999927",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c597f",
+    "id": "685d199ba59c5be3c00c597f",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de2501dde858b0183b6.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de2501dde858b0183b6.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Tăng tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giảm tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ, để người đi bộ sang đường trước, sau đó cho xe đi qua vạch người đi bộ sang đường.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Trước mặt bạn có biển I.423a “Đường người đi bộ sang ngang” nên bạn phải giảm tốc độ và nhường đường cho người đi bộ sang đường.",
+    "feedback_false": "Trước mặt bạn có biển I.423a “Đường người đi bộ sang ngang” nên bạn phải giảm tốc độ và nhường đường cho người đi bộ sang đường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Tăng tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Giảm tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ, để người đi bộ sang đường trước, sau đó cho xe đi qua vạch người đi bộ sang đường.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 54,
+    "clone_from": "682db2c4f3b1c68fa4103d01",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "e2f75299f442351df869a6c67593ccd2",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5972",
+    "id": "685d199aa59c5be3c00c5972",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df270550be1f401e376.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df270550be1f401e376.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Nhường đường cho xe khách và đi trước xe đạp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Nhường đường cho xe đạp và đi trước xe khách.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Nhường đường cho xe đạp và xe khách.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Trước mặt bạn có biển Biển số R.122 “Dừng lại” nên phải dừng xe và nhường đường. Nên xe của bạn phải nhường đường cho xe đạp và xe khách.",
+    "feedback_false": "Trước mặt bạn có biển Biển số R.122 “Dừng lại” nên phải dừng xe và nhường đường. Nên xe của bạn phải nhường đường cho xe đạp và xe khách.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Nhường đường cho xe khách và đi trước xe đạp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Nhường đường cho xe đạp và đi trước xe khách.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Nhường đường cho xe đạp và xe khách.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 33,
+    "clone_from": "682db2c4f3b1c68fa4103cf4",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "8fb715d2067bf5da75763e19b5d25401",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c597e",
+    "id": "685d199ba59c5be3c00c597e",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc9f0de738d4d0fb3e2.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc9f0de738d4d0fb3e2.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Trước mặt xe của bạn có Biển số P.132 “Nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp” nên phải nhường đường.",
+    "feedback_false": "Trước mặt xe của bạn có Biển số P.132 “Nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp” nên phải nhường đường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 16,
+    "clone_from": "682db2c4f3b1c68fa4103d00",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "f543f52e0efa17fd5e0b31705d99a81d",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c597d",
+    "id": "685d199ba59c5be3c00c597d",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db2eba782bd0c084e7f.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db2eba782bd0c084e7f.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe của bạn.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe con.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe con: Đường ưu tiên; 2. Xe của bạn: Đường không ưu tiên nên phải nhường đường.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe con: Đường ưu tiên; 2. Xe của bạn: Đường không ưu tiên nên phải nhường đường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe của bạn.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe con.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 16,
+    "clone_from": "682db2c4f3b1c68fa4103cff",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "cce768ab75eeb6b9d7f9ec5f3b2c3fc0",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c597c",
+    "id": "685d199ba59c5be3c00c597c",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc48369c3f18b101994.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc48369c3f18b101994.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      3
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe của bạn, xe tải, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe tải, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe tải, xe của bạn, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe của bạn, xe con, xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe của bạn: Đường ưu tiên; 2. Xe con: Đi không ưu tiên, đi thẳng; 3. Xe tải: Đường không ưu tiên, rẽ trái.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe của bạn: Đường ưu tiên; 2. Xe con: Đi không ưu tiên, đi thẳng; 3. Xe tải: Đường không ưu tiên, rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe của bạn, xe tải, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe tải, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe tải, xe của bạn, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe của bạn, xe con, xe tải.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 37,
+    "clone_from": "682db2c4f3b1c68fa4103cfe",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "54ca28803a40a5a4cbad18c682f59bc3",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c597b",
+    "id": "685d199ba59c5be3c00c597b",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d7e24497a6b1e0e6623.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d7e24497a6b1e0e6623.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe của bạn, xe mô tô, xe đạp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe mô tô, xe đạp, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe đạp, xe mô tô, xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe đạp: Bên phải trống; 2. Xe mô tô: Đi thẳng; 3. Xe của bạn: Rẽ trái.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe đạp: Bên phải trống; 2. Xe mô tô: Đi thẳng; 3. Xe của bạn: Rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe của bạn, xe mô tô, xe đạp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe mô tô, xe đạp, xe của bạn.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe đạp, xe mô tô, xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 34,
+    "clone_from": "682db2c4f3b1c68fa4103cfd",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "d6230a01896ac09792d9a85d029a95cb",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c597a",
+    "id": "685d199ba59c5be3c00c597a",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9613b64ffeab0fd325.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9613b64ffeab0fd325.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Tăng tốc độ và đi thẳng qua ngã tư.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Dừng xe trước vạch dừng.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ và đi thẳng qua ngã tư.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Trước mặt là Biển số W.208 “Giao nhau với đường ưu tiên” nên bạn phải giảm tốc độ, quan sát nhường đường ưu tiên nếu có và đi qua ngã tư.",
+    "feedback_false": "Trước mặt là Biển số W.208 “Giao nhau với đường ưu tiên” nên bạn phải giảm tốc độ, quan sát nhường đường ưu tiên nếu có và đi qua ngã tư.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Tăng tốc độ và đi thẳng qua ngã tư.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Dừng xe trước vạch dừng.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ và đi thẳng qua ngã tư.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 30,
+    "clone_from": "682db2c4f3b1c68fa4103cfc",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "d1cd11465dc5cdc570640f35af8f5d0b",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5979",
+    "id": "685d199ba59c5be3c00c5979",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe tải phía trước có tín hiệu xin chuyển làn đường, bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daccd0ca6ba3505f330.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daccd0ca6ba3505f330.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Bật tín hiệu xin chuyển làn đường sang trái để vượt xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Bấm còi báo hiệu và vượt qua xe tải trên làn đường của mình.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Không được vượt khi phía trước có xe đang chuyển làn đường. Do đó, để đảm bảo an toàn bạn cần phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.",
+    "feedback_false": "Không được vượt khi phía trước có xe đang chuyển làn đường. Do đó, để đảm bảo an toàn bạn cần phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Bật tín hiệu xin chuyển làn đường sang trái để vượt xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Bấm còi báo hiệu và vượt qua xe tải trên làn đường của mình.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 49,
+    "clone_from": "682db2c4f3b1c68fa4103cfb",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "c776d0028a0258bc9c18eb690f03c6a4",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5978",
+    "id": "685d199ba59c5be3c00c5978",
+    "ntype": "question",
+    "type": 2,
+    "content": "Phía trước có một xe màu xanh đang vượt xe màu vàng trên làn đường của bạn, bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9bb49a9f0f270b29f3.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9bb49a9f0f270b29f3.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Phanh xe giảm tốc độ và đi sát lề đường bên phải.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Bấm còi, nháy đèn báo hiệu, giữ nguyên tốc độ và đi tiếp.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Phanh xe giảm tốc độ và đi sát vào lề đường bên trái.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Vì xe màu xanh đang trên làn đường của bạn, để đảm bảo an toàn, bạn cần phanh xe giảm tốc độ và đi sát lề đường bên phải.",
+    "feedback_false": "Vì xe màu xanh đang trên làn đường của bạn, để đảm bảo an toàn, bạn cần phanh xe giảm tốc độ và đi sát lề đường bên phải.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Phanh xe giảm tốc độ và đi sát lề đường bên phải.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Bấm còi, nháy đèn báo hiệu, giữ nguyên tốc độ và đi tiếp.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Phanh xe giảm tốc độ và đi sát vào lề đường bên trái.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 52,
+    "clone_from": "682db2c4f3b1c68fa4103cfa",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "f176394469dd2ed99748bca3a3af2713",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5977",
+    "id": "685d199ba59c5be3c00c5977",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn xử lý như thế nào khi xe phía trước đang lùi ra khỏi nơi đỗ?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcd31eb8b48850c177f.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcd31eb8b48850c177f.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Chuyển sang nửa đường bên trái để đi tiếp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Bấm còi, nháy đèn báo hiệu và đi tiếp.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ, dừng lại nhường đường.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Không được vượt khi phía trước có chướng ngại vật hay xe chạy ngược chiều. Do đó, cần giảm tốc độ, dừng lại nhường đường.",
+    "feedback_false": "Không được vượt khi phía trước có chướng ngại vật hay xe chạy ngược chiều. Do đó, cần giảm tốc độ, dừng lại nhường đường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Chuyển sang nửa đường bên trái để đi tiếp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Bấm còi, nháy đèn báo hiệu và đi tiếp.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Giảm tốc độ, dừng lại nhường đường.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 35,
+    "clone_from": "682db2c4f3b1c68fa4103cf9",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "aa066180462a1eab7a22893df6d7cb67",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199ba59c5be3c00c5976",
+    "id": "685d199ba59c5be3c00c5976",
+    "ntype": "question",
+    "type": 2,
+    "content": "Phía trước có một xe đang lùi vào nơi đỗ, xe con phía trước đang chuyển sang làn đường bên trái, bạn xử lý như thế nào trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9ddff83ada6362090934.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9ddff83ada6362090934.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      3
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Nếu phía sau không có xe xin vượt, chuyển sang làn đường bên trái.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Nếu phía sau có xe xin vượt, thì giảm tốc độ, ở lại làn đường, dừng lại khi cần thiết.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Tăng tốc độ trên làn đường của mình và vượt xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Ý 1 và ý 2.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Cần quan sát kỹ xe phía sau trong tình huống này để có hành động hợp lý. Nếu không có xe xin vượt chuyển làn trái đi tiếp. Nếu có xe xin vượt thì giảm tốc độ, ở lại làn đường hoặc dừng lại nếu cần thiết.",
+    "feedback_false": "Cần quan sát kỹ xe phía sau trong tình huống này để có hành động hợp lý. Nếu không có xe xin vượt chuyển làn trái đi tiếp. Nếu có xe xin vượt thì giảm tốc độ, ở lại làn đường hoặc dừng lại nếu cần thiết.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Nếu phía sau không có xe xin vượt, chuyển sang làn đường bên trái.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Nếu phía sau có xe xin vượt, thì giảm tốc độ, ở lại làn đường, dừng lại khi cần thiết.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Tăng tốc độ trên làn đường của mình và vượt xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Ý 1 và ý 2.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 64,
+    "clone_from": "682db2c4f3b1c68fa4103cf8",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "9026d19814fe292c5e5314c653382658",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5975",
+    "id": "685d199aa59c5be3c00c5975",
+    "ntype": "question",
+    "type": 2,
+    "content": "Bạn xử lý như thế nào khi lái xe ô tô vượt qua đoàn người đi xe đạp có tổ chức?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e053ffb9ed3d60f0a5c.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e053ffb9ed3d60f0a5c.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Tăng tốc độ, chuyển sang làn đường bên trái để vượt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Không được vượt những người đi xe đạp.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe của bạn không được vượt khi bên trái có chướng ngại vật hay xe ngược chiều.",
+    "feedback_false": "Xe của bạn không được vượt khi bên trái có chướng ngại vật hay xe ngược chiều.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Tăng tốc độ, chuyển sang làn đường bên trái để vượt.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Không được vượt những người đi xe đạp.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 35,
+    "clone_from": "682db2c4f3b1c68fa4103cf7",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "2e5fd298df72a0d9ca09864d675794dc",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5974",
+    "id": "685d199aa59c5be3c00c5974",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df7c907e3785408d2bd.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df7c907e3785408d2bd.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe đi ngược chiều.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe bạn không thể vượt khi phía trước có chướng ngại vật hoặc xe đi ngược chiều. Nên xe bạn phải nhường đường trong tình huống này.",
+    "feedback_false": "Xe bạn không thể vượt khi phía trước có chướng ngại vật hoặc xe đi ngược chiều. Nên xe bạn phải nhường đường trong tình huống này.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe đi ngược chiều.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe của bạn.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 18,
+    "clone_from": "682db2c4f3b1c68fa4103cf6",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "3443816cf9a3e0b8cfb776a67d5445cc",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d199aa59c5be3c00c5973",
+    "id": "685d199aa59c5be3c00c5973",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de5dc91772760078be7.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de5dc91772760078be7.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe của bạn.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Biển W.207c “Giao nhau với đường không ưu tiên” cho biết xe tải đi từ đường không ưu tiên nên phải nhường đường.",
+    "feedback_false": "Biển W.207c “Giao nhau với đường không ưu tiên” cho biết xe tải đi từ đường không ưu tiên nên phải nhường đường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe của bạn.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 18,
+    "clone_from": "682db2c4f3b1c68fa4103cf5",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "a6757b80b11a80a7956aeaabe769c865",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1998a59c5be3c00c5955",
+    "id": "685d1998a59c5be3c00c5955",
+    "ntype": "question",
+    "type": 2,
+    "content": "Người lái xe điều khiển xe đi theo hướng nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcec1d056fe510710d5.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcec1d056fe510710d5.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Chỉ hướng 2.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Hướng 1 và 2.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Tất cả các hướng trừ hướng 3.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Tất cả các hướng trừ hướng 4.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Hướng 4: Biển số P.123b “Cấm rẽ phải”; Hướng 3: Biển số P.102 “Cấm đi ngược chiều”;<br/>Nên chỉ có thể đi theo hướng 1 và hướng 2 là câu trả lời đúng.",
+    "feedback_false": "Hướng 4: Biển số P.123b “Cấm rẽ phải”; Hướng 3: Biển số P.102 “Cấm đi ngược chiều”;<br/>Nên chỉ có thể đi theo hướng 1 và hướng 2 là câu trả lời đúng.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Chỉ hướng 2.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Hướng 1 và 2.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Tất cả các hướng trừ hướng 3.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Tất cả các hướng trừ hướng 4.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 32,
+    "clone_from": "682db2c3f3b1c68fa4103cd7",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "dc0ebcfdfd13ed10939bbc751187c2d3",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1998a59c5be3c00c5953",
+    "id": "685d1998a59c5be3c00c5953",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9eb07e73eb3f07380c.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9eb07e73eb3f07380c.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con (E), xe mô tô (C).",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe tải (A), xe mô tô (D).",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe khách (B), xe mô tô (C).",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe khách (B), xe mô tô (D).",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe mô tô C chạy vào làn dành riêng xe ô tô: Vi phạm; Xe con E chạy vào làn dành riêng xe máy: Vi phạm.",
+    "feedback_false": "Xe mô tô C chạy vào làn dành riêng xe ô tô: Vi phạm; Xe con E chạy vào làn dành riêng xe máy: Vi phạm.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con (E), xe mô tô (C).",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe tải (A), xe mô tô (D).",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe khách (B), xe mô tô (C).",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe khách (B), xe mô tô (D).",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 35,
+    "clone_from": "682db2c3f3b1c68fa4103cd5",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "4a23df2741f2afe268051a8197770708",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1995a59c5be3c00c591b",
+    "id": "685d1995a59c5be3c00c591b",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d66ec71b2e3240dfbf7.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d66ec71b2e3240dfbf7.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe tải, xe khách, xe con, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe mô tô, xe khách, xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe khách, xe tải, xe con, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe mô tô, xe khách, xe tải, xe con.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>1. Xe tải: Đường ưu tiên và đi thẳng;<br/>2. Mô tô: Đường ưu tiên và rẽ trái;<br/>3. Xe khách: Đường không ưu tiên, đi thẳng.<br/>4. Xe con: Đường không ưu tiên, rẽ trái.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>1. Xe tải: Đường ưu tiên và đi thẳng;<br/>2. Mô tô: Đường ưu tiên và rẽ trái;<br/>3. Xe khách: Đường không ưu tiên, đi thẳng.<br/>4. Xe con: Đường không ưu tiên, rẽ trái.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe tải, xe khách, xe con, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe tải, xe mô tô, xe khách, xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe khách, xe tải, xe con, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe mô tô, xe khách, xe tải, xe con.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 44,
+    "clone_from": "682db2c3f3b1c68fa4103c9d",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "6e469ccabbe10b3814408ae6e86e11c1",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5929",
+    "id": "685d1996a59c5be3c00c5929",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong trường hợp này xe nào được quyền đi trước?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3fc8a22d266f0e7597.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3fc8a22d266f0e7597.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe công an đi làm nhiệm vụ khẩn cấp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe quân sự đi làm nhiệm vụ khẩn cấp.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe ưu tiên cùng cấp nên áp dụng thứ tự đường cùng cấp: Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe quân sự được ưu tiên trước do bên phải trống.",
+    "feedback_false": "Xe ưu tiên cùng cấp nên áp dụng thứ tự đường cùng cấp: Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe quân sự được ưu tiên trước do bên phải trống.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe công an đi làm nhiệm vụ khẩn cấp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe quân sự đi làm nhiệm vụ khẩn cấp.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 26,
+    "clone_from": "682db2c3f3b1c68fa4103cab",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "03a71d010475496d84c6e699fe589e8d",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1997a59c5be3c00c5934",
+    "id": "685d1997a59c5be3c00c5934",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, những hướng nào xe ô tô không được phép đi?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e6bbbfbb7e862023657.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e6bbbfbb7e862023657.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Hướng 1 và 2.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Hướng 3.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Hướng 1 và 4.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Hướng 2 và 3.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Biển P.123a “Cấm rẽ trái” không cấm quay đầu xe nên chỉ có hướng 3 là hướng ô tô không được phép đi.",
+    "feedback_false": "Biển P.123a “Cấm rẽ trái” không cấm quay đầu xe nên chỉ có hướng 3 là hướng ô tô không được phép đi.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Hướng 1 và 2.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Hướng 3.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Hướng 1 và 4.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Hướng 2 và 3.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 26,
+    "clone_from": "682db2c3f3b1c68fa4103cb6",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "5a7b8711bf097d6ab6c20da54f0ef576",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1997a59c5be3c00c5933",
+    "id": "685d1997a59c5be3c00c5933",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, hướng nào xe không được phép đi?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5b634c333a4f097d9a.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5b634c333a4f097d9a.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Hướng 2 và 5.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Chỉ hướng 1.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Hướng 1 có biển cấm ô tô nên xe ô tô đương nhiên không được phép đi vào rồi.",
+    "feedback_false": "Hướng 1 có biển cấm ô tô nên xe ô tô đương nhiên không được phép đi vào rồi.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Hướng 2 và 5.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Chỉ hướng 1.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 19,
+    "clone_from": "682db2c3f3b1c68fa4103cb5",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "d9c4d02c2f1c35c4e94ad51f53eb3ea1",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5932",
+    "id": "685d1996a59c5be3c00c5932",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe tải kéo xe mô tô ba bánh như hình này có đúng quy tắc giao thông không?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e4f80ee24552102162e.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e4f80ee24552102162e.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Đúng.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Không đúng.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe tải kéo xe mô tô 3 bánh như trên hình là không đúng vì đi vào đường có biển P.108 “Cấm ô tô kéo moóc” kể cả xe máy kéo, xe ô tô khách kéo theo rơ moóc đi qua.",
+    "feedback_false": "Xe tải kéo xe mô tô 3 bánh như trên hình là không đúng vì đi vào đường có biển P.108 “Cấm ô tô kéo moóc” kể cả xe máy kéo, xe ô tô khách kéo theo rơ moóc đi qua.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Đúng.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Không đúng.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 21,
+    "clone_from": "682db2c3f3b1c68fa4103cb4",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "3b3f7f857aff7f121f4010da87b84b82",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5931",
+    "id": "685d1996a59c5be3c00c5931",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào đỗ vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d51c1d056fe5107100b.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d51c1d056fe5107100b.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Chỉ xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Chỉ xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả ba xe.",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Chỉ xe mô tô và xe tải.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe tải đậu trái đường; Xe con và mô tô đậu xe đè vạch nên cả 3 xe vi phạm.",
+    "feedback_false": "Xe tải đậu trái đường; Xe con và mô tô đậu xe đè vạch nên cả 3 xe vi phạm.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Chỉ xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Chỉ xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả ba xe.",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Chỉ xe mô tô và xe tải.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 25,
+    "clone_from": "682db2c3f3b1c68fa4103cb3",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "0658856779affa8d9d4050f1ba36a2c4",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5930",
+    "id": "685d1996a59c5be3c00c5930",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào đỗ vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d46c0c42cd9c103ae8d.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d46c0c42cd9c103ae8d.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Cả hai xe.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Không xe nào vi phạm.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Chỉ xe mô tô vi phạm.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Chỉ xe tải vi phạm.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Biển cấm đỗ xe ở cả phía trước và phía sau biển (ở biển báo phụ) nên cả 2 xe vi phạm.",
+    "feedback_false": "Biển cấm đỗ xe ở cả phía trước và phía sau biển (ở biển báo phụ) nên cả 2 xe vi phạm.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Cả hai xe.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Không xe nào vi phạm.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Chỉ xe mô tô vi phạm.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Chỉ xe tải vi phạm.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 26,
+    "clone_from": "682db2c3f3b1c68fa4103cb2",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "3e473f29c091f2f7c072718b2f9d8110",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c592f",
+    "id": "685d1996a59c5be3c00c592f",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, những hướng nào xe gắn máy được phép đi?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5ee0915ca2b0085437.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5ee0915ca2b0085437.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Cả ba hướng.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Chỉ hướng 1 và 3.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Chỉ hướng 1.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Bạn lưu ý câu hỏi này hỏi về hướng đi của xe <b>GẮN MÁY</b>. Hướng 1 và 3 chắc chắn là đi được rồi.<br/>Với hướng 2, biển báo cấm mô tô đi vào chỉ có tác dụng với xe MÔ TÔ nên xe gắn máy không có hiệu lực. Do đó vẫn đi vào bình thường.",
+    "feedback_false": "Bạn lưu ý câu hỏi này hỏi về hướng đi của xe <b>GẮN MÁY</b>. Hướng 1 và 3 chắc chắn là đi được rồi.<br/>Với hướng 2, biển báo cấm mô tô đi vào chỉ có tác dụng với xe MÔ TÔ nên xe gắn máy không có hiệu lực. Do đó vẫn đi vào bình thường.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Cả ba hướng.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Chỉ hướng 1 và 3.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Chỉ hướng 1.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 23,
+    "clone_from": "682db2c3f3b1c68fa4103cb1",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "e35212274df4aa94935e75837d318267",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c592e",
+    "id": "685d1996a59c5be3c00c592e",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, xe nào được quyền đi trước?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e6eca48636f5c0d7bdf.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e6eca48636f5c0d7bdf.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con (B).",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe con (A).",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên không vòng xuyến: Xe vào ngã ba, ngã tư trước - Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>Đáp án đúng là Xe con (B): Đường ưu tiên;",
+    "feedback_false": "Thứ tự ưu tiên không vòng xuyến: Xe vào ngã ba, ngã tư trước - Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>Đáp án đúng là Xe con (B): Đường ưu tiên;",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con (B).",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe con (A).",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 19,
+    "clone_from": "682db2c3f3b1c68fa4103cb0",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "9e4e4da4370bf85944948e74420457c1",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c592d",
+    "id": "685d1996a59c5be3c00c592d",
+    "ntype": "question",
+    "type": 2,
+    "content": "Trong trường hợp này xe nào đỗ vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e595aeb95ccba03d788.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e595aeb95ccba03d788.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe con và mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả ba xe.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe con và xe tải.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Biển cấm đỗ xe tải (ở biển phụ) nên chỉ có xe tải vi phạm.",
+    "feedback_false": "Biển cấm đỗ xe tải (ở biển phụ) nên chỉ có xe tải vi phạm.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe con và mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Cả ba xe.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Xe con và xe tải.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 26,
+    "clone_from": "682db2c3f3b1c68fa4103caf",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "2b183988595d31cf88d04c4fcced1c04",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c592c",
+    "id": "685d1996a59c5be3c00c592c",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5061c6f55e910bcbe7.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5061c6f55e910bcbe7.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      2
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe khách, xe tải, xe mô tô, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe khách, xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe mô tô, xe tải, xe khách, xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Xe mô tô, xe tải, xe con, xe khách.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Giao nhau cùng cấp có vòng xuyến: Chưa vào vòng xuyến thì ưu tiên xe bên phải; đã vào vòng xuyến ưu tiên xe từ bên trái tới.<br/>Toàn bộ các xe chưa vào phòng xuyến nên ưu tiên xe bên phải.<br/>Thứ tự sẽ là Mô tô, xe tải, xe khách, xe con.",
+    "feedback_false": "Giao nhau cùng cấp có vòng xuyến: Chưa vào vòng xuyến thì ưu tiên xe bên phải; đã vào vòng xuyến ưu tiên xe từ bên trái tới.<br/>Toàn bộ các xe chưa vào phòng xuyến nên ưu tiên xe bên phải.<br/>Thứ tự sẽ là Mô tô, xe tải, xe khách, xe con.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe khách, xe tải, xe mô tô, xe con.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe khách, xe tải, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe mô tô, xe tải, xe khách, xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "4-Xe mô tô, xe tải, xe con, xe khách.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 44,
+    "clone_from": "682db2c3f3b1c68fa4103cae",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "4e42fe17cf647504c2423629d63952ff",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c592b",
+    "id": "685d1996a59c5be3c00c592b",
+    "ntype": "question",
+    "type": 2,
+    "content": "Các xe đi theo hướng mũi tên, những xe nào vi phạm quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3b73a5bf2756108f57.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3b73a5bf2756108f57.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe khách, xe tải, xe mô tô.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe tải, xe con, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe khách, xe con, xe mô tô.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "1. Xe khách: Sai làn, Đi thẳng đèn đang đỏ;<br/>2. Xe tải: Sai làn: Đi trên làn đi thẳng trong khi thực hiện rẽ trái.<br/>3. Xe mô tô: Sai làn: Đi trên làn rẽ trái trong khi thực hiện rẽ phải,<br/>Nên đáp án đúng là xe khách, xe tải và xe mô tô đều vi phạm quy tắc giao thông.",
+    "feedback_false": "1. Xe khách: Sai làn, Đi thẳng đèn đang đỏ;<br/>2. Xe tải: Sai làn: Đi trên làn đi thẳng trong khi thực hiện rẽ trái.<br/>3. Xe mô tô: Sai làn: Đi trên làn rẽ trái trong khi thực hiện rẽ phải,<br/>Nên đáp án đúng là xe khách, xe tải và xe mô tô đều vi phạm quy tắc giao thông.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe khách, xe tải, xe mô tô.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe tải, xe con, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe khách, xe con, xe mô tô.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 32,
+    "clone_from": "682db2c3f3b1c68fa4103cad",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "4a9b8000e895a47bdf80d87ab7795dbe",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c592a",
+    "id": "685d1996a59c5be3c00c592a",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo tín hiệu đèn, xe tải đi theo hướng nào là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e2ba0471f8eeb06229b.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e2ba0471f8eeb06229b.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 4,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Hướng 2, 3, 4.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Chỉ hướng 1.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Hướng 1 và 2.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Hướng 3 và 4.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Hướng 1 rẽ phải có tín hiệu đèn xanh nên được phép đi. Hướng đi thẳng đang có tín hiệu đèn đỏ do đó các hướng 2,3,4 không thể đi được. Câu trả lời đúng là chỉ có hướng 1.",
+    "feedback_false": "Hướng 1 rẽ phải có tín hiệu đèn xanh nên được phép đi. Hướng đi thẳng đang có tín hiệu đèn đỏ do đó các hướng 2,3,4 không thể đi được. Câu trả lời đúng là chỉ có hướng 1.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Hướng 2, 3, 4.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Chỉ hướng 1.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Hướng 1 và 2.",
+        "is_answer": 0
+      },
+      {
+        "text": "4-Hướng 3 và 4.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 28,
+    "clone_from": "682db2c3f3b1c68fa4103cac",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "27710d535e47c088c345d545e759c925",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5928",
+    "id": "685d1996a59c5be3c00c5928",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo tín hiệu đèn, xe nào đi là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e49d66b166da20c1ce9.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e49d66b166da20c1ce9.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe khách, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe tải, xe mô tô.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con và xe tải đang ở trên làn đường có tín hiệu đèn xanh nên được phép đi.",
+    "feedback_false": "Xe con và xe tải đang ở trên làn đường có tín hiệu đèn xanh nên được phép đi.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe khách, xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe con, xe tải.",
+        "is_answer": 1
+      },
+      {
+        "text": "3-Xe tải, xe mô tô.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 25,
+    "clone_from": "682db2c3f3b1c68fa4103caa",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "5d38356a5ca65e9eefb8baaf276c7218",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1997a59c5be3c00c5936",
+    "id": "685d1997a59c5be3c00c5936",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, gặp biển hướng đi phải theo đặt trước ngã tư, những hướng nào xe được phép đi?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e4bfe0f099a7602bd2f.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e4bfe0f099a7602bd2f.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Hướng 2 và 3.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Hướng 1, 2 và 3.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Hướng 1 và 3.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Biển R.301g được đặt ở trước nơi đường giao nhau, chỉ được phép đi thẳng, rẽ trái hoặc quay đầu xe để đi theo hướng ngược lại.<br/>Đáp án đúng là hướng 2 và hướng 3.",
+    "feedback_false": "Biển R.301g được đặt ở trước nơi đường giao nhau, chỉ được phép đi thẳng, rẽ trái hoặc quay đầu xe để đi theo hướng ngược lại.<br/>Đáp án đúng là hướng 2 và hướng 3.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Hướng 2 và 3.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Hướng 1, 2 và 3.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Hướng 1 và 3.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 30,
+    "clone_from": "682db2c3f3b1c68fa4103cb8",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "7aac31a8802c69c33b13cc7557de5ebf",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5927",
+    "id": "685d1996a59c5be3c00c5927",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo tín hiệu đèn, xe nào được phép đi?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e694b3eeff8ab01d783.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e694b3eeff8ab01d783.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con và xe khách.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe mô tô.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Xe con và xe khách đang ở làn đường có tín hiệu đèn xanh nên được phép đi.",
+    "feedback_false": "Xe con và xe khách đang ở làn đường có tín hiệu đèn xanh nên được phép đi.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con và xe khách.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe mô tô.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 18,
+    "clone_from": "682db2c3f3b1c68fa4103ca9",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "464f49b41ae8dbf4d40380846aeacc4c",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5926",
+    "id": "685d1996a59c5be3c00c5926",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào được quyền đi trước trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e62c1d4d2466b00fd6e.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e62c1d4d2466b00fd6e.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe công an đi làm nhiệm vụ khẩn cấp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe chữa cháy đi làm nhiệm vụ chữa cháy.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe ưu tiên theo mức độ thiệt hại: Xe chữa cháy ưu tiên hơn.",
+    "feedback_false": "Xe ưu tiên theo mức độ thiệt hại: Xe chữa cháy ưu tiên hơn.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe công an đi làm nhiệm vụ khẩn cấp.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe chữa cháy đi làm nhiệm vụ chữa cháy.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 26,
+    "clone_from": "682db2c3f3b1c68fa4103ca8",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "6be1dc8cd59c33052718d438925ca1e1",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5925",
+    "id": "685d1996a59c5be3c00c5925",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d486335fc7eac0f3f19.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d486335fc7eac0f3f19.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>Xe tải bên phải trống nên đi trước;<br/>Đáp án đúng là Xe con phải nhường đường: Bên phải vướng xe tải.",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>Xe tải bên phải trống nên đi trước;<br/>Đáp án đúng là Xe con phải nhường đường: Bên phải vướng xe tải.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe con.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 20,
+    "clone_from": "682db2c3f3b1c68fa4103ca7",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "6c8303f438273725beb24a9f434509db",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5924",
+    "id": "685d1996a59c5be3c00c5924",
+    "ntype": "question",
+    "type": 2,
+    "content": "Theo hướng mũi tên, xe nào phải nhường đường đi cuối cùng qua nơi giao nhau này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d5096eed6c082072082.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d5096eed6c082072082.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 3,
+    "answer_as_hint": "",
+    "answers": [
+      0
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe khách.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe con.",
+        "is_answer": 0
+      }
+    ],
+    "feedback_true": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>1. Xe con: Đường ưu tiên;<br/>2. Xe tải: Đường không ưu tiên, rẽ phải;<br/>3. Xe khách: Đường không ưu tiên, rẽ trái (Đáp án đúng).",
+    "feedback_false": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>1. Xe con: Đường ưu tiên;<br/>2. Xe tải: Đường không ưu tiên, rẽ phải;<br/>3. Xe khách: Đường không ưu tiên, rẽ trái (Đáp án đúng).",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe khách.",
+        "is_answer": 1
+      },
+      {
+        "text": "2-Xe tải.",
+        "is_answer": 0
+      },
+      {
+        "text": "3-Xe con.",
+        "is_answer": 0
+      }
+    ],
+    "kpi_time": 23,
+    "clone_from": "682db2c3f3b1c68fa4103ca6",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "b26e76c1dc9f965688d685e00f958cba",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  },
+  {
+    "iid": "685d1996a59c5be3c00c5923",
+    "id": "685d1996a59c5be3c00c5923",
+    "ntype": "question",
+    "type": 2,
+    "content": "Xe nào được quyền đi trước trong trường hợp này?",
+    "content_image_files": [
+      {
+        "link": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d3de01b8f7adc033960.png"
+      }
+    ],
+    "avatar": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d3de01b8f7adc033960.png",
+    "tpl_type": "mc_answer_text",
+    "sw": 2,
+    "answer_as_hint": "",
+    "answers": [
+      1
+    ],
+    "help_text": "",
+    "mc_answers": [
+      {
+        "text": "1-Xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe cứu thương đi làm nhiệm vụ cấp cứu.",
+        "is_answer": 1
+      }
+    ],
+    "feedback_true": "Xe ưu tiên đi trước.",
+    "feedback_false": "Xe ưu tiên đi trước.",
+    "tags": [
+      "Giải các thế sa hình"
+    ],
+    "difficulty": 0,
+    "shufflable": 0,
+    "answers2": [
+      {
+        "text": "1-Xe mô tô.",
+        "is_answer": 0
+      },
+      {
+        "text": "2-Xe cứu thương đi làm nhiệm vụ cấp cứu.",
+        "is_answer": 1
+      }
+    ],
+    "kpi_time": 22,
+    "clone_from": "682db2c3f3b1c68fa4103ca5",
+    "file_id": "682db2c2400eb3270c06ece2",
+    "contains_math_formulas": false,
+    "fail_if_answer_wrongly": 0,
+    "hash": "2116dbcf584f5381e1c94f6d6c927588",
+    "has_audio": false,
+    "__expand": {
+      "organizations": [
+        {
+          "name": "TRUNG TÂM DẠY NGHỀ VÀ SÁT HẠCH LÁI XE ĐÔNG ĐÔ - BẮC NINH",
+          "code": "TRUNG-TAM-DAY-NGHE-VA-SAT-HACH-LAI-XE-DONG-DO-BAC-NINH",
+          "iid": 18671243,
+          "ntype": "organization",
+          "type": "organization",
+          "pid": "0",
+          "id": "66755c434cc8c150f40673a1"
+        }
+      ]
+    },
+    "acs": 0,
+    "depth": 2
+  }
+]

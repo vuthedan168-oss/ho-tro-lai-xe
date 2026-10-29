@@ -20903,7 +20903,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1995a59c5be3c00c591a",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3b73a5bf2756108f57.png",
+    "lotus_feedback": "1. Xe khách: Sai làn, Đi thẳng đèn đang đỏ;<br/>2. Xe tải: Sai làn: Đi trên làn đi thẳng trong khi thực hiện rẽ trái.<br/>3. Xe mô tô: Sai làn: Đi trên làn rẽ trái trong khi thực hiện rẽ phải,<br/>4. Xe con: Đèn xanh rẽ phải: Đúng đèn đúng làn."
   },
   {
     "id": 487,
@@ -20943,7 +20946,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1995a59c5be3c00c591b",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d66ec71b2e3240dfbf7.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>1. Xe tải: Đường ưu tiên và đi thẳng;<br/>2. Mô tô: Đường ưu tiên và rẽ trái;<br/>3. Xe khách: Đường không ưu tiên, đi thẳng.<br/>4. Xe con: Đường không ưu tiên, rẽ trái."
   },
   {
     "id": 488,
@@ -21101,7 +21107,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5973",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de5dc91772760078be7.png",
+    "lotus_feedback": "Biển W.207c “Giao nhau với đường không ưu tiên” cho biết xe tải đi từ đường không ưu tiên nên phải nhường đường."
   },
   {
     "id": 492,
@@ -21256,7 +21265,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5923",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d3de01b8f7adc033960.png",
+    "lotus_feedback": "Xe ưu tiên đi trước."
   },
   {
     "id": 496,
@@ -21295,7 +21307,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5924",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d5096eed6c082072082.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>1. Xe con: Đường ưu tiên;<br/>2. Xe tải: Đường không ưu tiên, rẽ phải;<br/>3. Xe khách: Đường không ưu tiên, rẽ trái (Đáp án đúng)."
   },
   {
     "id": 497,
@@ -21333,7 +21348,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5925",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d486335fc7eac0f3f19.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>Xe tải bên phải trống nên đi trước;<br/>Đáp án đúng là Xe con phải nhường đường: Bên phải vướng xe tải."
   },
   {
     "id": 498,
@@ -21409,7 +21427,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5927",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e694b3eeff8ab01d783.png",
+    "lotus_feedback": "Xe con và xe khách đang ở làn đường có tín hiệu đèn xanh nên được phép đi."
   },
   {
     "id": 500,
@@ -21448,7 +21469,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5928",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e49d66b166da20c1ce9.png",
+    "lotus_feedback": "Xe con và xe tải đang ở trên làn đường có tín hiệu đèn xanh nên được phép đi."
   },
   {
     "id": 501,
@@ -21486,7 +21510,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5929",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3fc8a22d266f0e7597.png",
+    "lotus_feedback": "Xe ưu tiên cùng cấp nên áp dụng thứ tự đường cùng cấp: Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe quân sự được ưu tiên trước do bên phải trống."
   },
   {
     "id": 502,
@@ -21526,7 +21553,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c592a",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e2ba0471f8eeb06229b.png",
+    "lotus_feedback": "Hướng 1 rẽ phải có tín hiệu đèn xanh nên được phép đi. Hướng đi thẳng đang có tín hiệu đèn đỏ do đó các hướng 2,3,4 không thể đi được. Câu trả lời đúng là chỉ có hướng 1."
   },
   {
     "id": 503,
@@ -21565,7 +21595,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c592b",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e3b73a5bf2756108f57.png",
+    "lotus_feedback": "1. Xe khách: Sai làn, Đi thẳng đèn đang đỏ;<br/>2. Xe tải: Sai làn: Đi trên làn đi thẳng trong khi thực hiện rẽ trái.<br/>3. Xe mô tô: Sai làn: Đi trên làn rẽ trái trong khi thực hiện rẽ phải,<br/>Nên đáp án đúng là xe khách, xe tải và xe mô tô đều vi phạm quy tắc giao thông."
   },
   {
     "id": 504,
@@ -21605,7 +21638,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c592c",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5061c6f55e910bcbe7.png",
+    "lotus_feedback": "Giao nhau cùng cấp có vòng xuyến: Chưa vào vòng xuyến thì ưu tiên xe bên phải; đã vào vòng xuyến ưu tiên xe từ bên trái tới.<br/>Toàn bộ các xe chưa vào phòng xuyến nên ưu tiên xe bên phải.<br/>Thứ tự sẽ là Mô tô, xe tải, xe khách, xe con."
   },
   {
     "id": 505,
@@ -21645,7 +21681,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c592d",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e595aeb95ccba03d788.png",
+    "lotus_feedback": "Biển cấm đỗ xe tải (ở biển phụ) nên chỉ có xe tải vi phạm."
   },
   {
     "id": 506,
@@ -21684,7 +21723,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c592e",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e6eca48636f5c0d7bdf.png",
+    "lotus_feedback": "Thứ tự ưu tiên không vòng xuyến: Xe vào ngã ba, ngã tư trước - Xe ưu tiên - Đường ưu tiên - Đường cùng cấp theo thứ tự bên phải trống - rẽ phải - đi thẳng - rẽ trái.<br/>Đáp án đúng là Xe con (B): Đường ưu tiên;"
   },
   {
     "id": 507,
@@ -21723,7 +21765,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c592f",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5ee0915ca2b0085437.png",
+    "lotus_feedback": "Bạn lưu ý câu hỏi này hỏi về hướng đi của xe <b>GẮN MÁY</b>. Hướng 1 và 3 chắc chắn là đi được rồi.<br/>Với hướng 2, biển báo cấm mô tô đi vào chỉ có tác dụng với xe MÔ TÔ nên xe gắn máy không có hiệu lực. Do đó vẫn đi vào bình thường."
   },
   {
     "id": 508,
@@ -21763,7 +21808,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5930",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d46c0c42cd9c103ae8d.png",
+    "lotus_feedback": "Biển cấm đỗ xe ở cả phía trước và phía sau biển (ở biển báo phụ) nên cả 2 xe vi phạm."
   },
   {
     "id": 509,
@@ -21803,7 +21851,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5931",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d51c1d056fe5107100b.png",
+    "lotus_feedback": "Xe tải đậu trái đường; Xe con và mô tô đậu xe đè vạch nên cả 3 xe vi phạm."
   },
   {
     "id": 510,
@@ -21841,7 +21892,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1996a59c5be3c00c5932",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e4f80ee24552102162e.png",
+    "lotus_feedback": "Xe tải kéo xe mô tô 3 bánh như trên hình là không đúng vì đi vào đường có biển P.108 “Cấm ô tô kéo moóc” kể cả xe máy kéo, xe ô tô khách kéo theo rơ moóc đi qua."
   },
   {
     "id": 511,
@@ -21879,7 +21933,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1997a59c5be3c00c5933",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e5b634c333a4f097d9a.png",
+    "lotus_feedback": "Hướng 1 có biển cấm ô tô nên xe ô tô đương nhiên không được phép đi vào rồi."
   },
   {
     "id": 512,
@@ -21919,7 +21976,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1997a59c5be3c00c5934",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e6bbbfbb7e862023657.png",
+    "lotus_feedback": "Biển P.123a “Cấm rẽ trái” không cấm quay đầu xe nên chỉ có hướng 3 là hướng ô tô không được phép đi."
   },
   {
     "id": 513,
@@ -21997,7 +22057,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1997a59c5be3c00c5936",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e4bfe0f099a7602bd2f.png",
+    "lotus_feedback": "Biển R.301g được đặt ở trước nơi đường giao nhau, chỉ được phép đi thẳng, rẽ trái hoặc quay đầu xe để đi theo hướng ngược lại.<br/>Đáp án đúng là hướng 2 và hướng 3."
   },
   {
     "id": 515,
@@ -23051,7 +23114,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5956",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db5fa69d1ccd10d0ce5.png",
+    "lotus_feedback": "Xe con (A) đang đi trước và xi nhan trái nên được đi trước, xe con (B) xi nhan phải và đi sau nên phải nhường."
   },
   {
     "id": 542,
@@ -23129,7 +23195,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1998a59c5be3c00c5953",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9eb07e73eb3f07380c.png",
+    "lotus_feedback": "Xe mô tô C chạy vào làn dành riêng xe ô tô: Vi phạm; Xe con E chạy vào làn dành riêng xe máy: Vi phạm."
   },
   {
     "id": 544,
@@ -23167,7 +23236,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1998a59c5be3c00c5954",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dddc19f09734003fb11.png",
+    "lotus_feedback": "Người lái xe phải nhường đường xe con rẽ trái trước vì xe con rẽ trái đã vào nơi giao nhau trước (đã qua vạch)."
   },
   {
     "id": 545,
@@ -23207,7 +23279,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1998a59c5be3c00c5955",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcec1d056fe510710d5.png",
+    "lotus_feedback": "Hướng 4: Biển số P.123b “Cấm rẽ phải”; Hướng 3: Biển số P.102 “Cấm đi ngược chiều”;<br/>Nên chỉ có thể đi theo hướng 1 và hướng 2 là câu trả lời đúng."
   },
   {
     "id": 546,
@@ -23284,7 +23359,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5957",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc0a9c163e758085d55.png",
+    "lotus_feedback": "Xe tải đã vào nơi giao nhau trước nên được đi đầu tiên; Tiếp theo xe buýt: Đi thẳng; Cuối cùng là xe của bạn: Rẽ trái."
   },
   {
     "id": 548,
@@ -23324,7 +23402,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5958",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df0429d256fdb0a8312.png",
+    "lotus_feedback": "Nhìn vào bảng chỉ dẫn loại phương tiện theo làn đường: Xe con (E) đi trên làn dành riêng cho mô tô nên vi phạm: Xe mô tô (D) chạy trên làn dành riêng xe ô tô nên cũng vi phạm."
   },
   {
     "id": 549,
@@ -23362,7 +23443,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5959",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de7913948b5340f5173.png",
+    "lotus_feedback": "Trước mặt xe của bạn có Biển số W.208 “Giao nhau với đường ưu tiên” nên phải ưu tiên các xe đang đi trên đường ưu tiên. Xe tải được ưu tiên trong trường hợp này."
   },
   {
     "id": 550,
@@ -23401,7 +23485,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c595a",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9ddbc1b6605fdf01bf6b.png",
+    "lotus_feedback": "Trước mặt người lái xe có Biển số P.123a “Cấm rẽ trái” không cấm quay đầu. Tuy nhiên, hướng B quay đầu đè vạch liền nên vi phạm. Do đó, chỉ có hướng A quay đầu xe là câu trả lời đúng."
   },
   {
     "id": 551,
@@ -23441,7 +23528,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c595b",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dd094a5ec509b0218c5.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Xe bạn đang trên đường ưu tiên nên được đi trước.<br/>Xe con rẽ phải không giao nhau với xe bạn nên được đi đồng thời với xe bạn.<br/>Xe tải rẽ trái từ đường không ưu tiên phải nhường đi sau cùng."
   },
   {
     "id": 552,
@@ -23480,7 +23570,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c595c",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db38c422a21490deb26.png",
+    "lotus_feedback": "Chú ý vạch kẻ đường ngăn cách với làn bên trái là vạch liền. Bạn phải bật tín hiệu báo hiệu cho đến khi xe tải phía trước giảm tốc độ và chuyển qua làn bên phải thì bạn mới có thể tăng tốc cho xe vượt qua."
   },
   {
     "id": 553,
@@ -23519,7 +23612,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c595d",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc1973a72d86d075e31.png",
+    "lotus_feedback": "Xe con và xe tải đang ở trên làn đường có tín hiệu đèn đỏ nên phải dừng lại."
   },
   {
     "id": 554,
@@ -23558,7 +23654,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c595e",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e145e286037240c6348.png",
+    "lotus_feedback": "Xe con (B) và xe tải (D) đang đè lên vạch liền phân tách làn đường nên vi phạm quy tắc giao thông. Các xe còn lại (A, C, E, G) là đúng quy tắc giao thông."
   },
   {
     "id": 555,
@@ -23596,7 +23695,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c595f",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9025d8a0fb0c0a6af0.png",
+    "lotus_feedback": "Tại nơi giao nhau, trên đoạn đường có làn đường dành cho người đi bộ cắt ngang thì không được phép vượt."
   },
   {
     "id": 556,
@@ -23634,7 +23736,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5960",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daa0acaf4e247051928.png",
+    "lotus_feedback": "Tại nơi giao nhau, trên đoạn đường có làn đường dành cho người đi bộ cắt ngang thì không được phép vượt."
   },
   {
     "id": 557,
@@ -23674,7 +23779,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5961",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9cbe6bb68f3e08e55b.png",
+    "lotus_feedback": "Vị trí A vi phạm do dừng bên trái đường.<br/>Biển số P.131a “Cấm đỗ xe” không cấm dừng xe. Do đó vị trí dừng tại B và C là câu trả lời đúng."
   },
   {
     "id": 558,
@@ -23714,7 +23822,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5962",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1ae16aa1886a04599b.png",
+    "lotus_feedback": "Biển số P.130 “Cấm dừng xe và đỗ xe” và biển phụ báo phạm vi trước và sau biển báo nên không được phép dừng xe tại cả 2 vị trí A và B."
   },
   {
     "id": 559,
@@ -23754,7 +23865,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5963",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e29807da83a7a0c564e.png",
+    "lotus_feedback": "Biển số R.301a chỉ cho phép các phương tiện đi thẳng trong khi cả hai xe đều có tín hiệu xi nhan rẽ sang hướng khác nên cả 2 xe đều vi phạm quy tắc giao thông."
   },
   {
     "id": 560,
@@ -23793,7 +23907,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d1999a59c5be3c00c5964",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df3f7c37844b80ab33f.png",
+    "lotus_feedback": "Xe con trong cả hai phía đều đang ở đúng làn đường và đi theo hướng mà đèn xanh đang bật nên đúng quy tắc.<br/>Xe tải trong cả hai phía đều ở sai làn đường so với hướng rẽ nên vi phạm quy tắc giao thông."
   },
   {
     "id": 561,
@@ -23832,7 +23949,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5965",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de309df238c1c077010.png",
+    "lotus_feedback": "Xe con và xe mô tô đang ở đúng làn đường, đúng hướng rẽ với tín hiệu đèn xanh nên đúng quy tắc giao thông.<br/>Xe khách và xe tải đang ở sai làn đường so với hướng rẽ nên đều vi phạm."
   },
   {
     "id": 562,
@@ -23872,7 +23992,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5966",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df8c19f09734003fb39.png",
+    "lotus_feedback": "Xe con đi đúng làn đường theo hướng rẽ và tín hiệu đèn.<br/>Xe khách: Sai làn đường và tín hiệu đèn.<br/>Xe tải: Đi thẳng vi phạm đèn đỏ.<br/>Xe mô tô: Đi thẳng vi phạm đèn đỏ."
   },
   {
     "id": 563,
@@ -23912,7 +24035,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5967",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e028c13f1e3f8064095.png",
+    "lotus_feedback": "Xe con đúng làn đường và tín hiệu đèn.<br/>Xe khách: Sai làn đường; Xe tải: Sai làn đường và tín hiệu đèn."
   },
   {
     "id": 564,
@@ -23951,7 +24077,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5968",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1b12cbb1c04f05f720.png",
+    "lotus_feedback": "Chú ý quan sát, bật tín hiệu đèn, còi rồi mới được vượt nên Đáp án 2 trong trường hợp này mô tả chính xác."
   },
   {
     "id": 565,
@@ -23991,7 +24120,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5969",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e28c1b6605fdf01bfc0.png",
+    "lotus_feedback": "Xe con và xe tải: Vi phạm tín hiệu đèn;<br/>Xe khách và xe mô tô: Đúng làn đường và đúng tín hiệu đèn."
   },
   {
     "id": 566,
@@ -24031,7 +24163,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c596a",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e145e286037240c6348.png",
+    "lotus_feedback": "Xe con (B) và xe tải (D) đang đè lên vạch liền phân tách làn đường nên vi phạm quy tắc giao thông."
   },
   {
     "id": 567,
@@ -24070,7 +24205,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c596b",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0c2ba5b3959c08d443.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>Biển báo phía trước là đường ưu tiên và biển phụ báo hướng di chuyển của xe mô tô là hướng ưu tiên.<br/>1. Xe mô tô: Đường ưu tiên;<br/>2. Xe con: Đường không ưu tiên, bên phải trống;<br/>3. Xe của bạn: Đường không ưu tiên, bên phải vướng xe con."
   },
   {
     "id": 568,
@@ -24148,7 +24286,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c596d",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d8eadadd4b27d00c410.png",
+    "lotus_feedback": "Xe con dừng lại vì phía trước là tín hiệu đèn đỏ. Xe của bạn được đi vì rẽ phải trước đèn đỏ nên không vi phạm."
   },
   {
     "id": 570,
@@ -24188,7 +24329,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c596e",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1d69c743cafe016bd5.png",
+    "lotus_feedback": "Làn đường mà xe của bạn đang đi chỉ được đi thẳng hoặc rẽ trái thôi. Nếu bạn chọn rẽ phải là bị đèn tín hiệu nó lừa rồi đó."
   },
   {
     "id": 571,
@@ -24227,7 +24371,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c596f",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e27aeebbe8d890b0c53.png",
+    "lotus_feedback": "Bạn phải dừng lại chờ đèn đỏ và làn đường bạn đang dừng xe chỉ được rẽ trái hoặc đi thẳng khi đèn xanh."
   },
   {
     "id": 572,
@@ -24266,7 +24413,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5970",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e1742439ae7ca005042.png",
+    "lotus_feedback": "Xe tải đã vào nơi giao nhau trước nên sẽ được ưu tiên trước. Biển báo phía trước là đường ưu tiên dành cho xe thô sơ nên phải nhường đường cho xe đạp. Do đó, xe bạn rẽ phải sau xe tải và xe đạp."
   },
   {
     "id": 573,
@@ -24305,7 +24455,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5971",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0aa266753db404bccc.png",
+    "lotus_feedback": "Ở vạch kẻ đường dành cho người đi bộ có người chuẩn bị sang đường nên phải nhường đường và không được phép vượt.<br/>Nên bạn phải nhường đường cho người đi bộ và rẽ phải sau xe con màu xanh."
   },
   {
     "id": 574,
@@ -24344,7 +24497,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5972",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df270550be1f401e376.png",
+    "lotus_feedback": "Trước mặt bạn có biển Biển số R.122 “Dừng lại” nên phải dừng xe và nhường đường. Nên xe của bạn phải nhường đường cho xe đạp và xe khách."
   },
   {
     "id": 575,
@@ -24459,7 +24615,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c5975",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e053ffb9ed3d60f0a5c.png",
+    "lotus_feedback": "Xe của bạn không được vượt khi bên trái có chướng ngại vật hay xe ngược chiều."
   },
   {
     "id": 578,
@@ -24499,7 +24658,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5976",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9ddff83ada6362090934.png",
+    "lotus_feedback": "Cần quan sát kỹ xe phía sau trong tình huống này để có hành động hợp lý. Nếu không có xe xin vượt chuyển làn trái đi tiếp. Nếu có xe xin vượt thì giảm tốc độ, ở lại làn đường hoặc dừng lại nếu cần thiết."
   },
   {
     "id": 579,
@@ -24538,7 +24700,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5977",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcd31eb8b48850c177f.png",
+    "lotus_feedback": "Không được vượt khi phía trước có chướng ngại vật hay xe chạy ngược chiều. Do đó, cần giảm tốc độ, dừng lại nhường đường."
   },
   {
     "id": 580,
@@ -24577,7 +24742,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5978",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9bb49a9f0f270b29f3.png",
+    "lotus_feedback": "Vì xe màu xanh đang trên làn đường của bạn, để đảm bảo an toàn, bạn cần phanh xe giảm tốc độ và đi sát lề đường bên phải."
   },
   {
     "id": 581,
@@ -24616,7 +24784,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5979",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daccd0ca6ba3505f330.png",
+    "lotus_feedback": "Không được vượt khi phía trước có xe đang chuyển làn đường. Do đó, để đảm bảo an toàn bạn cần phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường."
   },
   {
     "id": 582,
@@ -24655,7 +24826,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c597a",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d9613b64ffeab0fd325.png",
+    "lotus_feedback": "Trước mặt là Biển số W.208 “Giao nhau với đường ưu tiên” nên bạn phải giảm tốc độ, quan sát nhường đường ưu tiên nếu có và đi qua ngã tư."
   },
   {
     "id": 583,
@@ -24694,7 +24868,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c597b",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d7e24497a6b1e0e6623.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe đạp: Bên phải trống; 2. Xe mô tô: Đi thẳng; 3. Xe của bạn: Rẽ trái."
   },
   {
     "id": 584,
@@ -24734,7 +24911,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c597c",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc48369c3f18b101994.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe của bạn: Đường ưu tiên; 2. Xe con: Đi không ưu tiên, đi thẳng; 3. Xe tải: Đường không ưu tiên, rẽ trái."
   },
   {
     "id": 585,
@@ -24849,7 +25029,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c597f",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de2501dde858b0183b6.png",
+    "lotus_feedback": "Trước mặt bạn có biển I.423a “Đường người đi bộ sang ngang” nên bạn phải giảm tốc độ và nhường đường cho người đi bộ sang đường."
   },
   {
     "id": 588,
@@ -24887,7 +25070,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5983",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9db0563258070008a98d.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe tải: Đi thẳng; 2. Xe của bạn: Rẽ trái."
   },
   {
     "id": 589,
@@ -24965,7 +25151,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5982",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc6fbf472ac74023077.png",
+    "lotus_feedback": "Phía trước khuất tầm nhìn, bên trái làn đường là vạch liền nên bạn cần phải giảm tốc độ, đi sát làn đường bên phải để đảm bảo đi đúng làn đường."
   },
   {
     "id": 591,
@@ -25042,7 +25231,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5984",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcbba5ba3e8500fd30f.png",
+    "lotus_feedback": "Biển số W.211a “Giao nhau với đường sắt không có rào chắn” thì các phương tiện đứng cách xa đường sắt tối thiểu 5m nên xe con đúng."
   },
   {
     "id": 593,
@@ -25081,7 +25273,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5985",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9de0116d7e02520576a9.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Bên phải trống - Rẽ phải - Đi thẳng - Rẽ trái.<br/>1. Xe của bạn: Bên phải trống, đi thẳng; 2. Xe tải: Rẽ trái, bên phải trống (khi xe bạn đã đi rồi); 3. Xe đạp: Rẽ trái."
   },
   {
     "id": 594,
@@ -25120,7 +25315,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5986",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d99baa59922a4094b9e.png",
+    "lotus_feedback": "Vạch kẻ đường nét đứt màu vàng, phân chia 2 chiều xe chạy. Do đó, hướng 2 sẽ đi bên trái đường 1 đoạn nên không được phép. Do đó, bạn chỉ được chọn theo hướng 1 để rẽ trái."
   },
   {
     "id": 595,
@@ -25159,7 +25357,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5987",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9daedda92ebd36018ad3.png",
+    "lotus_feedback": "Giữ nguyên đèn chiếu gần và giảm tốc độ do không thể quan sát rõ phía trước."
   },
   {
     "id": 596,
@@ -25198,7 +25399,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ba59c5be3c00c5988",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d945e139762aa0e74f1.png",
+    "lotus_feedback": "Bắt buộc phải dừng xe."
   },
   {
     "id": 597,
@@ -25236,7 +25440,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ca59c5be3c00c5989",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d7fa1d8f0e54d02ae22.png",
+    "lotus_feedback": "Khi nhập làn cao tốc phải chạy dọc theo làn tạm để đủ thời gian quan sát, khoảng cách an toàn và đủ tốc độ trước khi di chuyển vào làn cao tốc nên trong tình huống này xe màu đỏ sai khi nhập làn cao tốc."
   },
   {
     "id": 598,
@@ -25274,7 +25481,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ca59c5be3c00c598a",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e0811fd8b63750a8a30.png",
+    "lotus_feedback": "Xe xin vượt chỉ được vượt khi không có chướng ngại vật phía trước, không có xe chạy ngược chiều trong đoạn đường định vượt, xe chạy trước không có tín hiệu vượt xe khác và đã tránh về bên phải. Do đó, xe màu đỏ không được vượt."
   },
   {
     "id": 599,
@@ -25312,7 +25522,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199ca59c5be3c00c598b",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e185282e4e64407c37f.png",
+    "lotus_feedback": "Xe màu đỏ đang tránh về phía bên phải, xe màu vàng đã có tín hiệu xin vượt, vạch kẻ đường theo hướng xe chạy là nét đứt , không có xe ngược chiều. Nên xe vàng vượt đúng quy tắc giao thông."
   },
   {
     "id": 600,
