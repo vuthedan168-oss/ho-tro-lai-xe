@@ -24247,7 +24247,10 @@
     ],
     "createdAt": "2025-07-31T00:00:00Z",
     "updatedAt": "2025-08-01",
-    "hasImage": true
+    "hasImage": true,
+    "lotus_id": "685d199aa59c5be3c00c596c",
+    "lotus_image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9d8455b10c9223019d06.png",
+    "lotus_feedback": "Thứ tự ưu tiên: Xe ưu tiên - Đường ưu tiên - Đường cùng cấp: Bên phải trống, rẽ phải, đi thẳng, rẽ trái.<br/>1. Xe con: Rẽ phải;<br/>2. Xe của bạn: Đi thẳng;<br/>3. Mô tô: Rẽ trái."
   },
   {
     "id": 569,
