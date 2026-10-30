@@ -1,873 +1,504 @@
 [
   {
     "id": 1,
-    "lotus_id": "685d19b45287bf72cd02a0b9",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe mô tô tay ga xuống đường dốc dài, độ dốc cao, người lái xe cần thực hiện các thao tác nào dưới đây để bảo đảm an toàn?",
+    "lotus_id": "685d19b88bf4533f2f0e44a0",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người lái xe kinh doanh vận tải khi thực hiện tốt việc rèn luyện, nâng cao trách nhiệm, đạo đức nghề nghiệp sẽ thu được kết quả như thế nào dưới đây?",
     "options": {
-      "a": "Giữ tay ga ở mức độ phù hợp, sử dụng phanh trước và phanh sau để giảm tốc độ.",
-      "b": "Nhả hết tay ga, tắt động cơ, sử dụng phanh trước và phanh sau để giảm tốc độ.",
-      "c": "Sử dụng phanh trước để giảm tốc độ kết hợp với tắt chìa khóa điện của xe."
+      "a": "1-Được khách hàng, xã hội tôn trọng; được đồng nghiệp quý mến, giúp đỡ; được doanh nghiệp tin dùng và đóng góp nhiều cho xã hội; thu hút được khách hàng, góp phần quan trọng trong xây dựng thương hiệu, kinh doanh có hiệu quả cao.",
+      "b": "2-Được cộng điểm vào giấy phép lái xe.",
+      "c": "3-Cả hai ý trên."
     },
+    "raw_options": [
+      "1-Được khách hàng, xã hội tôn trọng; được đồng nghiệp quý mến, giúp đỡ; được doanh nghiệp tin dùng và đóng góp nhiều cho xã hội; thu hút được khách hàng, góp phần quan trọng trong xây dựng thương hiệu, kinh doanh có hiệu quả cao.",
+      "2-Được cộng điểm vào giấy phép lái xe.",
+      "3-Cả hai ý trên."
+    ],
     "correctAnswer": "a",
     "correctIndex": 1,
-    "explanation": "Mô tô tay ga xuống dốc dài: Giữ ga ở mức phù hợp, phanh trước và phanh sau giảm tốc độ.",
+    "explanation": "Đạo đức nghề nghiệp tốt (lái xe KDVT): Được tôn trọng, quý mến, tin dùng, thu hút khách, hiệu quả cao.",
     "image": null
   },
   {
     "id": 2,
-    "lotus_id": "685d19b65287bf72cd02a0e4",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô ra khỏi đường cao tốc người lái xe cần thực hiện như thế nào dưới đây để bảo đảm an toàn giao thông?",
+    "lotus_id": "685d19b98bf4533f2f0e44ad",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người điều khiển phương tiện tham giao thông đường bộ gây ra tai nạn giao thông đường bộ, người liên quan đến vụ tai nạn giao thông đường bộ có trách nhiệm gì dưới đây?",
     "options": {
-      "a": "Quan sát phía trước để tìm biển báo chỉ dẫn “lối ra đường cao tốc”, kiểm tra tình trạng giao thông phía sau và bên phải, nếu bảo đảm điều kiện an toàn thì phát tín hiệu và điều khiển xe chuyển dần sang làn bên phải, nếu có làn đường giảm tốc thì phải cho xe di chuyển trên làn đường đó trước khi ra khỏi đường cao tốc.",
-      "b": "Quan sát phía trước để tìm biển báo chỉ dẫn “lối ra đường cao tốc”, trường hợp vượt qua “lối ra đường cao tốc” thì phát tín hiệu, di chuyển sang làn đường giảm tốc và lùi xe quay trở lại."
+      "a": "1-Dừng ngay phương tiện, cảnh báo nguy hiểm, giữ nguyên hiện trường, trợ giúp người bị nạn và báo tin cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh.",
+      "b": "2-Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất.",
+      "c": "3-Cung cấp thông tin xác định danh tính về bản thân, người liên quan đến vụ tai nạn giao thông đường bộ và thông tin liên quan của vụ tai nạn giao thông đường bộ cho cơ quan có thẩm quyền.",
+      "d": "4-Cả ba ý trên."
     },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Ra khỏi cao tốc: Tìm biển lối ra, quan sát sau/phải, an toàn thì tín hiệu, chuyển dần sang phải; KHÔNG lùi xe.",
+    "raw_options": [
+      "1-Dừng ngay phương tiện, cảnh báo nguy hiểm, giữ nguyên hiện trường, trợ giúp người bị nạn và báo tin cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh.",
+      "2-Ở lại hiện trường vụ tai nạn giao thông đường bộ cho đến khi người của cơ quan Công an đến, trừ trường hợp phải đi cấp cứu, đưa người bị nạn đi cấp cứu hoặc xét thấy bị đe dọa đến tính mạng, sức khỏe nhưng phải đến trình báo ngay cơ quan Công an, Ủy ban nhân dân nơi gần nhất.",
+      "3-Cung cấp thông tin xác định danh tính về bản thân, người liên quan đến vụ tai nạn giao thông đường bộ và thông tin liên quan của vụ tai nạn giao thông đường bộ cho cơ quan có thẩm quyền.",
+      "4-Cả ba ý trên."
+    ],
+    "correctAnswer": "d",
+    "correctIndex": 4,
+    "explanation": "Trách nhiệm khi gây tai nạn/liên quan: Dừng xe, cảnh báo, giữ hiện trường, cứu người, báo tin; Ở lại hiện trường (trừ trường hợp khẩn cấp nhưng phải trình báo); Cung cấp thông tin.",
     "image": null
   },
   {
     "id": 3,
-    "lotus_id": "685d19b65287bf72cd02a0d9",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi động cơ ô tô đã khởi động, muốn điều chỉnh ghế của người lái, người lái xe phải để cần số ở vị trí nào?",
+    "lotus_id": "685d19b98bf4533f2f0e44b7",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khi phát hiện thấy có ngọn lửa, khói hoặc nhiệt độ cao bất thường từ phương tiện giao thông do mình điều khiển người lái xe phải làm gì trước tiên?",
     "options": {
-      "a": "Vị trí N hoặc vị trí P hoặc số 0.",
-      "b": "Vị trí D hoặc số 1.",
-      "c": "Vị trí R."
+      "a": "1-Bình tĩnh, đưa xe sát vào lề đường, tránh xa nơi có nhiều người, nhiều chất dễ cháy và tắt khóa điện, thực hiện các bước chữa cháy.",
+      "b": "2-Hô hoán để mọi người đến trợ giúp chữa cháy, gọi Cảnh sát giao thông, Cảnh sát phòng cháy chữa cháy và cứu nạn, cứu hộ, lực lượng y tế để sẵn sàng hỗ trợ cứu người.",
+      "c": "3-Nếu nhiên liệu trào ra ngoài, ngọn lửa chưa cháy dữ dội thì tiếp tục sử dụng nước, hoặc bất kỳ chất, phương tiện chữa cháy có được để dập lửa.",
+      "d": "4-Cả ba ý trên."
     },
+    "raw_options": [
+      "1-Bình tĩnh, đưa xe sát vào lề đường, tránh xa nơi có nhiều người, nhiều chất dễ cháy và tắt khóa điện, thực hiện các bước chữa cháy.",
+      "2-Hô hoán để mọi người đến trợ giúp chữa cháy, gọi Cảnh sát giao thông, Cảnh sát phòng cháy chữa cháy và cứu nạn, cứu hộ, lực lượng y tế để sẵn sàng hỗ trợ cứu người.",
+      "3-Nếu nhiên liệu trào ra ngoài, ngọn lửa chưa cháy dữ dội thì tiếp tục sử dụng nước, hoặc bất kỳ chất, phương tiện chữa cháy có được để dập lửa.",
+      "4-Cả ba ý trên."
+    ],
     "correctAnswer": "a",
     "correctIndex": 1,
-    "explanation": "Điều chỉnh ghế (động cơ đã nổ): Cần số ở N, P, hoặc số 0.",
+    "explanation": "Phát hiện xe có dấu hiệu cháy: Bình tĩnh, đưa xe sát lề, tắt khóa điện, thực hiện chữa cháy.",
     "image": null
   },
   {
     "id": 4,
-    "lotus_id": "685d19b65287bf72cd02a0da",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô có hộp số tự động, người lái xe sử dụng chân như thế nào là đúng để bảo đảm an toàn?",
+    "lotus_id": "685d19b98bf4533f2f0e44b6",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người điều khiển phương tiện cơ giới đường bộ phải thực hiện những biện pháp gì dưới đây để chữa cháy trong trường hợp phương tiện bị cháy, xét thấy có khả năng dập tắt đám cháy?",
     "options": {
-      "a": "Không sử dụng chân trái; chân phải điều khiển bàn đạp phanh và bàn đạp ga.",
-      "b": "Chân trái điều khiển bàn đạp phanh, chân phải điều khiển bàn đạp ga.",
-      "c": "Không sử dụng chân phải; chân trái điều khiển bàn đạp phanh và bàn đạp ga."
+      "a": "1-Tắt khoá điện, hô hoán để mọi người đến trợ giúp chữa cháy, gọi Cảnh sát phòng cháy chữa cháy và cứu nạn cứu hộ (điện thoại 114).",
+      "b": "2-Nếu nhiên liệu chưa trào ra ngoài (ngọn lửa chưa cháy dữ dội) thì có thể sử dụng nước, hoặc bất kỳ chất, phương tiện chữa cháy có được để dập lửa; nếu nhiên liệu đã trào ra ngoài (ngọn lửa cháy dữ dội) thì phải sử dụng các bình chữa cháy, cát, chăn chiên, bao tải, vải nhúng nước để dập lửa.",
+      "c": "3-Cả hai ý trên."
     },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Lái xe số tự động: Không dùng chân trái, chân phải điều khiển phanh và ga.",
+    "raw_options": [
+      "1-Tắt khoá điện, hô hoán để mọi người đến trợ giúp chữa cháy, gọi Cảnh sát phòng cháy chữa cháy và cứu nạn cứu hộ (điện thoại 114).",
+      "2-Nếu nhiên liệu chưa trào ra ngoài (ngọn lửa chưa cháy dữ dội) thì có thể sử dụng nước, hoặc bất kỳ chất, phương tiện chữa cháy có được để dập lửa; nếu nhiên liệu đã trào ra ngoài (ngọn lửa cháy dữ dội) thì phải sử dụng các bình chữa cháy, cát, chăn chiên, bao tải, vải nhúng nước để dập lửa.",
+      "3-Cả hai ý trên."
+    ],
+    "correctAnswer": "c",
+    "correctIndex": 3,
+    "explanation": "Chữa cháy xe (nếu có khả năng dập): Tắt khóa điện + Sử dụng nước.",
     "image": null
   },
   {
     "id": 5,
-    "lotus_id": "685d19b65287bf72cd02a0db",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi tầm nhìn bị hạn chế bởi sương mù hoặc mưa to, người lái xe phải thực hiện các thao tác nào để bảo đảm an toàn?",
+    "lotus_id": "685d19b98bf4533f2f0e44b5",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người lái xe, chủ phương tiện giao thông cơ giới đường bộ nên thực hiện các biện pháp phòng cháy, chữa cháy như thế nào dưới đây?",
     "options": {
-      "a": "Tăng tốc độ, chạy gần xe trước, nhìn đèn hậu để định hướng.",
-      "b": "Giảm tốc độ, chạy cách xa xe trước với khoảng cách an toàn, bật đèn sương mù và đèn chiếu gần.",
-      "c": "Tăng tốc độ, bật đèn pha vượt qua xe chạy trước."
+      "a": "1-Không lắp đặt thêm thiết bị điện, phụ kiện không đúng theo thiết kế của nhà sản xuất; tuân thủ quy trình vận hành bảo trì bảo dưỡng định kỳ; thường xuyên kiểm tra phương tiện, khi phát hiện thấy dấu hiệu khác lạ (khó nổ, có hơi xăng, có tiếng kêu bất thường, nhiệt độ của máy cao, có mùi khét) cần khắc phục ngay.",
+      "b": "2-Khi để xe trong nhà, ở nơi trông giữ xe phải tắt khóa điện, để xa nguồn lửa, nguồn nhiệt; không mua xăng, dầu ở các điểm bán tự phát, không rõ nguồn gốc; không sử dụng các biện pháp “tiết kiệm xăng, dầu” khi chưa được kiểm chứng về mức độ an toàn có thể gây hỏng xe hoặc dẫn đến nguy cơ xảy ra cháy cao.",
+      "c": "3-Không để các chất dễ cháy, dễ bắt lửa trong xe, dưới yên xe, trong cốp xe, trong khoang động cơ. Đối với xe điện cần chọn địa điểm sạc an toàn, sử dụng các thiết bị sạc đúng cách và giám sát quá trình sạc.",
+      "d": "4-Cả ba ý trên."
     },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Sương mù/mưa to: Giảm tốc độ, giữ khoảng cách, bật đèn sương mù và đèn gần.",
+    "raw_options": [
+      "1-Không lắp đặt thêm thiết bị điện, phụ kiện không đúng theo thiết kế của nhà sản xuất; tuân thủ quy trình vận hành bảo trì bảo dưỡng định kỳ; thường xuyên kiểm tra phương tiện, khi phát hiện thấy dấu hiệu khác lạ (khó nổ, có hơi xăng, có tiếng kêu bất thường, nhiệt độ của máy cao, có mùi khét) cần khắc phục ngay.",
+      "2-Khi để xe trong nhà, ở nơi trông giữ xe phải tắt khóa điện, để xa nguồn lửa, nguồn nhiệt; không mua xăng, dầu ở các điểm bán tự phát, không rõ nguồn gốc; không sử dụng các biện pháp “tiết kiệm xăng, dầu” khi chưa được kiểm chứng về mức độ an toàn có thể gây hỏng xe hoặc dẫn đến nguy cơ xảy ra cháy cao.",
+      "3-Không để các chất dễ cháy, dễ bắt lửa trong xe, dưới yên xe, trong cốp xe, trong khoang động cơ. Đối với xe điện cần chọn địa điểm sạc an toàn, sử dụng các thiết bị sạc đúng cách và giám sát quá trình sạc.",
+      "4-Cả ba ý trên."
+    ],
+    "correctAnswer": "d",
+    "correctIndex": 4,
+    "explanation": "Phòng cháy xe: Không lắp thêm thiết bị điện sai thiết kế + Phải tắt khóa điện + Không để chất dễ cháy trong xe.",
     "image": null
   },
   {
     "id": 6,
-    "lotus_id": "685d19b65287bf72cd02a0dc",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi đèn pha của xe đi ngược chiều gây chói mắt, làm giảm khả năng quan sát trên đường, người lái xe xử lý như thế nào dưới đây để bảo đảm an toàn?",
+    "lotus_id": "685d19b98bf4533f2f0e44b4",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khi điều khiển phương tiện tham gia giao thông trên đoạn đường bộ đang xảy ra ùn tắc, những hành vi nào dưới đây là thiếu văn hóa?",
     "options": {
-      "a": "Giảm tốc độ, giữ vững tay lái, nhìn chếch sang lề đường bên phải.",
-      "b": "Bật đèn pha chiếu xa và giữ nguyên tốc độ.",
-      "c": "Tăng tốc độ, bật đèn pha đối diện xe phía trước."
+      "a": "1-Bấm còi liên tục thúc giục các phương tiện phía trước nhường đường; đi trên vỉa hè, tận dụng mọi khoảng trống để nhanh chóng thoát khỏi nơi ùn tắc; lấn sang trái đường cố gắng vượt lên xe khác.",
+      "b": "2-Tuân thủ hướng dẫn của người điều khiển giao thông hoặc tín hiệu giao thông, đi đúng phần đường, làn đường quy định."
     },
+    "raw_options": [
+      "1-Bấm còi liên tục thúc giục các phương tiện phía trước nhường đường; đi trên vỉa hè, tận dụng mọi khoảng trống để nhanh chóng thoát khỏi nơi ùn tắc; lấn sang trái đường cố gắng vượt lên xe khác.",
+      "2-Tuân thủ hướng dẫn của người điều khiển giao thông hoặc tín hiệu giao thông, đi đúng phần đường, làn đường quy định."
+    ],
     "correctAnswer": "a",
     "correctIndex": 1,
-    "explanation": "Đèn pha xe ngược chiều chói mắt: Giảm tốc độ, vững tay lái, nhìn chếch lề phải.",
+    "explanation": "Ùn tắc (khu dân cư) - THIẾU văn hóa: Bấm còi, đi trên vỉa hè, chen lấn, lấn làn.",
     "image": null
   },
   {
     "id": 7,
-    "lotus_id": "685d19b65287bf72cd02a0dd",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Để đạt được hiệu quả phanh cao nhất, người lái xe mô tô phải sử dụng các kỹ năng như thế nào dưới đây?",
+    "lotus_id": "685d19b98bf4533f2f0e44b3",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Trong đoạn đường hai chiều tại khu đông dân cư đang ùn tắc, người điều khiển xe mô tô có văn hóa giao thông sẽ lựa chọn cách xử lý tình huống nào dưới đây?",
     "options": {
-      "a": "Sử dụng phanh trước.",
-      "b": "Sử dụng phanh sau.",
-      "c": "Giảm hết ga, sử dụng đồng thời cả phanh sau và phanh trước."
+      "a": "1-Cho xe lấn sang làn ngược chiều để nhanh chóng thoát khỏi nơi ùn tắc.",
+      "b": "2-Điều khiển xe trên vỉa hè để nhanh chóng thoát khỏi nơi ùn tắc.",
+      "c": "3-Kiên nhẫn tuân thủ hướng dẫn của người điều khiển giao thông hoặc tín hiệu đèn giao thông, di chuyển trên đúng phần đường bên phải theo chiều đi, nhường đường cho các phương tiện đi ngược chiều."
     },
+    "raw_options": [
+      "1-Cho xe lấn sang làn ngược chiều để nhanh chóng thoát khỏi nơi ùn tắc.",
+      "2-Điều khiển xe trên vỉa hè để nhanh chóng thoát khỏi nơi ùn tắc.",
+      "3-Kiên nhẫn tuân thủ hướng dẫn của người điều khiển giao thông hoặc tín hiệu đèn giao thông, di chuyển trên đúng phần đường bên phải theo chiều đi, nhường đường cho các phương tiện đi ngược chiều."
+    ],
     "correctAnswer": "c",
     "correctIndex": 3,
-    "explanation": "Phanh xe mô tô hiệu quả: Giảm hết ga, dùng đồng thời phanh sau và phanh trước.",
+    "explanation": "Ùn tắc (đường 2 chiều, khu dân cư): Kiên nhẫn, tuân thủ hướng dẫn/đèn, đi đúng phần đường, nhường xe ngược chiều.",
     "image": null
   },
   {
     "id": 8,
-    "lotus_id": "685d19b65287bf72cd02a0de",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi lái xe ô tô trên mặt đường có nhiều “ổ gà”, người lái xe phải thực hiện thao tác như thế nào để bảo đảm an toàn?",
+    "lotus_id": "685d19b98bf4533f2f0e44b2",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khi gặp vụ tai nạn giao thông, người lái xe nên hành động như thế nào?",
     "options": {
-      "a": "Giảm tốc độ, về số thấp và giữ đều ga.",
-      "b": "Tăng tốc độ cho xe lướt qua nhanh.",
-      "c": "Tăng tốc độ, đánh lái liên tục để tránh “ổ gà”."
+      "a": "1-Chạy đi để tránh rắc rối.",
+      "b": "2-Dừng xe, hỗ trợ nạn nhân và báo cho cơ quan chức năng.",
+      "c": "3-Chỉ quan sát rồi tiếp tục di chuyển.",
+      "d": "4-Chỉ giúp đỡ nếu có người thân trong vụ tai nạn."
     },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Đường nhiều ổ gà: Giảm tốc độ, về số thấp, giữ đều ga.",
+    "raw_options": [
+      "1-Chạy đi để tránh rắc rối.",
+      "2-Dừng xe, hỗ trợ nạn nhân và báo cho cơ quan chức năng.",
+      "3-Chỉ quan sát rồi tiếp tục di chuyển.",
+      "4-Chỉ giúp đỡ nếu có người thân trong vụ tai nạn."
+    ],
+    "correctAnswer": "b",
+    "correctIndex": 2,
+    "explanation": "Gặp tai nạn giao thông: Dừng xe, hỗ trợ nạn nhân, báo cơ quan chức năng.",
     "image": null
   },
   {
     "id": 9,
-    "lotus_id": "685d19b65287bf72cd02a0df",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô gặp mưa to hoặc sương mù, người lái xe phải làm gì để bảo đảm an toàn?",
+    "lotus_id": "685d19b98bf4533f2f0e44b1",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khi đang lái xe, thấy một người đi bộ đang sang đường trên vạch kẻ đường dành cho người đi bộ, người lái xe nên làm gì?",
     "options": {
-      "a": "Bật đèn chiếu gần và đèn vàng (nếu có), điều khiển gạt nước, điều khiển ô tô đi với tốc độ chậm để có thể quan sát được; tìm chỗ an toàn dừng xe, bật đèn dừng khẩn cấp báo hiệu cho các xe khác biết.",
-      "b": "Bật đèn chiếu xa và đèn vàng, điều khiển gạt nước, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa hoặc sương mù.",
-      "c": "Tăng tốc độ, bật đèn pha vượt qua xe chạy phía trước."
+      "a": "1-Giảm tốc độ và nhường đường cho người đi bộ.",
+      "b": "2-Bấm còi để họ đi nhanh hơn.",
+      "c": "3-Tiếp tục đi nếu đang vội.",
+      "d": "4-Vượt qua nếu thấy khoảng trống đủ rộng."
     },
+    "raw_options": [
+      "1-Giảm tốc độ và nhường đường cho người đi bộ.",
+      "2-Bấm còi để họ đi nhanh hơn.",
+      "3-Tiếp tục đi nếu đang vội.",
+      "4-Vượt qua nếu thấy khoảng trống đủ rộng."
+    ],
     "correctAnswer": "a",
     "correctIndex": 1,
-    "explanation": "Mưa to/sương mù: Bật đèn chiếu gần.",
+    "explanation": "Thấy người đi bộ qua vạch: Giảm tốc độ, nhường đường.",
     "image": null
   },
   {
     "id": 10,
-    "lotus_id": "685d19b65287bf72cd02a0e0",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Điều khiển xe ô tô trong trời mưa, người lái xe phải xử lý như thế nào để bảo đảm an toàn?",
+    "lotus_id": "685d19b98bf4533f2f0e44b0",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Hành vi bỏ trốn sau khi gây tai nạn để trốn tránh trách nhiệm hoặc khi có điều kiện mà cố ý không cứu giúp người bị tai nạn giao thông có bị nghiêm cấm hay không?",
     "options": {
-      "a": "Giảm tốc độ, tăng cường quan sát, không nên phanh gấp, không nên tăng ga hay đánh vô lăng đột ngột, bật đèn chiếu gần, mở chế độ gạt nước ở chế độ phù hợp để đảm bảo quan sát.",
-      "b": "Phanh gấp khi xe đi vào vũng nước và tăng ga ngay sau khi ra khỏi vũng nước.",
-      "c": "Bật đèn chiếu xa, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa."
+      "a": "1-Không bị nghiêm cấm.",
+      "b": "2-Nghiêm cấm tùy từng trường hợp cụ thể.",
+      "c": "3-Bị nghiêm cấm."
     },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Lái xe trời mưa: Giảm tốc, tăng quan sát, không phanh/ga/lái đột ngột, bật đèn gần, gạt nước.",
+    "raw_options": [
+      "1-Không bị nghiêm cấm.",
+      "2-Nghiêm cấm tùy từng trường hợp cụ thể.",
+      "3-Bị nghiêm cấm."
+    ],
+    "correctAnswer": "c",
+    "correctIndex": 3,
+    "explanation": "Bỏ trốn/không cứu giúp sau tai nạn: Bị nghiêm cấm.",
     "image": null
   },
   {
     "id": 11,
-    "lotus_id": "685d19b65287bf72cd02a0e1",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi lùi xe, người lái xe phải xử lý như thế nào để bảo đảm an toàn giao thông?",
+    "lotus_id": "685d19b98bf4533f2f0e44af",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khi sơ cứu ban đầu cho người bị tai nạn giao thông đường bộ không còn hô hấp, người lái xe và người có mặt tại hiện trường vụ tai nạn phải thực hiện các công việc gì dưới đây?",
     "options": {
-      "a": "Quan sát bên trái, bên phải, phía sau xe, có tín hiệu cần thiết và lùi xe với tốc độ phù hợp.",
-      "b": "Quan sát phía trước xe và lùi xe với tốc độ nhanh.",
-      "c": "Quan sát bên trái và phía trước của xe và lùi xe với tốc độ nhanh."
+      "a": "1-Đặt nạn nhân nằm ngửa, khai thông đường thở của nạn nhân; thực hiện các biện pháp hô hấp nhân tạo.",
+      "b": "2-Thực hiện các biện pháp hô hấp nhân tạo."
     },
+    "raw_options": [
+      "1-Đặt nạn nhân nằm ngửa, khai thông đường thở của nạn nhân; thực hiện các biện pháp hô hấp nhân tạo.",
+      "2-Thực hiện các biện pháp hô hấp nhân tạo."
+    ],
     "correctAnswer": "a",
     "correctIndex": 1,
-    "explanation": "Lùi xe an toàn: Quan sát trái/phải/sau, có tín hiệu, lùi tốc độ phù hợp.",
+    "explanation": "Sơ cứu người không hô hấp (TNGT): Nằm ngửa, khai thông đường thở, hô hấp nhân tạo.",
     "image": null
   },
   {
     "id": 12,
-    "lotus_id": "685d19b65287bf72cd02a0e2",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Điều khiển xe ô tô trong khu vực đông dân cư cần lưu ý điều gì dưới đây?",
+    "lotus_id": "685d19b98bf4533f2f0e44ae",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người có mặt tại nơi xảy ra vụ tai giao thông đường bộ có trách nhiệm gì dưới đây?",
     "options": {
-      "a": "Giảm tốc độ đến mức an toàn, quan sát, nhường đường cho người đi bộ, giữ khoảng cách an toàn với các xe phía trước.",
-      "b": "Đi đúng làn đường quy định, chỉ được chuyển làn đường ở nơi cho phép, nhưng phải quan sát.",
-      "c": "Cả hai ý trên."
+      "a": "1-Giúp đỡ, cứu chữa kịp thời người bị nạn; báo tin ngay cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh hoặc Ủy ban nhân dân nơi gần nhất; tham gia bảo vệ hiện trường; tham gia bảo vệ tài sản của người bị nạn; cung cấp thông tin liên quan về vụ tai nạn theo yêu cầu của cơ quan có thẩm quyền.",
+      "b": "2-Chụp lại hình ảnh vụ tai nạn (nếu có thiết bị ghi hình) và nhanh chóng rời khỏi hiện trường vụ tai nạn."
     },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Lái xe khu đông dân cư: Giảm tốc độ an toàn + Đi đúng làn.",
+    "raw_options": [
+      "1-Giúp đỡ, cứu chữa kịp thời người bị nạn; báo tin ngay cho cơ quan Công an, cơ sở khám bệnh, chữa bệnh hoặc Ủy ban nhân dân nơi gần nhất; tham gia bảo vệ hiện trường; tham gia bảo vệ tài sản của người bị nạn; cung cấp thông tin liên quan về vụ tai nạn theo yêu cầu của cơ quan có thẩm quyền.",
+      "2-Chụp lại hình ảnh vụ tai nạn (nếu có thiết bị ghi hình) và nhanh chóng rời khỏi hiện trường vụ tai nạn."
+    ],
+    "correctAnswer": "a",
+    "correctIndex": 1,
+    "explanation": "Người có mặt tại tai nạn: Giúp đỡ/cứu người, báo tin, bảo vệ hiện trường/tài sản, cung cấp thông tin.",
     "image": null
   },
   {
     "id": 13,
-    "lotus_id": "685d19b65287bf72cd02a0e3",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô nhập vào đường cao tốc người lái xe cần thực hiện như thế nào dưới đây để bảo đảm an toàn giao thông?",
+    "lotus_id": "685d19b98bf4533f2f0e44ac",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khi tham gia giao thông việc sử dụng còi xe nên dùng như thế nào để thể hiện là người có văn hóa giao thông?",
     "options": {
-      "a": "Quan sát, phát tín hiệu, nhường đường cho các xe đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì tăng tốc độ cho xe nhập vào làn đường cao tốc, nếu có làn đường tăng tốc thì phải cho xe chạy trên làn đường đó trước khi cho xe nhập vào làn của đường cao tốc.",
-      "b": "Phát tín hiệu, quan sát các xe đang chạy phía trước, nếu bảo đảm các điều kiện an toàn thì tăng tốc độ cho xe nhập ngay vào làn đường cao tốc.",
-      "c": "Phát tín hiệu và lái xe nhập vào làn đường tăng tốc, quan sát các xe phía sau đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì giảm tốc độ, từ từ cho xe nhập vào làn đường cao tốc."
+      "a": "1-Chỉ bấm còi khi thật sự cần thiết, không bấm còi liên tục hoặc kéo dài, sử dụng còi với mức âm lượng theo quy định.",
+      "b": "2-Bấm còi liên tục để các xe khác nhường đường.",
+      "c": "3-Bấm còi to khi đi qua khu vực đông dân cư.",
+      "d": "4-Không cần dùng còi, tránh gây tiếng ồn là văn minh."
     },
+    "raw_options": [
+      "1-Chỉ bấm còi khi thật sự cần thiết, không bấm còi liên tục hoặc kéo dài, sử dụng còi với mức âm lượng theo quy định.",
+      "2-Bấm còi liên tục để các xe khác nhường đường.",
+      "3-Bấm còi to khi đi qua khu vực đông dân cư.",
+      "4-Không cần dùng còi, tránh gây tiếng ồn là văn minh."
+    ],
     "correctAnswer": "a",
     "correctIndex": 1,
-    "explanation": "Nhập làn cao tốc: Quan sát, tín hiệu, nhường xe trên cao tốc.",
+    "explanation": "Sử dụng còi văn hóa: Chỉ khi cần thiết, không liên tục/kéo dài, đúng âm lượng.",
     "image": null
   },
   {
     "id": 14,
-    "lotus_id": "685d19b75287bf72cd02a0e5",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Người lái xe được dừng xe, đỗ xe trên làn dừng khẩn cấp của đường cao tốc trong trường hợp nào dưới đây?",
+    "lotus_id": "685d19b88bf4533f2f0e44a1",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Những hành vi nào sau đây thể hiện là người có văn hóa giao thông?",
     "options": {
-      "a": "Xe gặp sự cố, tai nạn hoặc trường hợp khẩn cấp không thể di chuyển bình thường.",
-      "b": "Để nghỉ ngơi, đi vệ sinh, chụp ảnh, làm việc riêng...",
-      "c": "Cả hai ý trên."
+      "a": "1-Luôn tuân thủ pháp luật về trật tự, an toàn giao thông đường bộ, nhường nhịn và giúp đỡ người khác.",
+      "b": "2-Đi nhanh, vượt đèn đỏ nếu không có lực lượng Công an.",
+      "c": "3-Bấm còi và nháy đèn liên tục để cảnh báo xe khác.",
+      "d": "4-Tránh nhường đường để đi nhanh hơn."
     },
+    "raw_options": [
+      "1-Luôn tuân thủ pháp luật về trật tự, an toàn giao thông đường bộ, nhường nhịn và giúp đỡ người khác.",
+      "2-Đi nhanh, vượt đèn đỏ nếu không có lực lượng Công an.",
+      "3-Bấm còi và nháy đèn liên tục để cảnh báo xe khác.",
+      "4-Tránh nhường đường để đi nhanh hơn."
+    ],
     "correctAnswer": "a",
     "correctIndex": 1,
-    "explanation": "Dừng/đỗ làn khẩn cấp cao tốc: Chỉ khi xe sự cố, tai nạn, khẩn cấp không đi được.",
+    "explanation": "Văn hóa giao thông: Tuân thủ pháp luật, nhường nhịn, giúp đỡ.",
     "image": null
   },
   {
     "id": 15,
-    "lotus_id": "685d19b65287bf72cd02a0d7",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi lái xe ô tô qua đường sắt không có rào chắn, không có người điều khiển giao thông, người lái xe thực hiện thao tác: “giảm tốc độ, dừng lại trước vạch dừng, quan sát cả hai phía, nếu không có tàu đi tới, tăng ga nhẹ vượt qua đường sắt. Nếu thấy có tàu đi tới thì dừng lại trước vạch dừng, chỉ khi tàu đi qua mới được đi” để đảm bảo an toàn là đúng hay không?",
+    "lotus_id": "685d19b98bf4533f2f0e44ab",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Trong các hành vi dưới đây, người lái xe có văn hóa giao thông phải ứng xử như thế nào?",
     "options": {
-      "a": "Không đúng.",
-      "b": "Đúng.",
-      "c": "Không cần thiết, vì nếu nhìn thấy tàu còn cách xa, người lái xe có thể tăng số cao, tăng ga để cho xe nhanh chóng vượt qua đường sắt."
+      "a": "1-Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; dừng, đỗ xe đúng nơi quy định; đã uống rượu, bia thì không lái xe.",
+      "b": "2-Điều khiển xe đi trên phần đường, làn đường có ít phương tiện giao thông; dừng xe, đỗ xe ở nơi thuận tiện hoặc theo yêu cầu của hành khách, của người thân.",
+      "c": "3-Dừng và đỗ xe ở nơi thuận tiện cho việc chuyên chở hành khách và giao nhận hàng hóa; sử dụng ít rượu, bia thì có thể lái xe."
     },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Qua đường sắt không rào chắn: dừng, quan sát, an toàn mới qua là ĐÚNG.",
+    "raw_options": [
+      "1-Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; dừng, đỗ xe đúng nơi quy định; đã uống rượu, bia thì không lái xe.",
+      "2-Điều khiển xe đi trên phần đường, làn đường có ít phương tiện giao thông; dừng xe, đỗ xe ở nơi thuận tiện hoặc theo yêu cầu của hành khách, của người thân.",
+      "3-Dừng và đỗ xe ở nơi thuận tiện cho việc chuyên chở hành khách và giao nhận hàng hóa; sử dụng ít rượu, bia thì có thể lái xe."
+    ],
+    "correctAnswer": "a",
+    "correctIndex": 1,
+    "explanation": "Ứng xử văn hóa khi lái xe: Đi đúng bên phải, đúng phần đường/làn, dừng/đỗ đúng nơi; không rượu bia khi lái xe.",
     "image": null
   },
   {
     "id": 16,
-    "lotus_id": "685d19b75287bf72cd02a0e6",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Trên đường đôi muốn vượt xe kéo rơ moóc phía trước, người lái xe phải xử lý như thế nào?",
+    "lotus_id": "685d19b88bf4533f2f0e44aa",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người lái xe mô tô có văn hóa giao thông khi tham gia giao thông phải tuân thủ những quy định nào dưới đây?",
     "options": {
-      "a": "Giữ khoảng cách an toàn, tránh đi vào vị trí điểm mù của xe kéo rơ moóc, bật xi nhan trái đồng thời kết hợp đèn, còi xin vượt.",
-      "b": "Khi xe kéo rơ moóc đã có tín hiệu cho vượt (không có chướng ngại vật phía trước và xe đi ngược chiều), thấy đủ điều kiện an toàn thì vượt dứt khoát, không di chuyển song song bên cạnh xe kéo rơ moóc.",
-      "c": "Khi vượt qua, phải quan sát gương chiếu hậu bên phải nếu có khoảng trống an toàn mới được cho xe chạy vào làn của mình, tắt xi nhan và tiếp tục hành trình.",
-      "d": "Cả ba ý trên."
+      "a": "1-Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đúng quy chuẩn kỹ thuật quốc gia, cài quai đúng quy cách.",
+      "b": "2-Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông.",
+      "c": "3-Điều khiển xe và đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
     },
-    "correctAnswer": "d",
-    "correctIndex": 4,
-    "explanation": "Vượt xe kéo rơ moóc (đường đôi): Giữ khoảng cách + Chờ tín hiệu cho vượt + Vượt qua thì về lại làn và tắt xi nhan.",
+    "raw_options": [
+      "1-Điều khiển xe đi bên phải theo chiều đi của mình; đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đúng quy chuẩn kỹ thuật quốc gia, cài quai đúng quy cách.",
+      "2-Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông.",
+      "3-Điều khiển xe và đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
+    ],
+    "correctAnswer": "a",
+    "correctIndex": 1,
+    "explanation": "Lái xe mô tô văn hóa: Đi đúng bên phải, đúng phần đường/làn; đội mũ đúng chuẩn, cài quai.",
     "image": null
   },
   {
     "id": 17,
-    "lotus_id": "685d19b75287bf72cd02a0e7",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô xuống đường dốc dài, độ dốc cao, người lái xe số tự động cần thực hiện các thao tác nào dưới đây để bảo đảm an toàn?",
+    "lotus_id": "685d19b88bf4533f2f0e44a9",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người lái xe có văn hóa giao thông khi tham gia giao thông phải tuân thủ những quy định nào dưới đây?",
     "options": {
-      "a": "Nhả bàn đạp ga, về số thấp, đạp phanh chân với mức độ phù hợp để giảm tốc độ.",
-      "b": "Nhả bàn đạp ga, về số N đạp phanh chân và kéo phanh tay để giảm tốc độ."
+      "a": "1-Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm.",
+      "b": "2-Chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông, quy định về tốc độ, tín hiệu đèn, biển báo hiệu, vạch kẻ đường khi lái xe; nhường đường cho người đi bộ, người già, trẻ em, người khuyết tật."
     },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Xuống dốc dài (số tự động): Nhả ga, về số thấp, phanh chân phù hợp.",
+    "raw_options": [
+      "1-Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm.",
+      "2-Chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông, quy định về tốc độ, tín hiệu đèn, biển báo hiệu, vạch kẻ đường khi lái xe; nhường đường cho người đi bộ, người già, trẻ em, người khuyết tật."
+    ],
+    "correctAnswer": "b",
+    "correctIndex": 2,
+    "explanation": "Lái xe văn hóa tuân thủ: Hiệu lệnh người ĐKGT, tốc độ, đèn, biển báo, vạch kẻ; nhường đường người đi bộ/già/trẻ/khuyết tật.",
     "image": null
   },
   {
     "id": 18,
-    "lotus_id": "685d19b75287bf72cd02a0e8",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi đi từ đường nhánh ra đường chính, người lái xe phải xử lý như thế nào là đúng?",
+    "lotus_id": "685d19b88bf4533f2f0e44a8",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người lái xe có văn hóa giao thông khi tham gia giao thông đường bộ phải đáp ứng các điều kiện nào dưới đây?",
     "options": {
-      "a": "Quan sát, giảm tốc độ, phát tín hiệu, nhường đường cho xe trên đường chính từ bất kỳ hướng nào tới.",
-      "b": "Nháy đèn, bấm còi để xe đi trên đường chính biết và tăng tốc độ cho xe đi ra đường chính.",
-      "c": "Quan sát xe đang đi trên đường chính, nếu là xe có kích thước lớn hơn thì nhường đường, xe có kích thước nhỏ hơn thì tăng tốc độ cho xe đi ra đường chính."
+      "a": "1-Hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông đường bộ; có ý thức trách nhiệm với cộng đồng khi tham gia giao thông; tôn trọng, nhường nhịn, giúp đỡ và ứng xử có văn hóa với những người cùng tham gia giao thông.",
+      "b": "2-Điều khiển xe vượt quá tốc độ, đi không đúng làn đường."
     },
+    "raw_options": [
+      "1-Hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông đường bộ; có ý thức trách nhiệm với cộng đồng khi tham gia giao thông; tôn trọng, nhường nhịn, giúp đỡ và ứng xử có văn hóa với những người cùng tham gia giao thông.",
+      "2-Điều khiển xe vượt quá tốc độ, đi không đúng làn đường."
+    ],
     "correctAnswer": "a",
     "correctIndex": 1,
-    "explanation": "Từ đường nhánh ra đường chính: Quan sát, giảm tốc, tín hiệu, nhường xe đường chính.",
+    "explanation": "Lái xe văn hóa: Hiểu và chấp hành luật, ý thức trách nhiệm, tôn trọng, nhường nhịn, giúp đỡ, ứng xử văn hóa.",
     "image": null
   },
   {
     "id": 19,
-    "lotus_id": "685d19b75287bf72cd02a0e9",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi đang lái xe mô tô hoặc ô tô, nếu có nhu cầu sử dụng điện thoại để nhắn tin hoặc gọi điện, người lái xe phải thực hiện như thế nào trong các tình huống nêu dưới đây?",
+    "lotus_id": "685d19b88bf4533f2f0e44a7",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
     "options": {
-      "a": "Giảm tốc độ để bảo đảm an toàn với xe phía trước và sử dụng điện thoại để liên lạc.",
-      "b": "Giảm tốc độ để dừng xe ở nơi cho phép sau đó sử dụng điện thoại để liên lạc.",
-      "c": "Tăng tốc độ để cách xa xe phía sau và sử dụng điện thoại để liên lạc."
+      "a": "1-Thực hiện cầm máu trực tiếp.",
+      "b": "2-Thực hiện cầm máu không trực tiếp (chặn động mạch)."
     },
+    "raw_options": [
+      "1-Thực hiện cầm máu trực tiếp.",
+      "2-Thực hiện cầm máu không trực tiếp (chặn động mạch)."
+    ],
     "correctAnswer": "b",
     "correctIndex": 2,
-    "explanation": "Muốn dùng điện thoại khi lái xe: Giảm tốc độ, dừng xe nơi cho phép rồi mới dùng.",
+    "explanation": "Máu phun thành tia (tai nạn GT): Cầm máu không trực tiếp (chặn động mạch).",
     "image": null
   },
   {
     "id": 20,
-    "lotus_id": "685d19b75287bf72cd02a0ea",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Những thói quen nào dưới đây khi điều khiển xe mô tô tay ga tham gia giao thông dễ gây tai nạn nguy hiểm?",
+    "lotus_id": "685d19b88bf4533f2f0e44a6",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người lái xe không điều khiển xe đi đúng làn đường quy định, phóng nhanh, vượt ẩu, vượt đèn đỏ, đi vào đường cấm được coi là hành vi nào trong các hành vi dưới đây?",
     "options": {
-      "a": "Sử dụng còi.",
-      "b": "Phanh đồng thời cả phanh trước và phanh sau.",
-      "c": "Chỉ sử dụng phanh trước."
+      "a": "1-Là thiếu văn hóa giao thông, vi phạm pháp luật về trật tự, an toàn giao thông đường bộ.",
+      "b": "2-Là thiếu văn hóa giao thông."
     },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Thói quen nguy hiểm (xe tay ga): Chỉ dùng phanh trước.",
+    "raw_options": [
+      "1-Là thiếu văn hóa giao thông, vi phạm pháp luật về trật tự, an toàn giao thông đường bộ.",
+      "2-Là thiếu văn hóa giao thông."
+    ],
+    "correctAnswer": "a",
+    "correctIndex": 1,
+    "explanation": "Sai làn, phóng nhanh, vượt ẩu/đèn đỏ, vào đường cấm = Thiếu văn hóa + Vi phạm pháp luật.",
     "image": null
   },
   {
     "id": 21,
-    "lotus_id": "685d19b75287bf72cd02a0eb",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Người ngồi trên xe ô tô cần thực hiện những thao tác mở cửa như thế nào dưới đây để xuống xe để bảo đảm an toàn?",
+    "lotus_id": "685d19b88bf4533f2f0e44a5",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Trên làn đường dành cho ô tô có vũng nước lớn, người lái xe ô tô bắt buộc phải đi qua vũng nước, trên làn đường bên cạnh có nhiều người đang lái xe mô tô tham gia giao thông, người lái xe ô tô xử lý như thế nào khi lái xe qua vũng nước là có văn hóa giao thông?",
     "options": {
-      "a": "Quan sát phía trước, phía sau và bên phía mở cửa để phát hiện các phương tiện đang di chuyển tới gần, khi đủ điều kiện an toàn, mở hé cửa, sau đó mở ở mức cần thiết để xuống xe.",
-      "b": "Quan sát tình hình giao thông phía trước, không cần quan sát phía sau và bên mở cửa; mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô."
+      "a": "1-Cho xe chạy thật nhanh qua vũng nước.",
+      "b": "2-Giảm tốc độ cho xe chạy chậm qua vũng nước.",
+      "c": "3-Giảm tốc độ cho xe chạy qua làn đường dành cho mô tô để tránh vũng nước."
     },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Mở cửa ô tô xuống xe: Quan sát, an toàn thì mở hé, rồi mở đủ.",
+    "raw_options": [
+      "1-Cho xe chạy thật nhanh qua vũng nước.",
+      "2-Giảm tốc độ cho xe chạy chậm qua vũng nước.",
+      "3-Giảm tốc độ cho xe chạy qua làn đường dành cho mô tô để tránh vũng nước."
+    ],
+    "correctAnswer": "b",
+    "correctIndex": 2,
+    "explanation": "Qua vũng nước (có xe máy bên cạnh): Giảm tốc độ, chạy chậm.",
     "image": null
   },
   {
     "id": 22,
-    "lotus_id": "685d19b75287bf72cd02a0ec",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe mô tô quay đầu, người lái xe cần thực hiện như thế nào để bảo đảm an toàn?",
+    "lotus_id": "685d19b88bf4533f2f0e44a4",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khái niệm về văn hóa giao thông được hiểu như thế nào là đúng?",
     "options": {
-      "a": "Bật tín hiệu báo rẽ trước khi quay đầu, từ từ giảm tốc độ đến mức có thể dừng lại.",
-      "b": "Chỉ quay đầu xe tại những nơi được phép quay đầu.",
-      "c": "Quan sát an toàn các phương tiện tới từ phía trước, phía sau, hai bên đồng thời nhường đường cho xe từ bên phải và phía trước đi tới.",
-      "d": "Cả ba ý trên."
+      "a": "1-Là sự hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông, là ý thức trách nhiệm với cộng đồng khi tham gia giao thông.",
+      "b": "2-Là sự tôn trọng, nhường nhịn, giúp đỡ và ứng xử có văn hóa giữa những người tham gia giao thông với nhau.",
+      "c": "3-Cả hai ý trên."
     },
-    "correctAnswer": "d",
-    "correctIndex": 4,
-    "explanation": "Xe mô tô quay đầu: Tín hiệu trước, giảm tốc + Chỉ nơi cho phép + Quan sát, nhường đường.",
+    "raw_options": [
+      "1-Là sự hiểu biết và chấp hành nghiêm chỉnh pháp luật về giao thông, là ý thức trách nhiệm với cộng đồng khi tham gia giao thông.",
+      "2-Là sự tôn trọng, nhường nhịn, giúp đỡ và ứng xử có văn hóa giữa những người tham gia giao thông với nhau.",
+      "3-Cả hai ý trên."
+    ],
+    "correctAnswer": "c",
+    "correctIndex": 3,
+    "explanation": "Văn hóa giao thông = Hiểu biết và chấp hành luật, ý thức trách nhiệm + Tôn trọng, nhường nhịn, giúp đỡ, ứng xử văn hóa.",
     "image": null
   },
   {
     "id": 23,
-    "lotus_id": "685d19b75287bf72cd02a0ed",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Tay ga trên xe mô tô hai bánh có tác dụng gì dưới đây?",
+    "lotus_id": "685d19b88bf4533f2f0e44a3",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người lái xe ô tô vận chuyển hành khách phải có những phẩm chất, đạo đức nghề nghiệp gì dưới đây?",
     "options": {
-      "a": "Để điều khiển xe chạy về phía trước.",
-      "b": "Để điều tiết công suất động cơ qua đó điều khiển tốc độ của xe.",
-      "c": "Để điều khiển xe chạy lùi.",
-      "d": "Ý 1 và ý 2."
+      "a": "1-Phải có thái độ lịch sự, tôn trọng, thân mật với hành khách; giúp đỡ những người có hoàn cảnh khó khăn, người già, người khuyết tật, phụ nữ có thai, có con nhỏ và trẻ em.",
+      "b": "2-Luôn tu dưỡng bản thân, có lối sống lành mạnh, khiêm tốn, có tác phong làm việc công nghiệp, không tham gia vào các tệ nạn xã hội; tôn trọng người cùng tham gia giao thông đường bộ và có ý thức bảo vệ môi trường.",
+      "c": "3-Cả hai ý trên."
     },
-    "correctAnswer": "d",
-    "correctIndex": 4,
-    "explanation": "Tay ga xe mô tô: Điều khiển xe chạy về trước + Điều khiển tốc độ.",
+    "raw_options": [
+      "1-Phải có thái độ lịch sự, tôn trọng, thân mật với hành khách; giúp đỡ những người có hoàn cảnh khó khăn, người già, người khuyết tật, phụ nữ có thai, có con nhỏ và trẻ em.",
+      "2-Luôn tu dưỡng bản thân, có lối sống lành mạnh, khiêm tốn, có tác phong làm việc công nghiệp, không tham gia vào các tệ nạn xã hội; tôn trọng người cùng tham gia giao thông đường bộ và có ý thức bảo vệ môi trường.",
+      "3-Cả hai ý trên."
+    ],
+    "correctAnswer": "c",
+    "correctIndex": 3,
+    "explanation": "Lái xe khách về đạo đức: Lịch sự, giúp đỡ khách; Tu dưỡng bản thân, tôn trọng người khác, bảo vệ môi trường.",
     "image": null
   },
   {
     "id": 24,
-    "lotus_id": "685d19b75287bf72cd02a0ee",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Gương chiếu hậu của xe mô tô hai bánh có tác dụng gì dưới đây?",
+    "lotus_id": "685d19b88bf4533f2f0e44a2",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Người lái xe kinh doanh vận tải cần thực hiện những công việc gì ghi ở dưới đây để thường xuyên rèn luyện nâng cao đạo đức nghề nghiệp?",
     "options": {
-      "a": "Để quan sát an toàn phía bên trái khi chuẩn bị rẽ trái.",
-      "b": "Để quan sát an toàn phía bên phải khi chuẩn bị rẽ phải.",
-      "c": "Để quan sát an toàn phía sau của bên trái và bên phải trước khi chuyển hướng.",
-      "d": "Để quan sát an toàn phía trước cả bên trái và bên phải trước khi chuyển hướng."
+      "a": "1-Quản lý và sử dụng xe tốt; bảo dưỡng xe đúng định kỳ; thực hành tiết kiệm vật tư, nhiên liệu; luôn tu dưỡng bản thân, có lối sống lành mạnh, tác phong làm việc công nghiệp.",
+      "b": "2-Nắm vững và tự giác chấp hành các quy định của pháp luật về trật tự, an toàn giao thông đường bộ, lái xe an toàn; thực hiện đầy đủ trách nhiệm với khách hàng; có ý thức tổ chức kỷ luật và xây dựng doanh nghiệp vững mạnh; có tinh thần hợp tác, tương trợ, giúp đỡ đồng nghiệp.",
+      "c": "3-Cả hai ý trên."
     },
+    "raw_options": [
+      "1-Quản lý và sử dụng xe tốt; bảo dưỡng xe đúng định kỳ; thực hành tiết kiệm vật tư, nhiên liệu; luôn tu dưỡng bản thân, có lối sống lành mạnh, tác phong làm việc công nghiệp.",
+      "2-Nắm vững và tự giác chấp hành các quy định của pháp luật về trật tự, an toàn giao thông đường bộ, lái xe an toàn; thực hiện đầy đủ trách nhiệm với khách hàng; có ý thức tổ chức kỷ luật và xây dựng doanh nghiệp vững mạnh; có tinh thần hợp tác, tương trợ, giúp đỡ đồng nghiệp.",
+      "3-Cả hai ý trên."
+    ],
     "correctAnswer": "c",
     "correctIndex": 3,
-    "explanation": "Gương chiếu hậu xe mô tô: Quan sát an toàn sau trái, phải trước khi chuyển hướng.",
+    "explanation": "Rèn luyện đạo đức lái xe KDVT: Quản lý xe tốt, tu dưỡng bản thân, chấp hành luật, trách nhiệm với khách, hợp tác.",
     "image": null
   },
   {
     "id": 25,
-    "lotus_id": "685d19b75287bf72cd02a0ef",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Để bảo đảm an toàn khi tham gia giao thông, người lái xe mô tô hai bánh cần điều khiển tay ga như thế nào?",
+    "lotus_id": "685d19b98bf4533f2f0e44b8",
+    "category": "Đạo đức người lái xe, văn hóa giao thông và kỹ năng PCCC và cứu nạn cứu hộ",
+    "question": "Khi gặp nạn nhân bị bỏng trong vụ tai nạn giao thông, người lái xe cần làm gì?",
     "options": {
-      "a": "Tăng ga thật mạnh, giảm ga từ từ.",
-      "b": "Tăng ga thật mạnh, giảm ga thật nhanh.",
-      "c": "Tăng ga từ từ, giảm ga thật nhanh.",
-      "d": "Tăng ga từ từ, giảm ga từ từ."
+      "a": "1-Gọi số 115 để thông báo về tình trạng tai nạn và yêu cầu hỗ trợ y tế ngay lập tức. Quan sát hiện trường để giúp nạn nhân, đồng thời tránh gây tổn thương cho mình.",
+      "b": "2-Nhanh chóng loại bỏ nguyên nhân gây bỏng bằng cách tách nạn nhân khỏi vật gây cháy, cởi bỏ quần áo nếu bén lửa, ngâm vùng da bị bỏng vào nước sạch hoặc đắp khăn mát, lưu ý không dùng khăn hoặc nước quá lạnh.",
+      "c": "3-Nếu nạn nhân còn tỉnh, cần cho uống bù nước. Trong thời tiết lạnh, cần giữ ấm cho cơ thể nạn nhân, sau đó nhanh chóng đưa đến cơ sở y tế gần nhất.",
+      "d": "4-Cả ba ý trên."
     },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Điều khiển tay ga mô tô an toàn: Tăng từ từ, giảm nhanh.",
-    "image": null
-  },
-  {
-    "id": 26,
-    "lotus_id": "685d19b75287bf72cd02a0f0",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Để tránh đổ, ngã khi điều khiển xe mô tô hai bánh ở nơi đường xấu, nhỏ và hẹp, người lái xe cần xử lý như thế nào?",
-    "options": {
-      "a": "Đi ở tốc độ thấp, quan sát liên tục khoảng cách từ 05 m đến 10 m phía trước để điều chỉnh sớm hướng di chuyển.",
-      "b": "Trong quá trình di chuyển không nên dùng phanh trước tránh làm khóa bánh dẫn hướng.",
-      "c": "Không được lắc người sang trái hoặc phải nhiều, trọng tâm cơ thể cần trùng với trọng tâm của xe.",
-      "d": "Cả ba ý trên."
-    },
+    "raw_options": [
+      "1-Gọi số 115 để thông báo về tình trạng tai nạn và yêu cầu hỗ trợ y tế ngay lập tức. Quan sát hiện trường để giúp nạn nhân, đồng thời tránh gây tổn thương cho mình.",
+      "2-Nhanh chóng loại bỏ nguyên nhân gây bỏng bằng cách tách nạn nhân khỏi vật gây cháy, cởi bỏ quần áo nếu bén lửa, ngâm vùng da bị bỏng vào nước sạch hoặc đắp khăn mát, lưu ý không dùng khăn hoặc nước quá lạnh.",
+      "3-Nếu nạn nhân còn tỉnh, cần cho uống bù nước. Trong thời tiết lạnh, cần giữ ấm cho cơ thể nạn nhân, sau đó nhanh chóng đưa đến cơ sở y tế gần nhất.",
+      "4-Cả ba ý trên."
+    ],
     "correctAnswer": "d",
     "correctIndex": 4,
-    "explanation": "Tránh ngã xe máy (đường xấu/hẹp): Tốc độ thấp + Không nên dùng phanh trước + Không lắc người.",
-    "image": null
-  },
-  {
-    "id": 27,
-    "lotus_id": "685d19b75287bf72cd02a0f1",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi lái xe ô tô điện xuống dốc dài, đổ đèo, người lái xe cần chú ý những vấn đề gì để bảo đảm an toàn?",
-    "options": {
-      "a": "Kiểm tra hệ thống an toàn, pin của xe trước khi xuất phát.",
-      "b": "Nhả chân ga để phanh tái sinh hoạt động.",
-      "c": "Rà phanh chân để kịp thời xử lý tình huống khẩn cấp.",
-      "d": "Cả ba ý trên."
-    },
-    "correctAnswer": "d",
-    "correctIndex": 4,
-    "explanation": "Lái ô tô điện xuống dốc dài/đèo: Kiểm tra hệ thống an toàn/pin + Nhả ga + Rà phanh chân.",
-    "image": null
-  },
-  {
-    "id": 28,
-    "lotus_id": "685d19b65287bf72cd02a0d8",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô có hộp số tự động đi vào đường trơn trượt, lầy lội, người lái xe phải xử lý như thế nào để đảm bảo an toàn?",
-    "options": {
-      "a": "Về số thấp, kết hợp phanh chân để giảm tốc độ.",
-      "b": "Giữ nguyên tay số D, kết hợp phanh đỗ để giảm tốc độ.",
-      "c": "Về số N (số 0), kết hợp phanh chân để giảm tốc độ."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Xe số tự động (đường trơn/lầy): Về số thấp, kết hợp phanh chân giảm tốc.",
-    "image": null
-  },
-  {
-    "id": 29,
-    "lotus_id": "685d19b55287bf72cd02a0d6",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô qua đường sắt không có rào chắn, không có người điều khiển giao thông, người lái xe phải xử lý như thế nào?",
-    "options": {
-      "a": "Giảm tốc độ, dừng lại trước vạch dừng, quan sát cả hai phía, nếu không có tàu đi tới, tăng ga nhẹ vượt qua đường sắt.",
-      "b": "Nếu thấy có tàu đi tới thì dừng lại trước vạch dừng, chỉ khi tàu đi qua mới được đi.",
-      "c": "Cả hai ý trên."
-    },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Qua đường sắt không rào chắn: Giảm tốc + Nếu có tàu: dừng hẳn chờ tàu qua.",
-    "image": null
-  },
-  {
-    "id": 30,
-    "lotus_id": "685d19b45287bf72cd02a0ba",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi vào số để khởi hành xe ô tô có số tự động, người lái xe phải thực hiện các thao tác nào để bảo đảm an toàn?",
-    "options": {
-      "a": "Đạp bàn đạp phanh chân hết hành trình, vào số và nhả phanh đỗ, kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.",
-      "b": "Đạp bàn đạp để tăng ga với mức độ phù hợp, vào số và kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Khởi hành xe số tự động: Đạp phanh chân hết cỡ, vào số, nhả phanh đỗ, kiểm tra số rồi mới lăn bánh.",
-    "image": null
-  },
-  {
-    "id": 31,
-    "lotus_id": "685d19b55287bf72cd02a0c7",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô tự đổ, người lái xe cần chú ý những điểm gì để bảo đảm an toàn?",
-    "options": {
-      "a": "Khi chạy trên đường xấu, nhiều ổ gà nên chạy chậm để thùng xe không bị lắc mạnh, không gây hiện tượng lệch “ben”; khi chạy vào đường vòng, cần giảm tốc độ, không lấy lái gấp và không phanh gấp.",
-      "b": "Khi chạy trên đường quốc lộ, đường bằng phẳng không cần hạ hết thùng xe xuống.",
-      "c": "Khi đổ hàng phải chọn vị trí có nền đường cứng và phẳng, dừng hẳn xe, kéo hết phanh đỗ; sau đó mới điều khiển cơ cấu nâng “ben” để đổ hàng, đổ xong hàng mới hạ thùng xuống.",
-      "d": "Ý 1 và ý 3."
-    },
-    "correctAnswer": "d",
-    "correctIndex": 4,
-    "explanation": "Lái xe tự đổ: Chạy chậm đường xấu + Khi đổ hàng phải chọn vị trí.",
-    "image": null
-  },
-  {
-    "id": 32,
-    "lotus_id": "685d19b45287bf72cd02a0bb",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi nhả phanh đỗ cơ khí điều khiển bằng tay (phanh tay), người lái xe cần phải thực hiện các thao tác nào?",
-    "options": {
-      "a": "Dùng lực tay phải kéo cần phanh tay về phía sau hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh phanh tay về phía trước, sau đó bóp khóa hãm.",
-      "b": "Dùng lực tay phải bóp khóa hãm đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải kéo cần phanh tay về phía sau đồng thời bóp khóa hãm.",
-      "c": "Dùng lực tay phải đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh phanh tay về phía trước, sau đó bóp khóa hãm."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Nhả phanh tay: Bóp khóa hãm, đẩy cần về trước; (kẹt) kéo lại đồng thời bóp khóa.",
-    "image": null
-  },
-  {
-    "id": 33,
-    "lotus_id": "685d19b45287bf72cd02a0bc",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi khởi hành ô tô sử dụng hộp số cơ khí trên đường bằng, người lái xe cần thực hiện các thao tác nào theo trình tự dưới đây?",
-    "options": {
-      "a": "Kiểm tra an toàn xung quanh xe ô tô; nhả từ từ đến 1/2 hành trình bàn đạp ly hợp (côn) và giữ trong khoảng 3 giây; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát, sau đó vừa tăng ga vừa nhả hết côn để cho xe ô tô chuyển động.",
-      "b": "Kiểm tra an toàn xung quanh xe ô tô; đạp ly hợp (côn) hết hành trình; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát; nhả từ từ đến 1/2 hành trình bàn đạp côn và giữ trong khoảng 3 giây, sau đó vừa tăng ga vừa nhả hết côn để cho xe ô tô chuyển động."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Khởi hành xe số sàn (đường bằng): Kiểm tra an toàn; Đạp côn hết cỡ; Vào số 1; Nhả phanh tay, báo hiệu; Ga đủ, nhả côn từ từ (giữ 1/2 khoảng 3s) rồi nhả hết.",
-    "image": null
-  },
-  {
-    "id": 34,
-    "lotus_id": "685d19b45287bf72cd02a0bd",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi quay đầu xe, người lái xe cần phải quan sát và thực hiện các thao tác nào để bảo đảm an toàn giao thông?",
-    "options": {
-      "a": "Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe cho thích hợp; quay đầu xe với tốc độ thấp; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đầu xe về phía nguy hiểm, đưa đuôi xe về phía an toàn.",
-      "b": "Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe; quay đầu xe với tốc độ tối đa; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đuôi xe về phía nguy hiểm và đầu xe về phía an toàn."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Quay đầu xe an toàn: Quay đầu xe với tốc độ thấp.",
-    "image": null
-  },
-  {
-    "id": 35,
-    "lotus_id": "685d19b45287bf72cd02a0be",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi ngồi lái ô tô tư thế chân, lưng, tay của người lái xe như thế nào là đúng để bảo đảm an toàn và thoải mái?",
-    "options": {
-      "a": "Điều chỉnh ghế sao cho chân có thể đạp phanh và ga dễ dàng, ngồi thẳng lưng, hai tay nắm vô lăng, tay trái nắm ở vị trí 9 đến 10 giờ và tay phải nắm ở vị trí từ 2 đến 4 giờ.",
-      "b": "Ngồi sát vô lăng để dễ quan sát hoặc ngồi tự do, không cần điều chỉnh ghế.",
-      "c": "Ngồi ngả người về phía sau nhiều để thư giãn, chân trái để ở vị trí chân ga, hai tay nắm vô lăng ở vị trí bất kỳ."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Tư thế lái đúng: Chân đạp phanh/ga dễ, lưng thẳng, tay nắm vô lăng (trái 9-10h, phải 2-4h).",
-    "image": null
-  },
-  {
-    "id": 36,
-    "lotus_id": "685d19b45287bf72cd02a0bf",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển ô tô lên dốc cao, người lái xe cần thực hiện các thao tác nào dưới đây để bảo đảm an toàn?",
-    "options": {
-      "a": "Tăng lên số cao từ chân dốc, điều chỉnh ga cho xe nhanh lên dốc; đến gần đỉnh dốc phải tăng ga để xe nhanh chóng qua dốc; về số thấp, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",
-      "b": "Về số thấp từ chân dốc, điều chỉnh ga cho xe từ từ lên dốc; đến gần đỉnh dốc phải đi chậm, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Lên dốc cao: Về số thấp từ chân dốc.",
-    "image": null
-  },
-  {
-    "id": 37,
-    "lotus_id": "685d19b45287bf72cd02a0c0",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển ô tô xuống dốc dài, người lái xe cần thực hiện các thao tác nào dưới đây để bảo đảm an toàn?",
-    "options": {
-      "a": "Tăng lên số cao, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",
-      "b": "Về số thấp, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",
-      "c": "Về số không (0), nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Xuống dốc dài: Về số thấp.",
-    "image": null
-  },
-  {
-    "id": 38,
-    "lotus_id": "685d19b45287bf72cd02a0c1",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi xuống dốc, muốn dừng xe, người lái xe cần thực hiện các thao tác nào để bảo đảm an toàn?",
-    "options": {
-      "a": "Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số 1, đạp 1/2 ly hợp (côn) cho xe đến chỗ dừng; khi xe đã dừng, về số không (N), đạp phanh chân, sử dụng phanh đỗ.",
-      "b": "Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên trái; đạp hết hành trình ly hợp (côn) và nhả bàn đạp ga để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được tại chỗ dừng; khi xe đã dừng, đạp và giữ phanh chân.",
-      "c": "Có tín hiệu rẽ trái, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số không (N) để xe đi đến chỗ dừng, khi xe đã dừng, sử dụng phanh đỗ."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Dừng xe khi xuống dốc: Tín hiệu rẽ phải, sát lề phải.",
-    "image": null
-  },
-  {
-    "id": 39,
-    "lotus_id": "685d19b45287bf72cd02a0c2",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe trên đường vòng người lái xe cần phải làm gì để bảo đảm an toàn?",
-    "options": {
-      "a": "Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; giảm tốc độ tới mức cần thiết, về số thấp và thực hiện quay vòng với tốc độ phù hợp với bán kính cong của đường vòng.",
-      "b": "Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; tăng tốc để nhanh chóng qua đường vòng và giảm tốc độ sau khi qua đường vòng."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Đi đường vòng: Giảm tốc độ, về số thấp.",
-    "image": null
-  },
-  {
-    "id": 40,
-    "lotus_id": "685d19b45287bf72cd02a0c3",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô rẽ phải, người lái xe cần thực hiện các thao tác nào để bảo đảm an toàn?",
-    "options": {
-      "a": "Có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe sang làn đường bên trái; giảm tốc độ và quan sát an toàn phía bên phải để điều khiển xe qua chỗ đường giao nhau.",
-      "b": "Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; giảm tốc độ, quan sát an toàn phía trước, sau, bên phải và điều khiển xe từ từ rẽ phải.",
-      "c": "Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe bám sát vào phía phải đường; tăng tốc độ và quan sát an toàn phía bên trái để điều khiển xe qua chỗ đường giao nhau."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Rẽ phải ô tô: Tín hiệu rẽ phải sớm, giảm tốc độ.",
-    "image": null
-  },
-  {
-    "id": 41,
-    "lotus_id": "685d19b45287bf72cd02a0c4",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô rẽ trái, người lái xe cần thực hiện các thao tác nào để bảo đảm an toàn?",
-    "options": {
-      "a": "Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ trái; giảm tốc độ, quan sát an toàn xung quanh đặc biệt là bên trái; đổi sang làn đường bên trái và điều khiển xe từ từ rẽ trái.",
-      "b": "Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ trái, tăng tốc độ để xe nhanh chóng qua chỗ đường giao nhau; có tín hiệu xin đổi làn đường; quan sát an toàn xung quanh đặc biệt là bên trái; đổi làn đường sang phải để mở rộng vòng cua."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Rẽ trái ô tô: Tín hiệu rẽ trái sớm, giảm tốc độ.",
-    "image": null
-  },
-  {
-    "id": 42,
-    "lotus_id": "685d19b45287bf72cd02a0c5",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe sử dụng hộp số cơ khí vượt qua rãnh lớn cắt ngang mặt đường, người lái xe cần thực hiện các thao tác nào để đảm bảo an toàn?",
-    "options": {
-      "a": "Vào số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tăng số, tăng tốc độ để bánh xe sau vượt qua rãnh.",
-      "b": "Tăng ga, tăng số để hai bánh xe trước và bánh xe sau vượt qua khỏi rãnh và chạy bình thường.",
-      "c": "Vào số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tiếp tục để bánh xe sau từ từ xuống rãnh rồi tăng dần ga cho xe ô tô lên khỏi rãnh."
-    },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Qua rãnh lớn (số sàn): Về số 1, từ từ và KHÔNG tăng số.",
-    "image": null
-  },
-  {
-    "id": 43,
-    "lotus_id": "685d19b45287bf72cd02a0c6",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe qua đường sắt, người lái xe cần phải thực hiện các thao tác nào dưới đây để bảo đảm an toàn?",
-    "options": {
-      "a": "Khi có chuông báo hoặc thanh chắn đã hạ xuống, người lái xe phải dừng xe tạm thời đúng khoảng cách an toàn, kéo phanh tay nếu đường dốc hoặc phải chờ lâu.",
-      "b": "Khi không có chuông báo hoặc thanh chắn không hạ xuống, người lái xe cần phải quan sát nếu thấy đủ điều kiện an toàn thì về số thấp, tăng ga nhẹ và không thay đổi số trong quá trình vượt qua đường sắt để tránh động cơ chết máy cho xe cho vượt qua.",
-      "c": "Cả hai ý trên."
-    },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Qua đường sắt: (Có chuông/chắn hạ) Dừng an toàn, kéo phanh tay nếu chờ lâu + (Không chuông/chắn) Quan sát, an toàn thì về số thấp, ga nhẹ, không đổi số khi qua.",
-    "image": null
-  },
-  {
-    "id": 44,
-    "lotus_id": "685d19b55287bf72cd02a0c8",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe tăng số, người lái xe cần chú ý những điểm gì để bảo đảm an toàn?",
-    "options": {
-      "a": "Không được nhìn xuống buồng lái, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, chính xác.",
-      "b": "Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, vù ga phải phù hợp với tốc độ."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Tăng số: Không nhìn xuống buồng lái.",
-    "image": null
-  },
-  {
-    "id": 45,
-    "lotus_id": "685d19b55287bf72cd02a0d5",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi đã đỗ xe ô tô sát lề đường bên phải, người lái xe phải thực hiện các thao tác nào dưới đây khi mở cửa xuống xe để đảm bảo an toàn?",
-    "options": {
-      "a": "Quan sát tình hình giao thông phía trước, phía sau và phía bên mở cửa xe, mở hé cánh cửa, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.",
-      "b": "Mở cánh cửa và quan sát tình hình giao thông phía trước, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.",
-      "c": "Mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Mở cửa xe: Mở hé cửa, an toàn mới mở đủ để xuống.",
-    "image": null
-  },
-  {
-    "id": 46,
-    "lotus_id": "685d19b55287bf72cd02a0c9",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe giảm số, người lái xe cần phải chú ý những điểm gì để bảo đảm an toàn?",
-    "options": {
-      "a": "Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải giảm thứ tự từ cao xuống thấp, phối hợp các động tác phải nhịp nhàng, chính xác.",
-      "b": "Không được nhìn xuống buồng lái, cần phải giảm thứ tự từ cao xuống thấp, phối hợp các động tác phải nhịp nhàng, chính xác, vù ga phải phù hợp với tốc độ."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Giảm số: Không nhìn xuống buồng lái.",
-    "image": null
-  },
-  {
-    "id": 47,
-    "lotus_id": "685d19b55287bf72cd02a0ca",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Để giảm tốc độ khi ô tô đi xuống đường dốc dài, người lái xe phải thực hiện các thao tác nào để bảo đảm an toàn?",
-    "options": {
-      "a": "Nhả bàn đạp ga, đạp ly hợp (côn) hết hành trình, đạp mạnh phanh chân để giảm tốc độ.",
-      "b": "Về số thấp phù hợp, nhả bàn đạp ga, kết hợp đạp phanh chân với mức độ phù hợp để giảm tốc độ.",
-      "c": "Nhả bàn đạp ga, tăng lên số cao, đạp phanh chân với mức độ phù hợp để giảm tốc độ."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Giảm tốc độ xuống dốc dài: Về số thấp.",
-    "image": null
-  },
-  {
-    "id": 48,
-    "lotus_id": "685d19b55287bf72cd02a0cb",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển ô tô qua đường ngập nước, người lái xe cần thực hiện các thao tác nào để đảm bảo an toàn?",
-    "options": {
-      "a": "Tăng lên số cao, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
-      "b": "Đạp ly hợp (côn) hết hành trình, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
-      "c": "Quan sát, ước lượng độ ngập nước mà xe ô tô có thể vượt qua an toàn, về số thấp, giữ đều ga và giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước."
-    },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Qua đường ngập nước: Ước lượng độ ngập, về số thấp, giữ đều ga, vững tay lái.",
-    "image": null
-  },
-  {
-    "id": 49,
-    "lotus_id": "685d19b55287bf72cd02a0cc",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô tới gần xe chạy ngược chiều vào ban đêm, người lái xe cần thực hiện các thao tác nào để bảo đảm an toàn?",
-    "options": {
-      "a": "Chuyển từ đèn chiếu xa sang đèn chiếu gần; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.",
-      "b": "Chuyển từ đèn chiếu gần sang đèn chiếu xa; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.",
-      "c": "Chuyển từ đèn chiếu xa sang đèn chiếu gần; nhìn thẳng vào đèn của xe chạy ngược chiều để tránh xe bảo đảm an toàn."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Gặp xe ngược chiều ban đêm: Chuyển đèn xa về gần; không nhìn thẳng đèn xe đối diện, nhìn chếch phải.",
-    "image": null
-  },
-  {
-    "id": 50,
-    "lotus_id": "685d19b55287bf72cd02a0cd",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi điều khiển xe ô tô trên đường trơn cần chú ý những điểm gì để bảo đảm an toàn?",
-    "options": {
-      "a": "Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, giữ đều ga, đánh lái ngoặt và phanh gấp khi cần thiết.",
-      "b": "Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, gài cầu (nếu có), giữ đều ga, không lấy nhiều lái, không đánh lái ngoặt và phanh gấp."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Lái xe đường trơn: Gài cầu (nếu có), đều ga, không lấy nhiều lái/đánh lái ngoặt/phanh gấp.",
-    "image": null
-  },
-  {
-    "id": 51,
-    "lotus_id": "685d19b55287bf72cd02a0ce",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?",
-    "options": {
-      "a": "Đang sử dụng phanh đỗ.",
-      "b": "Nhiệt độ nước làm mát quá mức cho phép.",
-      "c": "Cửa xe đang mở."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "BRAKE hiển thị thì đang sử dụng phanh đỗ xe (phanh tay).",
-    "image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dc2bfc3b7af5f0e862d.png"
-  },
-  {
-    "id": 52,
-    "lotus_id": "685d19b55287bf72cd02a0cf",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?",
-    "options": {
-      "a": "Đang sử dụng phanh đỗ.",
-      "b": "Thiếu dầu phanh.",
-      "c": "Nhiệt độ nước làm mát tăng quá mức cho phép.",
-      "d": "Áp suất dầu ở mức thấp."
-    },
-    "correctAnswer": "d",
-    "correctIndex": 4,
-    "explanation": "Thấy cảnh báo giọt dầu là do áp suất dầu ở mức thấp.",
-    "image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9ddafe0f099a7602bcb4.png"
-  },
-  {
-    "id": 53,
-    "lotus_id": "685d19b55287bf72cd02a0d0",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?",
-    "options": {
-      "a": "Cửa xe đóng chưa chặt hoặc có cửa xe chưa đóng.",
-      "b": "Bộ nạp ắc quy gặp sự cố kỹ thuật.",
-      "c": "Dầu bôi trơn bị thiếu.",
-      "d": "Ý 2 và ý 3."
-    },
-    "correctAnswer": "a",
-    "correctIndex": 1,
-    "explanation": "Biểu tượng này báo Cửa xe đóng chưa chặt hoặc có cửa xe chưa đóng.",
-    "image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9dcf0b728fd6fc080ce1.png"
-  },
-  {
-    "id": 54,
-    "lotus_id": "685d19b55287bf72cd02a0d1",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?",
-    "options": {
-      "a": "Thiếu dầu phanh, phanh tay đang hãm.",
-      "b": "Hệ thống túi khí an toàn gặp sự cố.",
-      "c": "Lái xe và người ngồi ghế trước chưa cài dây đai an toàn.",
-      "d": "Cửa đóng chưa chặt, có cửa chưa đóng."
-    },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Biểu tượng này báo lái xe hoặc người ngồi ghế trước chưa cài dây an toàn.",
-    "image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9df934a0f55e460bfec9.png"
-  },
-  {
-    "id": 55,
-    "lotus_id": "685d19b55287bf72cd02a0d2",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi động cơ xe ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây là báo hiệu tình trạng gì của xe ô tô?",
-    "options": {
-      "a": "Báo hiệu thiếu dầu phanh.",
-      "b": "Áp suất lốp không đủ.",
-      "c": "Đang sử dụng phanh đỗ.",
-      "d": "Sắp hết nhiên liệu."
-    },
-    "correctAnswer": "d",
-    "correctIndex": 4,
-    "explanation": "Biểu tượng này báo xe sắp xếp nhiên liệu.",
-    "image": "https://static-cloud.lotuslms.com/static/drive/2025/05/21/01/67df9023466c87f329090b01/682d9e01a863149978030411.png"
-  },
-  {
-    "id": 56,
-    "lotus_id": "685d19b55287bf72cd02a0d3",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Trong các loại nhiên liệu dưới đây, loại nhiên liệu nào giảm thiểu ô nhiễm môi trường?",
-    "options": {
-      "a": "Xăng và dầu diesel.",
-      "b": "Xăng sinh học và khí sinh học.",
-      "c": "Ý 1 và ý 2."
-    },
-    "correctAnswer": "b",
-    "correctIndex": 2,
-    "explanation": "Nhiên liệu giảm ô nhiễm: Xăng sinh học, khí sinh học.",
-    "image": null
-  },
-  {
-    "id": 57,
-    "lotus_id": "685d19b55287bf72cd02a0d4",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Các biện pháp tiết kiệm nhiên liệu khi chạy xe?",
-    "options": {
-      "a": "Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi xe chạy.",
-      "b": "Kiểm tra áp suất lốp theo quy định và chạy xe với tốc độ phù hợp với tình trạng mặt đường và mật độ giao thông trên đường.",
-      "c": "Cả hai ý trên."
-    },
-    "correctAnswer": "c",
-    "correctIndex": 3,
-    "explanation": "Tiết kiệm nhiên liệu: Bảo dưỡng định kỳ + Kiểm tra áp suất lốp, chạy tốc độ phù hợp.",
-    "image": null
-  },
-  {
-    "id": 58,
-    "lotus_id": "685d19b75287bf72cd02a0f2",
-    "category": "Kỹ thuật lái xe ô tô",
-    "question": "Khi lái xe ô tô điện qua khu vực ngập nước, người lái xe cần phải chú ý những vấn đề gì?",
-    "options": {
-      "a": "Người lái xe phải tìm hiểu khả năng chìm trong nước của xe để xác định cung đường di chuyển.",
-      "b": "Giữ vững tay lái, đi đều ga, tránh không để xe chết máy giữa dòng, không nên dừng xe trên đường ngập nước.",
-      "c": "Lái xe tốc độ chậm, không tạo sóng và giữ khoảng cách an toàn với các phương tiện xung quanh, nhất là người đi bộ.",
-      "d": "Cả ba ý trên."
-    },
-    "correctAnswer": "d",
-    "correctIndex": 4,
-    "explanation": "Ô tô điện qua ngập nước: Biết khả năng chìm của xe + Vững lái, đều ga + Chạy chậm.",
+    "explanation": "Sơ cứu người bị bỏng (TNGT): Gọi 115 + Loại bỏ nguyên nhân gây bỏng + Cho uống nước (nếu tỉnh), giữ ấm (nếu lạnh), đưa đến y tế.",
     "image": null
   }
 ]

@@ -1,17 +1,12 @@
 # 🚗 DỰ ÁN HỖ TRỢ ĐÁP ÁN LÁI XE (LotusLMS / HueLMS / Đông Đô)
 
-Dự án hỗ trợ hiển thị đáp án chính xác 100% cho các bài thi và ôn luyện sa hình, luật giao thông trên hệ thống LotusLMS (Trường lái xe Đông Đô / HueLMS) theo chuẩn 600 câu hỏi sát hạch của Bộ GTVT.
+Dự án hỗ trợ hiển thị đáp án chính xác 100% cho các bài thi và ôn luyện lái xe trên hệ thống LotusLMS (Trường lái xe Đông Đô / HueLMS).
 
-## 📌 Tính năng nổi bật (Phiên bản v2.0 Siêu Cấp)
-- **Offline-First & Siêu tốc:** Tự động lưu 600 câu hỏi vào `localStorage`. Các lần sau mở lên chạy ngay lập tức trong 0.001 giây không cần chờ tải lại.
-- **Không phụ thuộc API tạm bợ:** Tự động nạp dữ liệu từ CDN mở (CORS *) hoặc file `questions.json` dự phòng.
-- **Dự phòng nạp file trực tiếp:** Nếu máy tính không có kết nối Internet ra ngoài, chỉ cần bấm `[📁 Nạp file]` trên khung nổi để chọn file `questions.json`.
-- **Nhận diện đối soát đa tầng (Fuzzy Matching):**
-  1. **Khớp tiêu đề câu hỏi:** Tự động loại bỏ tiền tố câu, chuẩn hóa tiếng Việt có dấu.
-  2. **Khớp phương án lựa chọn:** Tự động nhận diện cả dạng `1 -`, `4-`, `A.`, `1.` trên web.
-  3. **Khớp ảnh sa hình:** Nhận diện theo mã ảnh sa hình tương ứng trong 600 câu.
-- **Tự động viền xanh đáp án đúng:** Làm nổi bật phương án đúng trên trang web với viền xanh dịu mắt để bạn dễ dàng nhìn thấy và tích chọn.
-- **Chế độ An Toàn Tuyệt Đối (Chống Ban):** Không can thiệp click tự động, người dùng tự click đáp án, an toàn 100% trước mọi hệ thống giám sát LMS.
+## 📌 Phiên bản 6.0: 25 câu Đạo đức người lái xe, văn hóa giao thông & PCCC
+- **Dữ liệu mới nhất:** 25 câu hỏi trích xuất trực tiếp từ API LotusLMS Đông Đô.
+- **Tự động chuyển câu tức thì (Không Freeze):** Loại bỏ kiểm tra hash 500 ký tự đầu; bảng hỗ trợ và viền xanh tự động nhảy theo từng câu hỏi khi bấm Tiếp/Trước mà không cần bấm lại bookmarklet.
+- **Option Fingerprinting & Positioning:** Khớp vân tay từng phương án và số thứ tự phương án chính xác 100%.
+- **Chế độ An Toàn (Chống Ban 100%):** Chỉ đọc nội dung DOM và viền xanh trực quan, không can thiệp click tự động.
 
 ---
 

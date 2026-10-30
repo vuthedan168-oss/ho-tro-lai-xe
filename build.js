@@ -1,16 +1,18 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-console.log('--- BẮT ĐẦU ĐÓNG GÓI BẢN HỖ TRỢ LÁI XE V5.1 (TỰ ĐỘNG CHUYỂN CÂU, KHÔNG FREEZE) ---');
+console.log('--- BẮT ĐẦU ĐÓNG GÓI BẢN HỖ TRỢ LÁI XE V6.0 (25 CÂU ĐẠO ĐỨC - PCCC) ---');
 
-// 1. Đọc 58 câu hỏi từ questions.json
+// 1. Đọc 25 câu hỏi từ questions.json
 const rawData = JSON.parse(fs.readFileSync('questions.json', 'utf8'));
 console.log(`Đã nạp ${rawData.length} câu hỏi từ questions.json`);
 
 // 2. Chuyển đổi thành dạng nén EMBEDDED_DATA: [title, correctIdx, exp, imgFile, [rawOptions]]
 const embeddedData = rawData.map(q => {
   const opts = [];
-  if (Array.isArray(q.options)) {
+  if (q.raw_options && Array.isArray(q.raw_options)) {
+    opts.push(...q.raw_options);
+  } else if (Array.isArray(q.options)) {
     opts.push(...q.options);
   } else if (typeof q.options === 'object' && q.options !== null) {
     const keys = Object.keys(q.options).sort();
@@ -31,9 +33,10 @@ const embeddedData = rawData.map(q => {
 const template = `/**
  * 🚗 DỰ ÁN: HỖ TRỢ THI & ÔN LUYỆN LÁI XE (LotusLMS / HueLMS)
  * Tác giả: Vu The Dan <vuthedan168@gmail.com>
- * Dữ liệu: 58 câu Kỹ thuật lái xe ô tô (LotusLMS Đông Đô)
+ * Dữ liệu: 25 câu Đạo đức & Văn hóa giao thông, PCCC (LotusLMS Đông Đô)
  * 
- * Phiên bản: 5.1 (TỰ ĐỘNG CHUYỂN CÂU - SỬA LỖI ĐỨNG IM/FREEZE)
+ * Phiên bản: 6.0 (TỰ ĐỘNG CHUYỂN CÂU - SỬA LỖI ĐỨNG IM/FREEZE)
+ * - Nạp đủ 100% 25 câu trắc nghiệm Đạo đức, Văn hóa giao thông & Kỹ năng PCCC, CNCH trực tiếp từ API
  * - Tự động nhận diện câu hỏi mới tức thì khi bấm Tiếp/Trước mà không cần bấm lại bookmarklet
  * - Khắc phục triệt để lỗi kiểm tra hash slice(0,500) gây đứng hình ở các câu hỏi chữ
  * - Khớp vân tay phương án + vị trí chính xác (Option Fingerprinting)
@@ -71,7 +74,7 @@ const template = `/**
     '<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgb(30,41,59);padding-bottom:8px;margin-bottom:10px;">' +
       '<div style="display:flex;align-items:center;gap:6px;">' +
         '<span style="font-size:18px;">🚗</span>' +
-        '<strong style="color:rgb(56,189,248);font-size:13px;letter-spacing:0.5px;">HỖ TRỢ ĐÁP ÁN (58 Câu Kỹ Thuật)</strong>' +
+        '<strong style="color:rgb(56,189,248);font-size:13px;letter-spacing:0.5px;">HỖ TRỢ ĐÁP ÁN (25 Câu Đạo Đức - PCCC)</strong>' +
       '</div>' +
       '<div style="display:flex;gap:5px;align-items:center;">' +
         '<button id="htlx-min" title="Thu nhỏ" style="background:rgb(30,41,59);color:rgb(148,163,184);border:1px solid rgb(51,65,85);border-radius:4px;padding:2px 8px;cursor:pointer;font-size:11px;">_</button>' +
@@ -201,7 +204,7 @@ const template = `/**
 
   function initDatabase() {
     Q_LIST = EMBEDDED_DATA.map(parseEmbeddedQuestion);
-    setStatus("✔ Sẵn sàng 58 câu Kỹ thuật lái xe", "rgb(74,222,128)");
+    setStatus("✔ Sẵn sàng 25 câu Đạo đức - PCCC", "rgb(74,222,128)");
   }
 
   initDatabase();
