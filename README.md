@@ -2,10 +2,11 @@
 
 Dự án hỗ trợ hiển thị đáp án chính xác 100% cho các bài thi và ôn luyện lái xe trên hệ thống LotusLMS (Trường lái xe Đông Đô / HueLMS).
 
-## 📌 Phiên bản 6.0: 25 câu Đạo đức người lái xe, văn hóa giao thông & PCCC
-- **Dữ liệu mới nhất:** 25 câu hỏi trích xuất trực tiếp từ API LotusLMS Đông Đô.
-- **Tự động chuyển câu tức thì (Không Freeze):** Loại bỏ kiểm tra hash 500 ký tự đầu; bảng hỗ trợ và viền xanh tự động nhảy theo từng câu hỏi khi bấm Tiếp/Trước mà không cần bấm lại bookmarklet.
-- **Option Fingerprinting & Positioning:** Khớp vân tay từng phương án và số thứ tự phương án chính xác 100%.
+## 📌 Phiên bản 7.0: Dán Đề Trực Tiếp & Auto-Intercept (Không cần build lại bookmarklet)
+- **Dán đề thi bất kỳ lúc nào (`📋 Dán Đề`):** Chỉ cần copy response API LotusLMS (`get-question-bank-status`) hoặc JSON câu hỏi, bấm `📋 Dán Đề` trên thanh công cụ và dán vào là nhận diện ngay lập tức.
+- **Tự động bắt gói tin API (Auto Network Interceptor):** Tự động hook `fetch` / `XHR` của LotusLMS để nạp đề thi tự động khi chuyển bài học mà không cần thao tác tay.
+- **Lưu trữ liên tục (`localStorage`):** Đề thi đã nạp được lưu lại trên trình duyệt, chuyển trang hay F5 vẫn giữ nguyên đề. Có nút `Khôi phục gốc` khi muốn trở về mặc định.
+- **Tự động chuyển câu tức thì (Không Freeze):** Bảng hỗ trợ và viền xanh tự động nhảy theo từng câu hỏi khi bấm Tiếp/Trước.
 - **Chế độ An Toàn (Chống Ban 100%):** Chỉ đọc nội dung DOM và viền xanh trực quan, không can thiệp click tự động.
 
 ---

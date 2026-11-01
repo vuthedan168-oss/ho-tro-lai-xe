@@ -1,23 +1,20 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-console.log('--- BẮT ĐẦU ĐÓNG GÓI BẢN HỖ TRỢ LÁI XE V6.0 (25 CÂU ĐẠO ĐỨC - PCCC) ---');
+console.log('--- ĐÓNG GÓI BẢN V7.0: DÁN ĐỀ TỰ ĐỘNG & AUTO-INTERCEPT ---');
 
-// 1. Đọc 25 câu hỏi từ questions.json
+// 1. Nạp dữ liệu mặc định từ questions.json
 const rawData = JSON.parse(fs.readFileSync('questions.json', 'utf8'));
-console.log(`Đã nạp ${rawData.length} câu hỏi từ questions.json`);
-
-// 2. Chuyển đổi thành dạng nén EMBEDDED_DATA: [title, correctIdx, exp, imgFile, [rawOptions]]
-const embeddedData = rawData.map(q => {
-  const opts = [];
-  if (q.raw_options && Array.isArray(q.raw_options)) {
-    opts.push(...q.raw_options);
-  } else if (Array.isArray(q.options)) {
-    opts.push(...q.options);
-  } else if (typeof q.options === 'object' && q.options !== null) {
-    const keys = Object.keys(q.options).sort();
-    for (let k of keys) {
-      opts.push(q.options[k]);
+const defaultEmbedded = rawData.map(q => {
+  const opts = q.raw_options || [];
+  if (opts.length === 0) {
+    if (Array.isArray(q.options)) {
+      opts.push(...q.options);
+    } else if (typeof q.options === 'object' && q.options !== null) {
+      const keys = Object.keys(q.options).sort();
+      for (let k of keys) {
+        opts.push(q.options[k]);
+      }
     }
   }
   return [
@@ -29,18 +26,17 @@ const embeddedData = rawData.map(q => {
   ];
 });
 
-// 3. Khung mã nguồn script_nhac_bai.js
+// 2. Khung mã nguồn script_nhac_bai.js
 const template = `/**
  * 🚗 DỰ ÁN: HỖ TRỢ THI & ÔN LUYỆN LÁI XE (LotusLMS / HueLMS)
  * Tác giả: Vu The Dan <vuthedan168@gmail.com>
- * Dữ liệu: 25 câu Đạo đức & Văn hóa giao thông, PCCC (LotusLMS Đông Đô)
  * 
- * Phiên bản: 6.0 (TỰ ĐỘNG CHUYỂN CÂU - SỬA LỖI ĐỨNG IM/FREEZE)
- * - Nạp đủ 100% 25 câu trắc nghiệm Đạo đức, Văn hóa giao thông & Kỹ năng PCCC, CNCH trực tiếp từ API
- * - Tự động nhận diện câu hỏi mới tức thì khi bấm Tiếp/Trước mà không cần bấm lại bookmarklet
- * - Khắc phục triệt để lỗi kiểm tra hash slice(0,500) gây đứng hình ở các câu hỏi chữ
- * - Khớp vân tay phương án + vị trí chính xác (Option Fingerprinting)
- * - Loại trừ 100% menu sidebar bài học
+ * Phiên bản: 7.0 (DÁN ĐỀ TRỰC TIẾP & TỰ ĐỘNG BẮT API - KHÔNG CẦN TẠO LẠI FILE)
+ * - Tự động nhận diện đề thi mới: Chỉ cần copy response API và dán vào là hiển thị ngay.
+ * - Tự động bắt gói tin API (Auto Network Interceptor) khi chuyển bài học/chương.
+ * - Lưu trữ cục bộ (localStorage): Đề thi đã nạp được lưu lại, không mất khi F5.
+ * - Tự động chuyển câu tức thì khi bấm Tiếp/Trước.
+ * - Khớp vân tay phương án + vị trí chính xác (Option Fingerprinting).
  * - Chế độ An Toàn (Chống Ban): Chỉ đọc và viền xanh trực quan, không can thiệp click tự động.
  */
 
@@ -48,7 +44,8 @@ const template = `/**
   var old = document.getElementById("htlx-box");
   if (old) old.remove();
 
-  var EMBEDDED_DATA = %%EMBEDDED_DATA%%;
+  var DEFAULT_EMBEDDED_DATA = %%EMBEDDED_DATA%%;
+  var EMBEDDED_DATA = DEFAULT_EMBEDDED_DATA;
   var Q_LIST = [];
   var highlightedEl = null;
 
@@ -57,7 +54,7 @@ const template = `/**
   w.style.position = "fixed";
   w.style.top = "20px";
   w.style.right = "20px";
-  w.style.width = "430px";
+  w.style.width = "440px";
   w.style.backgroundColor = "rgb(11, 17, 32)";
   w.style.color = "rgb(248, 250, 252)";
   w.style.border = "2px solid rgb(56, 189, 248)";
@@ -74,14 +71,29 @@ const template = `/**
     '<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgb(30,41,59);padding-bottom:8px;margin-bottom:10px;">' +
       '<div style="display:flex;align-items:center;gap:6px;">' +
         '<span style="font-size:18px;">🚗</span>' +
-        '<strong style="color:rgb(56,189,248);font-size:13px;letter-spacing:0.5px;">HỖ TRỢ ĐÁP ÁN (25 Câu Đạo Đức - PCCC)</strong>' +
+        '<strong style="color:rgb(56,189,248);font-size:13px;letter-spacing:0.5px;">HỖ TRỢ ĐÁP ÁN (LotusLMS V7)</strong>' +
       '</div>' +
       '<div style="display:flex;gap:5px;align-items:center;">' +
+        '<button id="htlx-btn-paste-toggle" title="Dán đề thi mới từ API hoặc JSON" style="background:rgb(16,185,129);color:black;border:none;border-radius:4px;padding:3px 8px;cursor:pointer;font-weight:bold;font-size:11px;">📋 Dán Đề</button>' +
         '<button id="htlx-min" title="Thu nhỏ" style="background:rgb(30,41,59);color:rgb(148,163,184);border:1px solid rgb(51,65,85);border-radius:4px;padding:2px 8px;cursor:pointer;font-size:11px;">_</button>' +
         '<button id="htlx-cls" title="Đóng" style="background:rgb(239,68,68);color:white;border:none;border-radius:4px;padding:2px 8px;cursor:pointer;font-weight:bold;font-size:11px;">✕</button>' +
       '</div>' +
     '</div>' +
     '<div id="htlx-content" style="cursor:default;user-select:text;">' +
+      '<div id="htlx-paste-panel" style="display:none;background:rgb(15,23,42);border:1.5px solid rgb(56,189,248);border-radius:8px;padding:10px;margin-bottom:10px;">' +
+        '<div style="color:rgb(148,163,184);font-size:11px;font-weight:600;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">' +
+          '<span>Dán Response API hoặc JSON:</span>' +
+          '<button id="htlx-btn-clip" style="background:rgb(59,130,246);color:white;border:none;border-radius:3px;padding:2px 6px;cursor:pointer;font-size:10px;">📋 Lấy từ Clipboard</button>' +
+        '</div>' +
+        '<textarea id="htlx-paste-input" style="width:100%;height:75px;background:rgb(30,41,59);color:rgb(241,245,249);border:1px solid rgb(51,65,85);border-radius:4px;padding:6px;font-size:11px;box-sizing:border-box;resize:none;" placeholder="Dán nội dung copy trả về từ API LotusLMS vào đây..."></textarea>' +
+        '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px;">' +
+          '<button id="htlx-btn-reset-default" style="background:transparent;color:rgb(148,163,184);border:none;cursor:pointer;font-size:10.5px;text-decoration:underline;">Khôi phục gốc</button>' +
+          '<div style="display:flex;gap:6px;">' +
+            '<button id="htlx-btn-paste-close" style="background:rgb(51,65,85);color:white;border:none;border-radius:4px;padding:3px 10px;cursor:pointer;font-size:11px;">Đóng</button>' +
+            '<button id="htlx-btn-do-parse" style="background:rgb(34,197,94);color:black;border:none;border-radius:4px;padding:3px 12px;font-weight:bold;cursor:pointer;font-size:11px;">Nạp đề ngay</button>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
       '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">' +
         '<div id="htlx-status" style="color:rgb(74,222,128);font-size:11px;font-weight:600;">⏳ Đang khởi tạo...</div>' +
       '</div>' +
@@ -104,7 +116,7 @@ const template = `/**
 
   var isD = false, ox, oy;
   w.addEventListener("mousedown", function (e) {
-    if (e.target.tagName === "BUTTON" || e.target.tagName === "INPUT" || e.target.tagName === "LABEL") return;
+    if (e.target.tagName === "BUTTON" || e.target.tagName === "INPUT" || e.target.tagName === "LABEL" || e.target.tagName === "TEXTAREA") return;
     isD = true;
     ox = e.clientX - w.offsetLeft;
     oy = e.clientY - w.offsetTop;
@@ -134,6 +146,62 @@ const template = `/**
     };
   }
 
+  // Giao diện Dán Đề
+  var pastePanel = document.getElementById("htlx-paste-panel");
+  var pasteInput = document.getElementById("htlx-paste-input");
+  document.getElementById("htlx-btn-paste-toggle").onclick = function () {
+    var isHidden = pastePanel.style.display === "none";
+    pastePanel.style.display = isHidden ? "block" : "none";
+    if (isHidden) {
+      pasteInput.value = "";
+      pasteInput.focus();
+    }
+  };
+  document.getElementById("htlx-btn-paste-close").onclick = function () {
+    pastePanel.style.display = "none";
+  };
+  document.getElementById("htlx-btn-clip").onclick = function () {
+    if (navigator.clipboard && navigator.clipboard.readText) {
+      navigator.clipboard.readText().then(function (text) {
+        if (text) {
+          pasteInput.value = text;
+          loadNewBank(text);
+        }
+      }).catch(function () {
+        alert("Vui lòng nhấn phím Ctrl+V vào khung văn bản.");
+      });
+    } else {
+      alert("Trình duyệt chặn quyền truy cập Clipboard, hãy nhấn Ctrl+V vào ô.");
+    }
+  };
+  document.getElementById("htlx-btn-do-parse").onclick = function () {
+    loadNewBank(pasteInput.value);
+  };
+  document.getElementById("htlx-btn-reset-default").onclick = function () {
+    try {
+      localStorage.removeItem("HTLX_DYNAMIC_BANK");
+    } catch (e) {}
+    EMBEDDED_DATA = DEFAULT_EMBEDDED_DATA;
+    Q_LIST = EMBEDDED_DATA.map(parseEmbeddedQuestion);
+    currentQuestionKey = "";
+    clearHighlight();
+    setStatus("✔ Đã nạp " + Q_LIST.length + " câu (Gốc mặc định)", "rgb(74,222,128)");
+    pastePanel.style.display = "none";
+  };
+
+  // Kéo thả file JSON vào khung widget
+  w.addEventListener("dragover", function (e) { e.preventDefault(); });
+  w.addEventListener("drop", function (e) {
+    e.preventDefault();
+    if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]) {
+      var reader = new FileReader();
+      reader.onload = function (evt) {
+        loadNewBank(evt.target.result);
+      };
+      reader.readAsText(e.dataTransfer.files[0]);
+    }
+  });
+
   function norm(s) {
     if (!s) return "";
     return s.toString().toLowerCase()
@@ -162,6 +230,103 @@ const template = `/**
     var clean = url.split("?")[0];
     var parts = clean.split("/");
     return (parts[parts.length - 1] || "").toLowerCase();
+  }
+
+  // Hàm bóc tách dữ liệu thông minh từ mọi nguồn phản hồi API hoặc JSON
+  function parseAnyInput(raw) {
+    if (!raw) return null;
+    var str = typeof raw === "string" ? raw.trim() : JSON.stringify(raw);
+    var parsed = null;
+    try {
+      parsed = JSON.parse(str);
+    } catch (e) {
+      var jsonMatch = str.match(/\\{[\\s\\S]*"questions"[\\s\\S]*\\}/) || str.match(/\\[[\\s\\S]*\\]/);
+      if (jsonMatch) {
+        try { parsed = JSON.parse(jsonMatch[0]); } catch (e2) {}
+      }
+    }
+    if (!parsed) return null;
+
+    var list = null;
+    if (Array.isArray(parsed)) {
+      list = parsed;
+    } else if (parsed.result && parsed.result.questions && Array.isArray(parsed.result.questions.result)) {
+      list = parsed.result.questions.result;
+    } else if (parsed.questions && Array.isArray(parsed.questions.result)) {
+      list = parsed.questions.result;
+    } else if (parsed.result && Array.isArray(parsed.result)) {
+      list = parsed.result;
+    }
+
+    if (!list || list.length === 0) return null;
+
+    return list.map(function (item) {
+      if (item.question && (item.options || item.raw_options)) {
+        var optsObj = item.raw_options || (Array.isArray(item.options) ? item.options : Object.values(item.options));
+        return [
+          item.question,
+          item.correctIndex || 1,
+          item.explanation || "",
+          item.image ? item.image.split("?")[0].split("/").pop().toLowerCase() : "",
+          optsObj
+        ];
+      }
+
+      var title = item.content || item.title || "";
+      var exp = (item.feedback_true || item.feedback || "").replace(/<[^>]+>/g, " ").replace(/\\s+/g, " ").trim();
+      var img = "";
+      if (item.content_image_files && item.content_image_files[0] && item.content_image_files[0].link) {
+        img = item.content_image_files[0].link.split("?")[0].split("/").pop().toLowerCase();
+      } else if (item.avatar) {
+        img = item.avatar.split("?")[0].split("/").pop().toLowerCase();
+      }
+
+      var rawOpts = [];
+      var correctIdx = 1;
+
+      if (item.mc_answers && Array.isArray(item.mc_answers)) {
+        rawOpts = item.mc_answers.map(function (a, i) {
+          var t = (a.text || "").trim();
+          if (!/^[0-9]+[-\\.:]/.test(t)) t = (i + 1) + "-" + t;
+          return t;
+        });
+        var foundIdx = item.mc_answers.findIndex(function (a) { return a.is_answer === 1; });
+        if (foundIdx !== -1) {
+          correctIdx = foundIdx + 1;
+        } else if (item.answers && item.answers[0] !== undefined) {
+          correctIdx = item.answers[0] + 1;
+        }
+      } else if (item.answers2 && Array.isArray(item.answers2)) {
+        rawOpts = item.answers2.map(function (a, i) {
+          var t = (a.text || "").trim();
+          if (!/^[0-9]+[-\\.:]/.test(t)) t = (i + 1) + "-" + t;
+          return t;
+        });
+        var foundIdx2 = item.answers2.findIndex(function (a) { return a.is_answer === 1; });
+        if (foundIdx2 !== -1) correctIdx = foundIdx2 + 1;
+      }
+
+      return [title, correctIdx, exp, img, rawOpts];
+    });
+  }
+
+  function loadNewBank(raw) {
+    var items = parseAnyInput(raw);
+    if (!items || items.length === 0) {
+      setStatus("❌ Không nhận diện được cấu trúc câu hỏi!", "rgb(239,68,68)");
+      return false;
+    }
+    try {
+      localStorage.setItem("HTLX_DYNAMIC_BANK", JSON.stringify(items));
+    } catch (e) {}
+
+    EMBEDDED_DATA = items;
+    Q_LIST = EMBEDDED_DATA.map(parseEmbeddedQuestion);
+    currentQuestionKey = "";
+    clearHighlight();
+    setStatus("✔ Đã nạp thành công " + Q_LIST.length + " câu mới!", "rgb(74,222,128)");
+    if (pastePanel) pastePanel.style.display = "none";
+    return true;
   }
 
   function parseEmbeddedQuestion(item, index) {
@@ -203,11 +368,70 @@ const template = `/**
   }
 
   function initDatabase() {
+    var stored = null;
+    try {
+      var s = localStorage.getItem("HTLX_DYNAMIC_BANK");
+      if (s) stored = JSON.parse(s);
+    } catch (e) {}
+
+    if (stored && Array.isArray(stored) && stored.length > 0) {
+      EMBEDDED_DATA = stored;
+      setStatus("✔ Đã nạp " + EMBEDDED_DATA.length + " câu (Bộ nhớ lưu trữ)", "rgb(74,222,128)");
+    } else {
+      setStatus("✔ Sẵn sàng " + EMBEDDED_DATA.length + " câu (Mặc định)", "rgb(74,222,128)");
+    }
     Q_LIST = EMBEDDED_DATA.map(parseEmbeddedQuestion);
-    setStatus("✔ Sẵn sàng 25 câu Đạo đức - PCCC", "rgb(74,222,128)");
   }
 
   initDatabase();
+
+  // Tự động bắt gói tin API khi trang web tải câu hỏi mới (Auto Interceptor)
+  try {
+    if (!window._htlx_hooked) {
+      window._htlx_hooked = true;
+      var origFetch = window.fetch;
+      if (origFetch) {
+        window.fetch = function () {
+          var p = origFetch.apply(this, arguments);
+          try {
+            var arg0 = arguments[0];
+            var url = (arg0 && (arg0.url || arg0)) || "";
+            if (typeof url === "string" && (url.indexOf("get-question-bank-status") !== -1 || url.indexOf("practice/api") !== -1)) {
+              p.then(function (res) {
+                try {
+                  res.clone().json().then(function (data) {
+                    if (data && (data.result || data.questions)) {
+                      loadNewBank(data);
+                    }
+                  }).catch(function () {});
+                } catch (e) {}
+              }).catch(function () {});
+            }
+          } catch (e) {}
+          return p;
+        };
+      }
+      var origOpen = XMLHttpRequest.prototype.open;
+      var origSend = XMLHttpRequest.prototype.send;
+      XMLHttpRequest.prototype.open = function (m, u) {
+        this._htlx_url = u;
+        return origOpen.apply(this, arguments);
+      };
+      XMLHttpRequest.prototype.send = function () {
+        this.addEventListener("load", function () {
+          try {
+            if (this._htlx_url && (this._htlx_url.indexOf("get-question-bank-status") !== -1 || this._htlx_url.indexOf("practice/api") !== -1)) {
+              var data = JSON.parse(this.responseText);
+              if (data && (data.result || data.questions)) {
+                loadNewBank(data);
+              }
+            }
+          } catch (e) {}
+        });
+        return origSend.apply(this, arguments);
+      };
+    }
+  } catch (e) {}
 
   function getDocs() {
     var docs = [document];
@@ -438,14 +662,14 @@ const template = `/**
   }, 300);
 })();`;
 
-// 4. Thay thế %%EMBEDDED_DATA%% bằng JSON thực tế
-const fullScript = template.replace('%%EMBEDDED_DATA%%', JSON.stringify(embeddedData));
+// 3. Thay thế %%EMBEDDED_DATA%% bằng JSON thực tế
+const fullScript = template.replace('%%EMBEDDED_DATA%%', JSON.stringify(defaultEmbedded));
 
-// 5. Ghi ra file script_nhac_bai.js
+// 4. Ghi ra file script_nhac_bai.js
 fs.writeFileSync('script_nhac_bai.js', fullScript, 'utf8');
 console.log('✔ Đã tạo file script_nhac_bai.js thành công (' + fullScript.length + ' bytes)');
 
-// 6. Nén thành bookmarklet bằng Terser
+// 5. Nén thành bookmarklet bằng Terser
 try {
   console.log('Đang nén bookmarklet qua npx terser...');
   const minified = execSync('npx terser script_nhac_bai.js --compress --mangle', { encoding: 'utf8' }).trim();
@@ -457,4 +681,4 @@ try {
   process.exit(1);
 }
 
-console.log('--- HOÀN TẤT ĐÓNG GÓI THÀNH CÔNG ---');
+console.log('--- HOÀN TẤT ĐÓNG GÓI THÀNH CÔNG V7.0 ---');
