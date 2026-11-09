@@ -179,12 +179,17 @@ const template = `/**
           '<span style="cursor:pointer;" id="dpp-close-key-modal">✕</span>' +
         '</div>' +
         '<div style="font-size:11px;margin-bottom:4px;">Mã máy của bạn: <b id="dpp-machine-id" style="color:rgb(56,189,248);user-select:all;">' + MACHINE_ID + '</b></div>' +
-        '<div style="display:flex;gap:4px;margin-bottom:6px;">' +
+        '<div style="display:flex;gap:4px;margin-bottom:8px;">' +
           '<input type="text" id="dpp-key-input" placeholder="Nhập mã DPP-XXXX-YYMMDD-..." style="flex:1;background:rgba(15,23,42,0.9);color:white;border:1px solid rgb(71,85,105);border-radius:4px;padding:5px 8px;font-size:11px;">' +
           '<button id="dpp-btn-activate" style="background:rgb(245,158,11);color:black;font-weight:bold;border:none;border-radius:4px;padding:4px 10px;cursor:pointer;font-size:11px;">Kích hoạt</button>' +
         '</div>' +
+        '<div style="margin-bottom:6px;">' +
+          '<button id="dpp-btn-sepay-pay" style="width:100%;background:linear-gradient(135deg,rgb(16,185,129),rgb(5,150,105));color:white;font-weight:bold;border:none;border-radius:5px;padding:7px;cursor:pointer;font-size:11px;box-shadow:0 3px 10px rgba(16,185,129,0.3);">' +
+            '⚡ Thanh Toán Tự Động Qua SePay (Quét VietQR)' +
+          '</button>' +
+        '</div>' +
         '<div style="font-size:10px;color:rgb(148,163,184);line-height:1.4;">' +
-          'Chuyển khoản để nhận mã: <b>0865516904 (MBBank)</b> • Cú pháp: <code style="color:rgb(74,222,128);">DPP ' + MACHINE_ID + '</code>' +
+          'Cổng thanh toán tự động SePay • Cú pháp đơn: <code style="color:rgb(74,222,128);">DPP ' + MACHINE_ID + '</code>' +
         '</div>' +
       '</div>' +
       // Modal Nạp đề thi thủ công
@@ -286,6 +291,105 @@ const template = `/**
       alert("❌ " + chk.reason + ". Vui lòng liên hệ Admin để cấp mã đúng.");
     }
   };
+
+  // Tích hợp thanh toán trực tiếp qua Cổng SePay Payment Gateway
+  document.getElementById("dpp-btn-sepay-pay").onclick = async function () {
+    var btn = this;
+    btn.disabled = true;
+    btn.innerText = "⏳ Đang kết nối SePay...";
+
+    var merchant = "SP-LIVE-VT7A4733";
+    var secret = "spsk_live_VP6T8GmQaqLcKFQPkY9gVEFPi5Tpqb5F";
+    var invoiceNo = "DPP_" + MACHINE_ID.replace(/[^A-Z0-9]/g, "") + "_" + Date.now().toString().slice(-6);
+    var desc = "Mua DrivePass Pro VIP " + MACHINE_ID;
+    var amount = "199000";
+
+    var fields = {
+      merchant: merchant,
+      operation: "PURCHASE",
+      order_amount: amount,
+      currency: "VND",
+      order_invoice_number: invoiceNo,
+      order_description: desc
+    };
+
+    var signedKeys = [
+      "merchant", "env", "operation", "payment_method", "order_amount",
+      "currency", "order_invoice_number", "order_description", "customer_id",
+      "agreement_id", "agreement_name", "agreement_type",
+      "agreement_payment_frequency", "agreement_amount_per_payment",
+      "success_url", "error_url", "cancel_url"
+    ];
+
+    var signed = [];
+    for (var i = 0; i < signedKeys.length; i++) {
+      var k = signedKeys[i];
+      if (fields[k] !== undefined) signed.push(k + "=" + fields[k]);
+    }
+    var payloadStr = signed.join(",");
+
+    try {
+      var enc = new TextEncoder();
+      var keyObj = await window.crypto.subtle.importKey(
+        "raw",
+        enc.encode(secret),
+        { name: "HMAC", hash: "SHA-256" },
+        false,
+        ["sign"]
+      );
+      var sigBuf = await window.crypto.subtle.sign("HMAC", keyObj, enc.encode(payloadStr));
+      var sigBase64 = btoa(String.fromCharCode.apply(null, new Uint8Array(sigBuf)));
+      fields.signature = sigBase64;
+
+      var form = document.createElement("form");
+      form.method = "POST";
+      form.action = "https://pay.sepay.vn/v1/checkout/init";
+      form.target = "_blank";
+      for (var prop in fields) {
+        var input = document.createElement("input");
+        input.type = "hidden";
+        input.name = prop;
+        input.value = fields[prop];
+        form.appendChild(input);
+      }
+      document.body.appendChild(form);
+      form.submit();
+      form.remove();
+
+      btn.innerText = "✔ Đã mở cổng thanh toán!";
+      setTimeout(function () {
+        btn.disabled = false;
+        btn.innerText = "⚡ Thanh Toán Tự Động Qua SePay (Quét VietQR)";
+      }, 4000);
+    } catch (err) {
+      alert("Lỗi kết nối cổng SePay: " + err.message);
+      btn.disabled = false;
+      btn.innerText = "⚡ Thanh Toán Tự Động Qua SePay (Quét VietQR)";
+    }
+  };
+
+  // Tự động kiểm tra trạng thái kích hoạt từ Webhook Server (Polling)
+  setInterval(function () {
+    if (licenseStatus.valid) return;
+    try {
+      fetch("http://localhost:3000/api/check-license?machineId=" + encodeURIComponent(MACHINE_ID))
+        .then(function (res) { return res.json(); })
+        .then(function (resData) {
+          if (resData && resData.activated && resData.licenseKey) {
+            var chk = verifyKey(MACHINE_ID, resData.licenseKey);
+            if (chk.valid) {
+              localStorage.setItem("DPP_VIP_KEY", resData.licenseKey);
+              licenseStatus = chk;
+              document.getElementById("dpp-badge").innerHTML = "💎 VIP";
+              document.getElementById("dpp-badge").style.backgroundColor = "rgb(16,185,129)";
+              document.getElementById("dpp-badge").style.color = "black";
+              if (keyModal) keyModal.style.display = "none";
+              initDatabase();
+            }
+          }
+        }).catch(function () {});
+    } catch (e) {}
+  }, 4000);
 
   // Xử lý nạp đề thủ công
   var pasteModal = document.getElementById("dpp-paste-modal");
