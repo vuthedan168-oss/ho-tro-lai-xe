@@ -1,0 +1,24 @@
+{
+  "name": "drivepass-pro",
+  "version": "8.0.0",
+  "description": "Trợ lý sát hạch & ôn luyện lái xe thông minh (LotusLMS / HueLMS / Đông Đô)",
+  "main": "sepay_webhook_server.js",
+  "scripts": {
+    "start": "node sepay_webhook_server.js",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "lotuslms",
+    "huelms",
+    "lai-xe",
+    "dong-do",
+    "drivepass",
+    "gplx"
+  ],
+  "author": "Vu The Dan <vuthedan168@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "terser": "^5.30.0"
+  }
+}

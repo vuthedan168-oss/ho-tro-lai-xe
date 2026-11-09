@@ -177,3 +177,4 @@ server.listen(SEPAY_CONFIG.PORT, () => {
   console.log(`🔗 Endpoint Kiểm tra Key  : http://localhost:${SEPAY_CONFIG.PORT}/api/check-license?machineId=...`);
   console.log('==================================================');
 });
+
