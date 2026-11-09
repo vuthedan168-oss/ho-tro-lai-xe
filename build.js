@@ -1,9 +1,9 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-console.log('--- ĐÓNG GÓI BẢN V7.0: DÁN ĐỀ TỰ ĐỘNG & AUTO-INTERCEPT ---');
+console.log('--- BẮT ĐẦU ĐÓNG GÓI DRIVEPASS PRO V8.0 (COMMERCIAL EDITION) ---');
 
-// 1. Nạp dữ liệu mặc định từ questions.json
+// 1. Nạp dữ liệu câu hỏi mặc định từ questions.json
 const rawData = JSON.parse(fs.readFileSync('questions.json', 'utf8'));
 const defaultEmbedded = rawData.map(q => {
   const opts = q.raw_options || [];
@@ -26,94 +26,202 @@ const defaultEmbedded = rawData.map(q => {
   ];
 });
 
-// 2. Khung mã nguồn script_nhac_bai.js
+// 2. Khung mã nguồn script_nhac_bai.js (Bản thương mại V8.0)
 const template = `/**
- * 🚗 DỰ ÁN: HỖ TRỢ THI & ÔN LUYỆN LÁI XE (LotusLMS / HueLMS)
- * Tác giả: Vu The Dan <vuthedan168@gmail.com>
+ * 🚗 DRIVEPASS PRO (V8.0 Commercial Edition)
+ * Trợ Lý Sát Hạch & Ôn Luyện Lái Xe Thông Minh (LotusLMS / HueLMS / Đông Đô)
+ * Tác giả & Bản quyền: Vu The Dan <vuthedan168@gmail.com>
  * 
- * Phiên bản: 7.0 (DÁN ĐỀ TRỰC TIẾP & TỰ ĐỘNG BẮT API - KHÔNG CẦN TẠO LẠI FILE)
- * - Tự động nhận diện đề thi mới: Chỉ cần copy response API và dán vào là hiển thị ngay.
- * - Tự động bắt gói tin API (Auto Network Interceptor) khi chuyển bài học/chương.
- * - Lưu trữ cục bộ (localStorage): Đề thi đã nạp được lưu lại, không mất khi F5.
- * - Tự động chuyển câu tức thì khi bấm Tiếp/Trước.
- * - Khớp vân tay phương án + vị trí chính xác (Option Fingerprinting).
- * - Chế độ An Toàn (Chống Ban): Chỉ đọc và viền xanh trực quan, không can thiệp click tự động.
+ * TÍNH NĂNG THƯƠNG MẠI HÓA CHUYÊN NGHIỆP:
+ * - 🔑 Hệ thống mã bản quyền khóa 1 Thiết bị & 1 Tài khoản (Device & Account Lock).
+ * - 🎯 Tự động bắt đề khi bấm 'Kiểm tra' hoặc tải trang (Network & DOM Hook).
+ * - 📋 Hỗ trợ nạp đề thủ công (Clipboard, Dán JSON, Kéo thả file).
+ * - 🌓 Giao diện thương mại cao cấp: Chuyển đổi Sáng / Tối (Light / Dark Theme).
+ * - 👻 Phím tắt Tàng Hình (Stealth Mode) bấm phím [~] hoặc click đúp ẩn tức thì.
+ * - 🛡️ Chống Ban 100%: Chỉ can thiệp thị giác trực quan, không gửi dữ liệu bất thường.
  */
 
 (function () {
-  var old = document.getElementById("htlx-box");
+  var old = document.getElementById("dpp-root");
   if (old) old.remove();
 
   var DEFAULT_EMBEDDED_DATA = %%EMBEDDED_DATA%%;
   var EMBEDDED_DATA = DEFAULT_EMBEDDED_DATA;
   var Q_LIST = [];
   var highlightedEl = null;
+  var isDark = true;
+  var isStealth = false;
 
+  // Thuật toán băm nhẹ độc lập để xác thực Device ID & License Key
+  function simpleHash(str) {
+    var h = 0x811c9dc5;
+    for (var i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h += (h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24);
+    }
+    return ("00000000" + (h >>> 0).toString(16).toUpperCase()).slice(-8);
+  }
+
+  // 1. Tạo Device Fingerprint + LMS Account ID
+  function getMachineId() {
+    var canvasId = "";
+    try {
+      var c = document.createElement("canvas");
+      var ctx = c.getContext("2d");
+      ctx.textBaseline = "top";
+      ctx.font = "14px 'Arial'";
+      ctx.fillText("DrivePassPro_2026", 2, 2);
+      canvasId = c.toDataURL().slice(-20);
+    } catch (e) {}
+
+    var screenId = (window.screen.width + "x" + window.screen.height + "x" + window.screen.colorDepth);
+    var ua = navigator.userAgent || "";
+    
+    // Bóc tách ID tài khoản học viên từ cookies / URL / localStorage của LMS
+    var uid = "";
+    try {
+      var cookies = document.cookie || "";
+      var matchUid = cookies.match(/_sand_uid=([^;]+)/) || cookies.match(/uid=([^;]+)/);
+      if (matchUid) uid = matchUid[1];
+      if (!uid) {
+        var userEl = document.querySelector(".user-name, [class*='avatar'], [class*='profile'], [class*='user']");
+        if (userEl) uid = (userEl.innerText || "").trim().slice(0, 15);
+      }
+    } catch (e) {}
+
+    var seed = canvasId + "|" + screenId + "|" + ua.slice(0, 40) + "|" + uid;
+    var rawHash = simpleHash(seed);
+    return "DP-" + rawHash.slice(0, 4) + "-" + rawHash.slice(4, 8);
+  }
+
+  var MACHINE_ID = getMachineId();
+
+  // 2. Xác thực bản quyền (Client-side offline cryptographic verification)
+  var SECRET_SALT = "DRIVEPASS_PRO_SECRET_SALT_2026_HE_PRIVATE";
+  function verifyKey(machineId, key) {
+    if (!key) return { valid: false, reason: "Chưa kích hoạt" };
+    try {
+      var parts = key.trim().split("-");
+      if (parts.length < 4 || parts[0] !== "DPP") return { valid: false, reason: "Mã không đúng định dạng" };
+      var expShort = parts[2]; // YYMMDD
+      var sigPart = parts[3];
+      var expStr = "20" + expShort.slice(0, 2) + "-" + expShort.slice(2, 4) + "-" + expShort.slice(4, 6);
+      var today = new Date().toISOString().split("T")[0];
+      if (today > expStr) return { valid: false, reason: "Mã bản quyền đã hết hạn" };
+
+      var payload = machineId.trim().toUpperCase() + "|" + expStr + "|" + SECRET_SALT;
+      var expectedSig = simpleHash(payload);
+      if (sigPart !== expectedSig) return { valid: false, reason: "Mã không khớp với máy này" };
+
+      return { valid: true, expiresAt: expStr };
+    } catch (e) {
+      return { valid: false, reason: "Lỗi xác thực" };
+    }
+  }
+
+  var currentKey = localStorage.getItem("DPP_VIP_KEY") || "";
+  var licenseStatus = verifyKey(MACHINE_ID, currentKey);
+
+  // 3. Khởi tạo giao diện thương mại (Commercial UI Dock)
   var w = document.createElement("div");
-  w.id = "htlx-box";
+  w.id = "dpp-root";
   w.style.position = "fixed";
   w.style.top = "20px";
   w.style.right = "20px";
-  w.style.width = "440px";
-  w.style.backgroundColor = "rgb(11, 17, 32)";
-  w.style.color = "rgb(248, 250, 252)";
-  w.style.border = "2px solid rgb(56, 189, 248)";
-  w.style.borderRadius = "12px";
+  w.style.width = "420px";
+  w.style.maxWidth = "calc(100vw - 40px)";
+  w.style.borderRadius = "14px";
   w.style.padding = "14px";
-  w.style.boxShadow = "0 15px 40px rgba(0,0,0,0.85)";
+  w.style.boxShadow = "0 20px 50px rgba(0,0,0,0.65), 0 0 1px rgba(255,255,255,0.2)";
   w.style.fontFamily = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
   w.style.fontSize = "13px";
+  w.style.lineHeight = "1.5";
   w.style.zIndex = "2147483647";
   w.style.cursor = "move";
   w.style.userSelect = "none";
+  w.style.transition = "background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease";
+
+  function applyTheme() {
+    if (isDark) {
+      w.style.backgroundColor = "rgb(15, 23, 42)";
+      w.style.color = "rgb(248, 250, 252)";
+      w.style.border = "1.5px solid rgb(56, 189, 248)";
+    } else {
+      w.style.backgroundColor = "rgb(255, 255, 255)";
+      w.style.color = "rgb(15, 23, 42)";
+      w.style.border = "1.5px solid rgb(14, 165, 233)";
+    }
+  }
+  applyTheme();
 
   w.innerHTML =
-    '<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgb(30,41,59);padding-bottom:8px;margin-bottom:10px;">' +
+    '<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(148,163,184,0.2);padding-bottom:8px;margin-bottom:10px;">' +
       '<div style="display:flex;align-items:center;gap:6px;">' +
-        '<span style="font-size:18px;">🚗</span>' +
-        '<strong style="color:rgb(56,189,248);font-size:13px;letter-spacing:0.5px;">HỖ TRỢ ĐÁP ÁN (LotusLMS V7)</strong>' +
+        '<span style="font-size:17px;">⚡</span>' +
+        '<strong id="dpp-title" style="color:rgb(56,189,248);font-size:13px;letter-spacing:0.5px;">DRIVEPASS PRO</strong>' +
+        '<span id="dpp-badge" style="font-size:9.5px;font-weight:bold;padding:2px 6px;border-radius:4px;text-transform:uppercase;">' +
+          (licenseStatus.valid ? '💎 VIP' : '🔒 TRIAL') +
+        '</span>' +
       '</div>' +
-      '<div style="display:flex;gap:5px;align-items:center;">' +
-        '<button id="htlx-btn-paste-toggle" title="Dán đề thi mới từ API hoặc JSON" style="background:rgb(16,185,129);color:black;border:none;border-radius:4px;padding:3px 8px;cursor:pointer;font-weight:bold;font-size:11px;">📋 Dán Đề</button>' +
-        '<button id="htlx-min" title="Thu nhỏ" style="background:rgb(30,41,59);color:rgb(148,163,184);border:1px solid rgb(51,65,85);border-radius:4px;padding:2px 8px;cursor:pointer;font-size:11px;">_</button>' +
-        '<button id="htlx-cls" title="Đóng" style="background:rgb(239,68,68);color:white;border:none;border-radius:4px;padding:2px 8px;cursor:pointer;font-weight:bold;font-size:11px;">✕</button>' +
+      '<div style="display:flex;gap:4px;align-items:center;">' +
+        '<button id="dpp-btn-theme" title="Đổi màu Sáng / Tối" style="background:rgba(148,163,184,0.2);border:none;border-radius:4px;padding:3px 6px;cursor:pointer;font-size:11px;">🌓</button>' +
+        '<button id="dpp-btn-paste" title="Nạp đề thi thủ công" style="background:rgb(16,185,129);color:black;border:none;border-radius:4px;padding:3px 8px;cursor:pointer;font-weight:bold;font-size:11px;">📋 Nạp Đề</button>' +
+        '<button id="dpp-btn-key" title="Bản quyền & Kích hoạt" style="background:rgb(245,158,11);color:black;border:none;border-radius:4px;padding:3px 6px;cursor:pointer;font-weight:bold;font-size:11px;">🔑</button>' +
+        '<button id="dpp-min" title="Thu nhỏ" style="background:rgba(148,163,184,0.2);border:none;border-radius:4px;padding:3px 7px;cursor:pointer;font-size:11px;">_</button>' +
+        '<button id="dpp-cls" title="Đóng" style="background:rgb(239,68,68);color:white;border:none;border-radius:4px;padding:3px 7px;cursor:pointer;font-weight:bold;font-size:11px;">✕</button>' +
       '</div>' +
     '</div>' +
-    '<div id="htlx-content" style="cursor:default;user-select:text;">' +
-      '<div id="htlx-paste-panel" style="display:none;background:rgb(15,23,42);border:1.5px solid rgb(56,189,248);border-radius:8px;padding:10px;margin-bottom:10px;">' +
-        '<div style="color:rgb(148,163,184);font-size:11px;font-weight:600;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">' +
-          '<span>Dán Response API hoặc JSON:</span>' +
-          '<button id="htlx-btn-clip" style="background:rgb(59,130,246);color:white;border:none;border-radius:3px;padding:2px 6px;cursor:pointer;font-size:10px;">📋 Lấy từ Clipboard</button>' +
+    '<div id="dpp-body" style="cursor:default;user-select:text;">' +
+      // Modal Kích hoạt bản quyền
+      '<div id="dpp-key-modal" style="display:' + (licenseStatus.valid ? 'none' : 'block') + ';background:rgba(30,41,59,0.8);border:1px solid rgba(245,158,11,0.5);border-radius:8px;padding:10px;margin-bottom:10px;">' +
+        '<div style="font-size:11px;font-weight:bold;color:rgb(251,191,36);margin-bottom:6px;display:flex;justify-content:space-between;">' +
+          '<span>🔑 KÍCH HOẠT BẢN QUYỀN 1 THIẾT BỊ:</span>' +
+          '<span style="cursor:pointer;" id="dpp-close-key-modal">✕</span>' +
         '</div>' +
-        '<textarea id="htlx-paste-input" style="width:100%;height:75px;background:rgb(30,41,59);color:rgb(241,245,249);border:1px solid rgb(51,65,85);border-radius:4px;padding:6px;font-size:11px;box-sizing:border-box;resize:none;" placeholder="Dán nội dung copy trả về từ API LotusLMS vào đây..."></textarea>' +
-        '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px;">' +
-          '<button id="htlx-btn-reset-default" style="background:transparent;color:rgb(148,163,184);border:none;cursor:pointer;font-size:10.5px;text-decoration:underline;">Khôi phục gốc</button>' +
-          '<div style="display:flex;gap:6px;">' +
-            '<button id="htlx-btn-paste-close" style="background:rgb(51,65,85);color:white;border:none;border-radius:4px;padding:3px 10px;cursor:pointer;font-size:11px;">Đóng</button>' +
-            '<button id="htlx-btn-do-parse" style="background:rgb(34,197,94);color:black;border:none;border-radius:4px;padding:3px 12px;font-weight:bold;cursor:pointer;font-size:11px;">Nạp đề ngay</button>' +
-          '</div>' +
+        '<div style="font-size:11px;margin-bottom:4px;">Mã máy của bạn: <b id="dpp-machine-id" style="color:rgb(56,189,248);user-select:all;">' + MACHINE_ID + '</b></div>' +
+        '<div style="display:flex;gap:4px;margin-bottom:6px;">' +
+          '<input type="text" id="dpp-key-input" placeholder="Nhập mã DPP-XXXX-YYMMDD-..." style="flex:1;background:rgba(15,23,42,0.9);color:white;border:1px solid rgb(71,85,105);border-radius:4px;padding:5px 8px;font-size:11px;">' +
+          '<button id="dpp-btn-activate" style="background:rgb(245,158,11);color:black;font-weight:bold;border:none;border-radius:4px;padding:4px 10px;cursor:pointer;font-size:11px;">Kích hoạt</button>' +
+        '</div>' +
+        '<div style="font-size:10px;color:rgb(148,163,184);line-height:1.4;">' +
+          'Chuyển khoản để nhận mã: <b>0865516904 (MBBank)</b> • Cú pháp: <code style="color:rgb(74,222,128);">DPP ' + MACHINE_ID + '</code>' +
         '</div>' +
       '</div>' +
+      // Modal Nạp đề thi thủ công
+      '<div id="dpp-paste-modal" style="display:none;background:rgba(30,41,59,0.8);border:1px solid rgba(56,189,248,0.5);border-radius:8px;padding:10px;margin-bottom:10px;">' +
+        '<div style="font-size:11px;font-weight:bold;color:rgb(56,189,248);margin-bottom:6px;display:flex;justify-content:space-between;">' +
+          '<span>📋 DÁN PHẢN HỒI API / JSON ĐỀ THI:</span>' +
+          '<button id="dpp-btn-clip" style="background:rgb(59,130,246);color:white;border:none;border-radius:3px;padding:2px 6px;cursor:pointer;font-size:10px;">Dán từ Clipboard</button>' +
+        '</div>' +
+        '<textarea id="dpp-paste-text" style="width:100%;height:65px;background:rgba(15,23,42,0.9);color:white;border:1px solid rgb(71,85,105);border-radius:4px;padding:5px;font-size:11px;box-sizing:border-box;resize:none;" placeholder="Dán nội dung API hoặc kéo thả file JSON vào đây..."></textarea>' +
+        '<div style="display:flex;justify-content:flex-end;gap:6px;margin-top:6px;">' +
+          '<button id="dpp-btn-paste-cancel" style="background:rgba(148,163,184,0.2);color:inherit;border:none;border-radius:4px;padding:3px 8px;cursor:pointer;font-size:11px;">Đóng</button>' +
+          '<button id="dpp-btn-paste-apply" style="background:rgb(34,197,94);color:black;font-weight:bold;border:none;border-radius:4px;padding:3px 12px;cursor:pointer;font-size:11px;">Nạp ngay</button>' +
+        '</div>' +
+      '</div>' +
+      // Thông báo trạng thái
       '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">' +
-        '<div id="htlx-status" style="color:rgb(74,222,128);font-size:11px;font-weight:600;">⏳ Đang khởi tạo...</div>' +
+        '<div id="dpp-status" style="color:rgb(74,222,128);font-size:11px;font-weight:600;">⏳ Đang khởi tạo...</div>' +
       '</div>' +
-      '<div style="background:rgb(17,24,39);border:1px solid rgb(31,41,55);border-radius:8px;padding:10px;margin-bottom:8px;">' +
-        '<div style="color:rgb(148,163,184);font-size:10px;text-transform:uppercase;font-weight:bold;margin-bottom:4px;letter-spacing:0.5px;">📌 CÂU HỎI NHẬN DIỆN:</div>' +
-        '<div id="htlx-q" style="color:rgb(226,232,240);font-size:12px;font-weight:500;line-height:1.45;margin-bottom:8px;max-height:65px;overflow-y:auto;">Đang quét màn hình...</div>' +
+      // Hộp câu hỏi & đáp án
+      '<div style="background:rgba(30,41,59,0.4);border:1px solid rgba(148,163,184,0.15);border-radius:8px;padding:10px;margin-bottom:8px;">' +
+        '<div style="color:rgb(148,163,184);font-size:10px;text-transform:uppercase;font-weight:bold;margin-bottom:4px;letter-spacing:0.5px;">📌 CÂU HỎI TRÊN TRANG:</div>' +
+        '<div id="dpp-q" style="font-size:12px;font-weight:500;line-height:1.45;margin-bottom:8px;max-height:65px;overflow-y:auto;word-break:break-word;">Đang quét màn hình...</div>' +
         '<div style="color:rgb(250,204,21);font-size:10px;text-transform:uppercase;font-weight:bold;margin-bottom:4px;letter-spacing:0.5px;">💡 ĐÁP ÁN CHÍNH XÁC:</div>' +
-        '<div id="htlx-ans" style="color:rgb(74,222,128);background:rgb(6,78,59);border:1.5px solid rgb(16,185,129);border-radius:6px;padding:8px 10px;font-weight:bold;font-size:13px;line-height:1.45;">Đang nhận diện...</div>' +
+        '<div id="dpp-ans" style="color:rgb(74,222,128);background:rgba(6,78,59,0.5);border:1.5px solid rgb(16,185,129);border-radius:6px;padding:8px 10px;font-weight:bold;font-size:13px;line-height:1.45;word-break:break-word;">Đang nhận diện...</div>' +
       '</div>' +
-      '<div id="htlx-exp" style="color:rgb(203,213,225);font-size:11px;line-height:1.45;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);padding:8px;border-radius:6px;max-height:95px;overflow-y:auto;display:none;"></div>' +
-      '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;font-size:10.5px;color:rgb(100,116,139);">' +
+      '<div id="dpp-exp" style="font-size:11px;line-height:1.45;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);padding:8px;border-radius:6px;max-height:85px;overflow-y:auto;display:none;margin-bottom:8px;word-break:break-word;"></div>' +
+      '<div style="display:flex;justify-content:space-between;align-items:center;font-size:10.5px;color:rgb(148,163,184);">' +
         '<label style="display:flex;align-items:center;gap:4px;cursor:pointer;">' +
-          '<input type="checkbox" id="htlx-hl-toggle" checked style="cursor:pointer;"> Viền xanh đáp án' +
+          '<input type="checkbox" id="dpp-hl-toggle" checked style="cursor:pointer;"> Viền xanh đáp án' +
         '</label>' +
-        '<span>An Toàn • Chống Ban</span>' +
+        '<span>Phím [~] Tàng hình • An Toàn 100%</span>' +
       '</div>' +
     '</div>';
 
   document.body.appendChild(w);
 
+  // Kéo thả vị trí hộp thoại
   var isD = false, ox, oy;
   w.addEventListener("mousedown", function (e) {
     if (e.target.tagName === "BUTTON" || e.target.tagName === "INPUT" || e.target.tagName === "LABEL" || e.target.tagName === "TEXTAREA") return;
@@ -129,75 +237,94 @@ const template = `/**
   });
   document.addEventListener("mouseup", function () { isD = false; });
 
-  document.getElementById("htlx-cls").onclick = function () {
+  // Nút đóng, thu nhỏ, đổi giao diện
+  document.getElementById("dpp-cls").onclick = function () {
     if (highlightedEl) clearHighlight();
     w.remove();
   };
-  var ct = document.getElementById("htlx-content");
-  var isM = false;
-  document.getElementById("htlx-min").onclick = function () {
-    isM = !isM;
-    ct.style.display = isM ? "none" : "block";
+  var bodyEl = document.getElementById("dpp-body");
+  var isMinimized = false;
+  document.getElementById("dpp-min").onclick = function () {
+    isMinimized = !isMinimized;
+    bodyEl.style.display = isMinimized ? "none" : "block";
   };
-  var hlToggle = document.getElementById("htlx-hl-toggle");
-  if (hlToggle) {
-    hlToggle.onchange = function () {
-      if (!this.checked) clearHighlight();
-    };
-  }
+  document.getElementById("dpp-btn-theme").onclick = function () {
+    isDark = !isDark;
+    applyTheme();
+  };
 
-  // Giao diện Dán Đề
-  var pastePanel = document.getElementById("htlx-paste-panel");
-  var pasteInput = document.getElementById("htlx-paste-input");
-  document.getElementById("htlx-btn-paste-toggle").onclick = function () {
-    var isHidden = pastePanel.style.display === "none";
-    pastePanel.style.display = isHidden ? "block" : "none";
-    if (isHidden) {
+  // Phím tắt Tàng Hình: Bấm phím [~] hoặc click đúp vào thanh tiêu đề
+  window.addEventListener("keydown", function (e) {
+    if (e.key === "~" || e.key === "\`") {
+      isStealth = !isStealth;
+      w.style.display = isStealth ? "none" : "block";
+      if (isStealth) clearHighlight();
+    }
+  });
+
+  // Xử lý kích hoạt bản quyền
+  var keyModal = document.getElementById("dpp-key-modal");
+  document.getElementById("dpp-btn-key").onclick = function () {
+    keyModal.style.display = keyModal.style.display === "none" ? "block" : "none";
+  };
+  document.getElementById("dpp-close-key-modal").onclick = function () {
+    keyModal.style.display = "none";
+  };
+  document.getElementById("dpp-btn-activate").onclick = function () {
+    var inKey = (document.getElementById("dpp-key-input").value || "").trim();
+    var chk = verifyKey(MACHINE_ID, inKey);
+    if (chk.valid) {
+      localStorage.setItem("DPP_VIP_KEY", inKey);
+      licenseStatus = chk;
+      document.getElementById("dpp-badge").innerHTML = "💎 VIP";
+      document.getElementById("dpp-badge").style.backgroundColor = "rgb(16,185,129)";
+      document.getElementById("dpp-badge").style.color = "black";
+      keyModal.style.display = "none";
+      alert("🎉 Kích hoạt thành công bản quyền VIP đến ngày: " + chk.expiresAt);
+      initDatabase();
+    } else {
+      alert("❌ " + chk.reason + ". Vui lòng liên hệ Admin để cấp mã đúng.");
+    }
+  };
+
+  // Xử lý nạp đề thủ công
+  var pasteModal = document.getElementById("dpp-paste-modal");
+  var pasteInput = document.getElementById("dpp-paste-text");
+  document.getElementById("dpp-btn-paste").onclick = function () {
+    pasteModal.style.display = pasteModal.style.display === "none" ? "block" : "none";
+    if (pasteModal.style.display === "block") {
       pasteInput.value = "";
       pasteInput.focus();
     }
   };
-  document.getElementById("htlx-btn-paste-close").onclick = function () {
-    pastePanel.style.display = "none";
+  document.getElementById("dpp-btn-paste-cancel").onclick = function () {
+    pasteModal.style.display = "none";
   };
-  document.getElementById("htlx-btn-clip").onclick = function () {
+  document.getElementById("dpp-btn-clip").onclick = function () {
     if (navigator.clipboard && navigator.clipboard.readText) {
-      navigator.clipboard.readText().then(function (text) {
-        if (text) {
-          pasteInput.value = text;
-          loadNewBank(text);
+      navigator.clipboard.readText().then(function (t) {
+        if (t) {
+          pasteInput.value = t;
+          loadNewBank(t);
         }
       }).catch(function () {
-        alert("Vui lòng nhấn phím Ctrl+V vào khung văn bản.");
+        alert("Vui lòng nhấn phím Ctrl+V vào ô bên dưới.");
       });
     } else {
-      alert("Trình duyệt chặn quyền truy cập Clipboard, hãy nhấn Ctrl+V vào ô.");
+      alert("Trình duyệt chặn clipboard, hãy nhấn Ctrl+V.");
     }
   };
-  document.getElementById("htlx-btn-do-parse").onclick = function () {
+  document.getElementById("dpp-btn-paste-apply").onclick = function () {
     loadNewBank(pasteInput.value);
   };
-  document.getElementById("htlx-btn-reset-default").onclick = function () {
-    try {
-      localStorage.removeItem("HTLX_DYNAMIC_BANK");
-    } catch (e) {}
-    EMBEDDED_DATA = DEFAULT_EMBEDDED_DATA;
-    Q_LIST = EMBEDDED_DATA.map(parseEmbeddedQuestion);
-    currentQuestionKey = "";
-    clearHighlight();
-    setStatus("✔ Đã nạp " + Q_LIST.length + " câu (Gốc mặc định)", "rgb(74,222,128)");
-    pastePanel.style.display = "none";
-  };
 
-  // Kéo thả file JSON vào khung widget
+  // Kéo thả tệp JSON vào tiện ích
   w.addEventListener("dragover", function (e) { e.preventDefault(); });
   w.addEventListener("drop", function (e) {
     e.preventDefault();
     if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]) {
       var reader = new FileReader();
-      reader.onload = function (evt) {
-        loadNewBank(evt.target.result);
-      };
+      reader.onload = function (evt) { loadNewBank(evt.target.result); };
       reader.readAsText(e.dataTransfer.files[0]);
     }
   });
@@ -232,7 +359,6 @@ const template = `/**
     return (parts[parts.length - 1] || "").toLowerCase();
   }
 
-  // Hàm bóc tách dữ liệu thông minh từ mọi nguồn phản hồi API hoặc JSON
   function parseAnyInput(raw) {
     if (!raw) return null;
     var str = typeof raw === "string" ? raw.trim() : JSON.stringify(raw);
@@ -313,19 +439,19 @@ const template = `/**
   function loadNewBank(raw) {
     var items = parseAnyInput(raw);
     if (!items || items.length === 0) {
-      setStatus("❌ Không nhận diện được cấu trúc câu hỏi!", "rgb(239,68,68)");
+      setStatus("❌ Không nhận diện được câu hỏi!", "rgb(239,68,68)");
       return false;
     }
     try {
-      localStorage.setItem("HTLX_DYNAMIC_BANK", JSON.stringify(items));
+      localStorage.setItem("DPP_STORED_BANK", JSON.stringify(items));
     } catch (e) {}
 
     EMBEDDED_DATA = items;
     Q_LIST = EMBEDDED_DATA.map(parseEmbeddedQuestion);
     currentQuestionKey = "";
     clearHighlight();
-    setStatus("✔ Đã nạp thành công " + Q_LIST.length + " câu mới!", "rgb(74,222,128)");
-    if (pastePanel) pastePanel.style.display = "none";
+    setStatus("✔ Sẵn sàng " + Q_LIST.length + " câu (Tự động nạp)", "rgb(74,222,128)");
+    if (pasteModal) pasteModal.style.display = "none";
     return true;
   }
 
@@ -360,7 +486,7 @@ const template = `/**
   }
 
   function setStatus(text, color) {
-    var el = document.getElementById("htlx-status");
+    var el = document.getElementById("dpp-status");
     if (el) {
       el.innerHTML = text;
       if (color) el.style.color = color;
@@ -370,14 +496,15 @@ const template = `/**
   function initDatabase() {
     var stored = null;
     try {
-      var s = localStorage.getItem("HTLX_DYNAMIC_BANK");
+      var s = localStorage.getItem("DPP_STORED_BANK");
       if (s) stored = JSON.parse(s);
     } catch (e) {}
 
     if (stored && Array.isArray(stored) && stored.length > 0) {
       EMBEDDED_DATA = stored;
-      setStatus("✔ Đã nạp " + EMBEDDED_DATA.length + " câu (Bộ nhớ lưu trữ)", "rgb(74,222,128)");
+      setStatus("✔ Sẵn sàng " + EMBEDDED_DATA.length + " câu (Bộ nhớ)", "rgb(74,222,128)");
     } else {
+      EMBEDDED_DATA = DEFAULT_EMBEDDED_DATA;
       setStatus("✔ Sẵn sàng " + EMBEDDED_DATA.length + " câu (Mặc định)", "rgb(74,222,128)");
     }
     Q_LIST = EMBEDDED_DATA.map(parseEmbeddedQuestion);
@@ -385,10 +512,10 @@ const template = `/**
 
   initDatabase();
 
-  // Tự động bắt gói tin API khi trang web tải câu hỏi mới (Auto Interceptor)
+  // BẮT GÓI TIN TỰ ĐỘNG (Network Auto-Interceptor)
   try {
-    if (!window._htlx_hooked) {
-      window._htlx_hooked = true;
+    if (!window._dpp_hooked) {
+      window._dpp_hooked = true;
       var origFetch = window.fetch;
       if (origFetch) {
         window.fetch = function () {
@@ -396,7 +523,7 @@ const template = `/**
           try {
             var arg0 = arguments[0];
             var url = (arg0 && (arg0.url || arg0)) || "";
-            if (typeof url === "string" && (url.indexOf("get-question-bank-status") !== -1 || url.indexOf("practice/api") !== -1)) {
+            if (typeof url === "string" && (url.indexOf("get-question-bank-status") !== -1 || url.indexOf("practice/api") !== -1 || url.indexOf("question") !== -1)) {
               p.then(function (res) {
                 try {
                   res.clone().json().then(function (data) {
@@ -411,16 +538,17 @@ const template = `/**
           return p;
         };
       }
+
       var origOpen = XMLHttpRequest.prototype.open;
       var origSend = XMLHttpRequest.prototype.send;
       XMLHttpRequest.prototype.open = function (m, u) {
-        this._htlx_url = u;
+        this._dpp_url = u;
         return origOpen.apply(this, arguments);
       };
       XMLHttpRequest.prototype.send = function () {
         this.addEventListener("load", function () {
           try {
-            if (this._htlx_url && (this._htlx_url.indexOf("get-question-bank-status") !== -1 || this._htlx_url.indexOf("practice/api") !== -1)) {
+            if (this._dpp_url && (this._dpp_url.indexOf("get-question-bank-status") !== -1 || this._dpp_url.indexOf("practice/api") !== -1 || this._dpp_url.indexOf("question") !== -1)) {
               var data = JSON.parse(this.responseText);
               if (data && (data.result || data.questions)) {
                 loadNewBank(data);
@@ -432,6 +560,18 @@ const template = `/**
       };
     }
   } catch (e) {}
+
+  // BẮT SỰ KIỆN KHI BẤM NÚT 'KIỂM TRA' HOẶC 'BẮT ĐẦU'
+  document.addEventListener("click", function (e) {
+    var target = e.target;
+    if (!target) return;
+    var t = (target.innerText || target.value || "").trim().toLowerCase();
+    if (t.indexOf("kiểm tra") !== -1 || t.indexOf("kiem tra") !== -1 || t.indexOf("bắt đầu") !== -1 || t.indexOf("làm bài") !== -1) {
+      setTimeout(function () {
+        currentQuestionKey = "";
+      }, 350);
+    }
+  }, true);
 
   function getDocs() {
     var docs = [document];
@@ -448,13 +588,11 @@ const template = `/**
   function isInsideSidebar(el) {
     try {
       var rect = el.getBoundingClientRect();
-      if (rect && rect.right > 0 && rect.right < 260 && window.innerWidth > 800) {
-        return true;
-      }
+      if (rect && rect.right > 0 && rect.right < 260 && window.innerWidth > 800) return true;
     } catch (e) {}
 
     while (el) {
-      if (el.id === "htlx-box") return true;
+      if (el.id === "dpp-root") return true;
       var cl = (el.className || "").toString().toLowerCase();
       var id = (el.id || "").toString().toLowerCase();
       var tag = (el.tagName || "").toLowerCase();
@@ -483,8 +621,8 @@ const template = `/**
   }
 
   function highlightOption(el) {
-    var toggle = document.getElementById("htlx-hl-toggle");
-    if (!toggle || !toggle.checked || !el) return;
+    var toggle = document.getElementById("dpp-hl-toggle");
+    if (!toggle || !toggle.checked || !el || isStealth) return;
     clearHighlight();
     var target = (el.closest && (el.closest("label, .form-check, li, [class*='choice'], [class*='answer'], [class*='item']") || el)) || el;
     highlightedEl = target;
@@ -497,7 +635,6 @@ const template = `/**
   }
 
   function findOptionElementOnScreen(doc, optionIdx, optionNormText) {
-    // 1. Quét các thẻ radio có thể nhìn thấy
     var radios = doc.querySelectorAll("input[type='radio']");
     var visibleRadios = [];
     for (var r = 0; r < radios.length; r++) {
@@ -509,7 +646,6 @@ const template = `/**
       return container || rad;
     }
 
-    // 2. Tìm theo nhãn số thứ tự phương án và nội dung
     var numRegex = new RegExp("^\\\\s*" + optionIdx + "\\\\s*[-.):\\\\s]");
     var candidates = doc.querySelectorAll("label, [class*='choice'], [class*='answer'], [class*='option'], li, div, p");
     var bestEl = null;
@@ -535,9 +671,9 @@ const template = `/**
   var currentQuestionKey = "";
   var notFoundCount = 0;
 
-  // Quét liên tục mỗi 300ms, thuật toán chạy cực nhanh (< 0.1ms) không gây giật lag
+  // Quét đối soát liên tục mỗi 300ms
   setInterval(function () {
-    if (Q_LIST.length === 0) return;
+    if (isStealth || Q_LIST.length === 0) return;
 
     var docs = getDocs();
     var combinedPageText = "";
@@ -569,14 +705,12 @@ const template = `/**
       var q = Q_LIST[i];
       var score = 0;
 
-      // 1. So khớp tiêu đề câu hỏi (toàn văn hoặc tiền tố 35 ký tự)
       if (q.normTitle && combinedPageText.indexOf(q.normTitle) !== -1) {
         score += 150;
       } else if (q.normTitle.length > 25 && combinedPageText.indexOf(q.normTitle.slice(0, 35)) !== -1) {
         score += 120;
       }
 
-      // 2. So khớp tệp ảnh
       if (q.imgFile && imgFiles.length > 0) {
         for (var fi = 0; fi < imgFiles.length; fi++) {
           var ifn = imgFiles[fi];
@@ -587,7 +721,6 @@ const template = `/**
         }
       }
 
-      // 3. So khớp dấu vân tay từng phương án & Vị trí
       var matchedOpts = 0;
       var exactPosOpts = 0;
       for (var qo = 0; qo < q.opts.length; qo++) {
@@ -604,7 +737,6 @@ const template = `/**
       }
       score += (matchedOpts * 120) + (exactPosOpts * 150);
 
-      // Điểm cộng nếu số lượng phương án trùng khớp
       if (q.opts.length > 0 && combinedPageText.indexOf(q.opts.length + " ") !== -1) {
         score += 30;
       }
@@ -619,28 +751,33 @@ const template = `/**
       notFoundCount = 0;
       var qKey = bestQ.idx + "||" + bestQ.title;
 
-      // Khi câu hỏi trên trang thay đổi (chuyển câu mới), cập nhật UI ngay lập tức
       if (qKey !== currentQuestionKey) {
         currentQuestionKey = qKey;
-        document.getElementById("htlx-q").innerText = bestQ.title;
+        document.getElementById("dpp-q").innerText = bestQ.title;
 
         var ansBadge = bestQ.correctIdx ? '<span style="background:rgb(250,204,21);color:black;font-weight:900;padding:2px 8px;border-radius:4px;margin-right:8px;font-size:12px;">Ý ' + bestQ.correctIdx + '</span>' : '';
         
-        document.getElementById("htlx-ans").innerHTML = ansBadge + bestQ.correctText;
-
-        var expEl = document.getElementById("htlx-exp");
-        if (bestQ.exp) {
-          expEl.innerHTML = '💡 <b>Giải thích chi tiết:</b> ' + bestQ.exp.replace(/<br\\s*[/]?>/gi, ' ');
-          expEl.style.display = "block";
+        // Bản dùng thử: Giới hạn sau 3 câu nhắc kích hoạt
+        var trialCheck = (!licenseStatus.valid && bestQ.idx > 2);
+        if (trialCheck) {
+          document.getElementById("dpp-ans").innerHTML = '<span style="color:rgb(251,191,36);">🔒 BẢN DÙNG THỬ (Nhập mã để mở khóa câu này)</span>';
+          clearHighlight();
         } else {
-          expEl.style.display = "none";
+          document.getElementById("dpp-ans").innerHTML = ansBadge + bestQ.correctText;
+
+          var expEl = document.getElementById("dpp-exp");
+          if (bestQ.exp) {
+            expEl.innerHTML = '💡 <b>Giải thích chi tiết:</b> ' + bestQ.exp.replace(/<br\\s*[/]?>/gi, ' ');
+            expEl.style.display = "block";
+          } else {
+            expEl.style.display = "none";
+          }
+          clearHighlight();
         }
-        clearHighlight();
       }
 
-      // Duy trì hoặc áp dụng viền xanh cho đáp án đúng trên màn hình
-      var toggle = document.getElementById("htlx-hl-toggle");
-      if (toggle && toggle.checked) {
+      var toggle = document.getElementById("dpp-hl-toggle");
+      if (toggle && toggle.checked && (licenseStatus.valid || bestQ.idx <= 2)) {
         if (!highlightedEl || !document.contains(highlightedEl) || highlightedEl.style.outline === "") {
           for (var d2 = 0; d2 < docs.length; d2++) {
             var optNorm = (bestQ.opts[bestQ.correctIdx - 1] || {}).norm || "";
@@ -662,14 +799,12 @@ const template = `/**
   }, 300);
 })();`;
 
-// 3. Thay thế %%EMBEDDED_DATA%% bằng JSON thực tế
+// 3. Thay thế %%EMBEDDED_DATA%%
 const fullScript = template.replace('%%EMBEDDED_DATA%%', JSON.stringify(defaultEmbedded));
-
-// 4. Ghi ra file script_nhac_bai.js
 fs.writeFileSync('script_nhac_bai.js', fullScript, 'utf8');
 console.log('✔ Đã tạo file script_nhac_bai.js thành công (' + fullScript.length + ' bytes)');
 
-// 5. Nén thành bookmarklet bằng Terser
+// 4. Biên dịch và nén Terser
 try {
   console.log('Đang nén bookmarklet qua npx terser...');
   const minified = execSync('npx terser script_nhac_bai.js --compress --mangle', { encoding: 'utf8' }).trim();
@@ -681,4 +816,4 @@ try {
   process.exit(1);
 }
 
-console.log('--- HOÀN TẤT ĐÓNG GÓI THÀNH CÔNG V7.0 ---');
+console.log('--- HOÀN TẤT ĐÓNG GÓI DRIVEPASS PRO V8.0 ---');

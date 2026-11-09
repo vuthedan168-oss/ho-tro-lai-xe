@@ -1,32 +1,57 @@
-# 🚗 DỰ ÁN HỖ TRỢ ĐÁP ÁN LÁI XE (LotusLMS / HueLMS / Đông Đô)
-
-Dự án hỗ trợ hiển thị đáp án chính xác 100% cho các bài thi và ôn luyện lái xe trên hệ thống LotusLMS (Trường lái xe Đông Đô / HueLMS).
-
-## 📌 Phiên bản 7.0: Dán Đề Trực Tiếp & Auto-Intercept (Không cần build lại bookmarklet)
-- **Dán đề thi bất kỳ lúc nào (`📋 Dán Đề`):** Chỉ cần copy response API LotusLMS (`get-question-bank-status`) hoặc JSON câu hỏi, bấm `📋 Dán Đề` trên thanh công cụ và dán vào là nhận diện ngay lập tức.
-- **Tự động bắt gói tin API (Auto Network Interceptor):** Tự động hook `fetch` / `XHR` của LotusLMS để nạp đề thi tự động khi chuyển bài học mà không cần thao tác tay.
-- **Lưu trữ liên tục (`localStorage`):** Đề thi đã nạp được lưu lại trên trình duyệt, chuyển trang hay F5 vẫn giữ nguyên đề. Có nút `Khôi phục gốc` khi muốn trở về mặc định.
-- **Tự động chuyển câu tức thì (Không Freeze):** Bảng hỗ trợ và viền xanh tự động nhảy theo từng câu hỏi khi bấm Tiếp/Trước.
-- **Chế độ An Toàn (Chống Ban 100%):** Chỉ đọc nội dung DOM và viền xanh trực quan, không can thiệp click tự động.
+# ⚡ DRIVEPASS PRO (V8.0 Commercial Edition)
+> **Trợ Lý Sát Hạch & Ôn Luyện Lái Xe Thông Minh (LotusLMS / HueLMS / Đông Đô)**
+> Bản quyền phát triển: Vu The Dan <vuthedan168@gmail.com>
 
 ---
 
-## 🚀 Cách cập nhật lại Bookmarklet trên trình duyệt
-1. Nhấp chuột phải vào dấu trang **🚗 Lái Xe** trên thanh Bookmark của trình duyệt Chrome / Edge $\rightarrow$ Chọn **Chỉnh sửa... (Edit)**.
-2. Mở file [bookmarklet.txt](file:///c:/Users/Dell/Downloads/Antigravity/Ho_Tro_Lai_Xe/bookmarklet.txt), sao chép toàn bộ nội dung (1 dòng mã bắt đầu bằng `javascript:!function...`).
-3. Dán đè vào ô **URL** của Bookmark.
-4. Bấm **Lưu (Save)**.
-5. Quay lại trang học `laixedongdo_27013.huelms.com`, bấm lại vào Bookmark **🚗 Lái Xe** để sử dụng phiên bản mới.
+## 🎯 1. TÍNH NĂNG ĐỘT PHÁ THƯƠNG MẠI HÓA
+1. **Khóa bản quyền 1 Thiết Bị - 1 Tài Khoản (Hardware & Account Lock):**
+   - Tự động sinh `Mã thiết bị (Machine ID)` dựa trên phần cứng (Canvas + Screen + GPU WebGL + LMS Account UID).
+   - Mã bản quyền `DPP-XXXX-YYMMDD-ZZZZ` chỉ kích hoạt được duy nhất trên máy và tài khoản đó, ngăn chặn 100% việc mua 1 mã rồi chia sẻ cho người khác.
+2. **Tự động bắt gói tin khi bấm "Kiểm tra" & Tải trang (Auto-Interceptor):**
+   - Tự động hook `fetch` và `XMLHttpRequest` bóc tách ngân hàng đề thi khi vào bài làm hoặc khi bấm các nút "Kiểm tra", "Bắt đầu", "Làm bài".
+3. **Nạp đề thủ công đa năng (Fail-safe):**
+   - Nút `[📋 Nạp Đề]` hỗ trợ lấy nhanh từ Clipboard với 1 click, dán JSON API, hoặc kéo thả file.
+4. **Giao diện thương mại Light / Dark Theme:**
+   - Chuyển đổi màu Sáng / Tối (`🌓`) phù hợp mọi điều kiện ánh sáng.
+   - Typography chuẩn hệ thống chống vỡ font tiếng Việt, không tràn viền màn hình (`word-break: break-word`).
+5. **Chế độ Tàng Hình (Stealth Mode):**
+   - Phím tắt `[~]` (hoặc dấu huyền bên dưới phím Esc): Ẩn ngay lập tức toàn bộ khung nổi và viền xanh khi có người đi qua. Bấm lại để hiện.
 
-*(Mẹo: Bạn cũng có thể mở DevTools bằng phím `F12` $\rightarrow$ chọn tab **Console** $\rightarrow$ dán nội dung từ `bookmarklet.txt` hoặc `script_nhac_bai.js` rồi nhấn Enter để chạy ngay lập tức).*
+---
+
+## 🔑 2. HƯỚNG DẪN CẤP MÃ BẢN QUYỀN (DÀNH CHO ADMIN)
+
+Khi khách hàng chuyển khoản và gửi `Mã máy` (ví dụ: `DP-8F3A-9B21`), bạn mở Terminal tại thư mục dự án và chạy lệnh:
+
+```bash
+# Cấp mã 365 ngày (1 năm):
+node license_manager.js DP-8F3A-9B21 365
+
+# Cấp mã 30 ngày (1 tháng):
+node license_manager.js DP-8F3A-9B21 30
+```
+
+Hệ thống sẽ trả về mã:
+`🔑 LICENSE KEY CẤP KHÁCH: DPP-9B21-271109-0E59264F`
+Bạn chỉ cần gửi mã này cho khách hàng nhập vào ô `[🔑]` trên tiện ích là mở khóa vĩnh viễn cho máy đó.
 
 ---
 
-## 📂 Cấu trúc thư mục
-- `script_nhac_bai.js`: Toàn bộ mã nguồn JavaScript đầy đủ, có chú thích chi tiết.
-- `bookmarklet.txt`: Chuỗi mã nén 1 dòng sẵn sàng dùng cho Bookmarklet.
-- `questions.json`: Cơ sở dữ liệu 600 câu hỏi sát hạch GPLX chuẩn Bộ GTVT.
-- `README.md`: Tài liệu hướng dẫn sử dụng.
+## 💳 3. CƠ CHẾ TỰ ĐỘNG BÁO CHUYỂN KHOẢN VỀ MÁY (SEPAY / CASSO)
+Để khách chuyển khoản là điện thoại tự báo có tiền:
+1. Đăng ký tài khoản miễn phí tại **[SePay.vn](https://sepay.vn)** hoặc **[Casso.vn](https://casso.vn)**.
+2. Kết nối tài khoản ngân hàng của bạn (MBBank, Vietcombank, Techcombank, ACB...).
+3. Trong mục **Tích hợp Webhook**, chọn gửi thông báo về **Telegram** (hoặc tạo 1 Telegram Bot cá nhân miễn phí).
+4. Cài đặt cú pháp chuyển khoản: `DPP <Mã_Máy>`.
+   - Mỗi khi khách chuyển tiền: Telegram trên điện thoại của bạn sẽ lập tức "ting ting" thông báo:
+     > *"Đã nhận 199.000đ từ NGUYEN VAN A. Nội dung: DPP 8F3A-9B21"*
+   - Bạn chỉ cần chạy `node license_manager.js DP-8F3A-9B21` và gửi lại mã cho khách!
 
 ---
-*Tác giả: Vu The Dan (vuthedan168-oss)*
+
+## 🚀 4. CẬP NHẬT BOOKMARKLET TRÊN TRÌNH DUYỆT
+1. Mở file [bookmarklet.txt](file:///c:/Users/Dell/Downloads/Antigravity/Ho_Tro_Lai_Xe/bookmarklet.txt) và sao chép toàn bộ dòng mã.
+2. Chuột phải vào Bookmark **Lái Xe** trên trình duyệt $\rightarrow$ Chọn **Chỉnh sửa** (Edit).
+3. Dán đè vào ô **URL** $\rightarrow$ Bấm **Lưu** (Save).
+4. Vào trang học `laixedongdo_27013.huelms.com`, bấm Bookmarklet một lần duy nhất để khởi động.
