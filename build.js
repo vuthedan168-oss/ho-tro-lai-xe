@@ -369,10 +369,11 @@ const template = `/**
   };
 
   // Tự động kiểm tra trạng thái kích hoạt từ Webhook Server (Polling)
+  var SERVER_API_URL = "https://fast-and-furious-waxe.onrender.com";
   setInterval(function () {
     if (licenseStatus.valid) return;
     try {
-      fetch("http://localhost:3000/api/check-license?machineId=" + encodeURIComponent(MACHINE_ID))
+      fetch(SERVER_API_URL + "/api/check-license?machineId=" + encodeURIComponent(MACHINE_ID))
         .then(function (res) { return res.json(); })
         .then(function (resData) {
           if (resData && resData.activated && resData.licenseKey) {
@@ -389,7 +390,7 @@ const template = `/**
           }
         }).catch(function () {});
     } catch (e) {}
-  }, 4000);
+  }, 3500);
 
   // Xử lý nạp đề thủ công
   var pasteModal = document.getElementById("dpp-paste-modal");
